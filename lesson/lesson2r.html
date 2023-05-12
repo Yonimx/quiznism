@@ -1,0 +1,102 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 2 | Review</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header> 
+        <div class="bar">
+            <a href="../index.html" class="back">&lt;</a>
+
+            <div class="logo">
+                    <a href="#" class="logo"><img src="../logo.jpg" alt=""></a>
+            </div> 
+            <span class="shesh">Chemistry Quiz</span>
+            <ul class="link">
+                
+                <li><a href="about">About</a></li>
+                <li><a href="contact">Contact</a></li>
+                <li><a href="home">Home</a></li>
+            </ul>
+            <img src="moon.png" id="icon">
+            <div>
+                <div class="menu">
+                  <div class="bar1"></div>
+                  <div class="bar2"></div>
+                  <div class="bar3"></div>
+                </div>
+                <div class="dropdown_menu">
+                    <li><a href="about">About</a></li>
+                    <li><a href="contact">Contact</a></li>
+                    <li><a href="home">Home</a></li>
+                </div>
+                
+        </div>
+    </header>
+    <main>
+        <div class="title">
+            Lesson 2: States of Matter.
+        </div>
+        <div class="review">
+            Gas, liquid, and solid matter are the three states of matter. <br><br><br>
+
+            Gas - a state of matter that has no fixed shape and no fixed volume. The particles in a gas remain well apart and are not arranged uniformly. <br><br>
+            
+            Liquid - a state of matter that can flow and have definite volume and does not have a specific shape like a solid. Particles of liquid are close together but not in an ordered manner. <br><br>
+            
+            Solid -a state of matter that has definite shape and definite volume. It is a substance whose molecules cannot move freely and its particles are tightly arranged and closely compressed. <br><br>
+            
+            Energy, light, and sound are not classified as matter, because they do not occupy space, have no mass or volume. <br><br>
+            
+            Van der Waals model - A liquid-to-vapour phase transition can be shown in the van der Waals model of a fluid<br><br><br><br>
+           <strong> Solid Definition</strong> <br><br><br>
+In solids, particles are tightly or closely packed. <br><br>
+The gaps between the particles are tiny and hence it is tough to compress them. <br><br>
+Solid has a fixed shape and volume. <br><br>
+Due to its rigid nature, particles in solid can only vibrate about their mean position and cannot move. <br><br>
+Force of attraction between particles is adamant.<br><br>
+The rate of diffusion in solids is very low.<br><br>
+An example of solids: solid ice, sugar, rock, wood, etc.<br><br><br><br>
+<strong>Liquid Definition</strong> <br><br><br>
+In a liquid state of matter, particles are less tightly packed as compared to solids. <br><br>
+Liquids take the shape of the container in which they are kept. <br><br>
+Liquids are difficult to compress as particles have less space between them to move. <br><br>
+Liquids have fixed volume but no fixed shape. <br><br>
+The rate of diffusion in liquids is higher than that of solids. <br><br>
+Force of attraction between the particles is weaker than solids. <br><br>
+Example of a liquid state of matter: water, milk, blood, coffee, etc. <br><br><br><br>
+<strong>Gas Definition</strong> <br><br><br>
+In gases, particles are far apart from each other. <br><br>
+Force of attraction between the particles is negligible, and they can move freely. <br><br>
+Gases have neither a fixed volume nor a fixed shape. <br><br>
+The gaseous state has the highest compressibility as compared to solids and liquids. <br><br>
+The rate is diffusion is higher than solids and liquids. <br><br>
+The kinetic energy of particles is higher than in solids and liquids. <br><br>
+An example of gases: air, helium, nitrogen, oxygen, carbon dioxide, etc. <br><br>
+
+             </div>
+            <a href="../index.html">back</a><a href="../qui/q2">take the quiz?--></a><br><br><br>
+    </main>
+        <script>
+           const menu = document.querySelector('.menu')
+const dropdown_menu = document.querySelector('.dropdown_menu')
+onclick="myFunction(this)"
+
+function myFunction(x) {
+    x.classList.toggle("change")
+    
+  }
+
+menu.onclick = function () {
+    dropdown_menu.classList.toggle("open")
+    menu.classList.toggle("change")
+}
+
+        </script>   
+        <script src="../lesson/script.js"></script>
+    </header>
+</body>
+</html>

@@ -1,0 +1,148 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 13 | Review</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header> 
+        <div class="bar">
+            <a href="../index.html" class="back">&lt;</a>
+
+            <div class="logo">
+                    <a href="#" class="logo"><img src="../logo.jpg" alt=""></a>
+            </div> 
+            <span class="shesh">Chemistry Quiz</span>
+            <ul class="link">
+                
+                <li><a href="about">About</a></li>
+                <li><a href="contact">Contact</a></li>
+                <li><a href="home">Home</a></li>
+            </ul>
+            <img src="moon.png" id="icon">
+            <div>
+                <div class="menu">
+                  <div class="bar1"></div>
+                  <div class="bar2"></div>
+                  <div class="bar3"></div>
+                </div>
+                <div class="dropdown_menu">
+                    <li><a href="about">About</a></li>
+                    <li><a href="contact">Contact</a></li>
+                    <li><a href="home">Home</a></li>
+                </div>
+                
+        </div>
+    </header>
+    <main>
+        <div class="title">
+            Lesson 13: Naming Molecular Compounds        </div>
+        <div class="review">
+            Molecular compounds are formed when two or more non-metal atoms bond together. Naming these compounds is crucial for communication and understanding of chemical reactions. Here are the steps to follow when naming molecular compounds. <br><br>
+            1. Write the name of the first element in the compound. <br><br>
+            2. Write the name of the second element in the compound, but change the ending to "-ide" <br><br>
+            3. Use prefixes to indicate the number of atoms of each element in the compound. The prefix "mono-" is only used for the second element if there is only one atom of that element present. <br><br>
+            
+            For example, consider the compound made up of one carbon and two oxygen atoms. The first element is carbon, and the second element is oxygen. Since there are two oxygen atoms, we use the prefix "di-". Therefore, the name of the compound is carbon dioxide. <br><br><br><br>
+            
+            Here is a table of common prefixes used when naming molecular compounds: <br>
+            <table>
+                <tr>
+                    <th>Prefix</th>
+                    <th>Number of Atoms</th>
+                </tr>
+                <tr>
+                    <td>mono-</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>di-</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>tri-</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>tetra-</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>penta-</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>hexa-</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>hepta-</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>octa-</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>nona-</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>deca-</td>
+                    <td>10</td>
+                </tr>
+            </table> <br><br><br>
+            Here are some examples of molecular compound names: <br>
+            <table>
+                <tr>
+                    <th>Compound Formula</th>
+                    <th>Compound Name</th>
+                </tr>
+                <tr>
+                    <td>CO</td>
+                    <td>Carbon monoxide</td>
+                </tr>
+                <tr>
+                    <td>N20</td>
+                    <td>Dinitrogen monoxide</td>
+                </tr>
+                <tr>
+                    <td>PCl5</td>
+                    <td>Phosphorus pentachloride</td>
+                </tr>
+                <tr>
+                    <td>SF6</td>
+                    <td>Sulfur hexaflouride</td>
+                </tr>
+                <tr>
+                    <td>H2O</td>
+                    <td>Dihydrogen monoxide</td>
+                </tr>
+            </table> <br><br><br>
+            In summary, naming molecular compounds involves identifying the elements present in the compound, using prefixes to indicate the number of atoms of each element, and changing the ending of the second element to "-ide". <br><br>
+
+              </div>
+            <a href="../index.html">back</a>
+    </main>
+        <script>
+           const menu = document.querySelector('.menu')
+const dropdown_menu = document.querySelector('.dropdown_menu')
+onclick="myFunction(this)"
+
+function myFunction(x) {
+    x.classList.toggle("change")
+    
+  }
+
+menu.onclick = function () {
+    dropdown_menu.classList.toggle("open")
+    menu.classList.toggle("change")
+}
+
+        </script>   
+        <script src="../lesson/script.js"></script>
+    </header>
+</body>
+</html>

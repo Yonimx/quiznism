@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 23 | Review</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header> 
+        <div class="bar">
+            <a href="../index.html" class="back">&lt;</a>
+
+            <div class="logo">
+                    <a href="#" class="logo"><img src="../logo.jpg" alt=""></a>
+            </div> 
+            <span class="shesh">Chemistry Quiz</span>
+            <ul class="link">
+                
+                <li><a href="about">About</a></li>
+                <li><a href="contact">Contact</a></li>
+                <li><a href="home">Home</a></li>
+            </ul>
+            <img src="moon.png" id="icon">
+            <div>
+                <div class="menu">
+                  <div class="bar1"></div>
+                  <div class="bar2"></div>
+                  <div class="bar3"></div>
+                </div>
+                <div class="dropdown_menu">
+                    <li><a href="about">About</a></li>
+                    <li><a href="contact">Contact</a></li>
+                    <li><a href="home">Home</a></li>
+                </div>
+                
+        </div>
+    </header>
+    <main>
+        <div class="title">
+            Lesson 23: The Ideal Gas Law
+        </div>
+        <div class="review">The equation of state for a fictitious perfect gas is known as the ideal gas law, sometimes known as the generic gas equation. Although it has some restrictions, it is a good approximation of the behaviour of numerous gases under various circumstances. Benoît Paul Émile Clapeyron introduced it for the first time in 1834 as a synthesis of the empirical Boyle's law, Charles' law, Avogadro's law, and Gay-Lussac's law.. Mathematically this can be written: <br><br>
+            PV=nRT <br><br><br>
+        </div>
+            <a href="../index.html">back</a>
+    </main>
+        <script>
+           const menu = document.querySelector('.menu')
+const dropdown_menu = document.querySelector('.dropdown_menu')
+onclick="myFunction(this)"
+
+function myFunction(x) {
+    x.classList.toggle("change")
+    
+  }
+
+menu.onclick = function () {
+    dropdown_menu.classList.toggle("open")
+    menu.classList.toggle("change")
+}
+
+        </script>   
+        <script src="../lesson/script.js"></script>
+    </header>
+</body>
+</html>

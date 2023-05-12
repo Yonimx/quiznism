@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 7 | Review</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header> 
+        <div class="bar">
+            <a href="../index.html" class="back">&lt;</a>
+
+            <div class="logo">
+                    <a href="#" class="logo"><img src="../logo.jpg" alt=""></a>
+            </div> 
+            <span class="shesh">Chemistry Quiz</span>
+            <ul class="link">
+                
+                <li><a href="about">About</a></li>
+                <li><a href="contact">Contact</a></li>
+                <li><a href="home">Home</a></li>
+            </ul>
+            <img src="moon.png" id="icon">
+            <div>
+                <div class="menu">
+                  <div class="bar1"></div>
+                  <div class="bar2"></div>
+                  <div class="bar3"></div>
+                </div>
+                <div class="dropdown_menu">
+                    <li><a href="about">About</a></li>
+                    <li><a href="contact">Contact</a></li>
+                    <li><a href="home">Home</a></li>
+                </div>
+                
+        </div>
+    </header>
+    <main>
+        <div class="title">
+            Lesson 7: Precision and Accurac
+        </div>
+        <div class="review">Accuracy - It determines how near you are to the measurement's real value. In other words, it's how closely you hit your target. High accuracy means you hit your target value exactly, whereas low accuracy means you miss considerably. <br><br>
+
+            Precision - It indicates how near the measured values are to each other. Precision will be measured throughout time since repeatability is required to evaluate the degree of similarity between each set of measurements. When your results are high precision, they are similar to each other, however low precision means they are scattered all over place. <br><br>
+            </div>
+            <a href="../index.html">back</a>
+    </main>
+        <script>
+           const menu = document.querySelector('.menu')
+const dropdown_menu = document.querySelector('.dropdown_menu')
+onclick="myFunction(this)"
+
+function myFunction(x) {
+    x.classList.toggle("change")
+    
+  }
+
+menu.onclick = function () {
+    dropdown_menu.classList.toggle("open")
+    menu.classList.toggle("change")
+}
+
+        </script>   
+        <script src="../lesson/script.js"></script>
+    </header>
+</body>
+</html>

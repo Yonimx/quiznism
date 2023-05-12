@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 6 | Review</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header> 
+        <div class="bar">
+            <a href="../index.html" class="back">&lt;</a>
+
+            <div class="logo">
+                    <a href="#" class="logo"><img src="../logo.jpg" alt=""></a>
+            </div> 
+            <span class="shesh">Chemistry Quiz</span>
+            <ul class="link">
+                
+                <li><a href="about">About</a></li>
+                <li><a href="contact">Contact</a></li>
+                <li><a href="home">Home</a></li>
+            </ul>
+            <img src="moon.png" id="icon">
+            <div>
+                <div class="menu">
+                  <div class="bar1"></div>
+                  <div class="bar2"></div>
+                  <div class="bar3"></div>
+                </div>
+                <div class="dropdown_menu">
+                    <li><a href="about">About</a></li>
+                    <li><a href="contact">Contact</a></li>
+                    <li><a href="home">Home</a></li>
+                </div>
+                
+        </div>
+    </header>
+    <main>
+        <div class="title">
+            Lesson 6: Methods of Separating Mixtures into their Component Substances 
+        </div>
+        <div class="review">Separation of Mixtures - It is a process where you will separate the two different substances in a solution. There are many ways to separate mixtures, such as evaporation, distillation, filtration and chromatography. <br><br>
+
+            1.  Chromatography - the separation of a mixture by passing it through a medium in order to separate it. wherein the constituents flow at different speeds, either as a solution or suspension, or as a vapour. Thin-layer chromatography is a method of separating and identifying coloured or colorable materials, particularly pigments. It can be liquid chromatography, gas chromatography, ion-exchange chromatography and affinity chromatography. <br><br>
+            
+            2. Distillation - A separation technique used to separate components of a liquid combination using a heating and cooling process that takes use of variations in the volatility of each component. <br><br>
+            
+            3. Evaporation - It can be used to separate components of a combination containing a dissolved solid in a liquid. The liquid is evaporated, which means it is converted from a liquid to a gaseous form.  This often requires the use of heat. The solid is all that remains after the liquid has entirely evaporated. <br><br>
+            
+            4. Filtration - a process for separating the components of a combination that contains an undissolved solid in a liquid.  Filtration can be done cold or hot, with gravity or with a vacuum, with the use of a funnel or with a simple glass funnel.  The precise method utilized is determined by the objective of the filtering, whether it is to isolate a solid from a mixture or to remove contaminants from a mixture. <br><br>
+             </div>
+            <a href="../index.html">back</a>
+    </main>
+        <script>
+           const menu = document.querySelector('.menu')
+const dropdown_menu = document.querySelector('.dropdown_menu')
+onclick="myFunction(this)"
+
+function myFunction(x) {
+    x.classList.toggle("change")
+    
+  }
+
+menu.onclick = function () {
+    dropdown_menu.classList.toggle("open")
+    menu.classList.toggle("change")
+}
+
+        </script>
+        <script src="../lesson/script.js"></script>   
+    </header>
+</body>
+</html>

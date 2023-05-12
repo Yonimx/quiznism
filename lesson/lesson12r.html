@@ -1,0 +1,126 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 12 | Review</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header> 
+        <div class="bar">
+            <a href="../index.html" class="back">&lt;</a>
+
+            <div class="logo">
+                    <a href="#" class="logo"><img src="../logo.jpg" alt=""></a>
+            </div> 
+            <span class="shesh">Chemistry Quiz</span>
+            <ul class="link">
+                
+                <li><a href="about">About</a></li>
+                <li><a href="contact">Contact</a></li>
+                <li><a href="home">Home</a></li>
+            </ul>
+            <img src="moon.png" id="icon">
+            <div>
+                <div class="menu">
+                  <div class="bar1"></div>
+                  <div class="bar2"></div>
+                  <div class="bar3"></div>
+                </div>
+                <div class="dropdown_menu">
+                    <li><a href="about">About</a></li>
+                    <li><a href="contact">Contact</a></li>
+                    <li><a href="home">Home</a></li>
+                </div>
+                
+        </div>
+    </header>
+    <main>
+        <div class="title">
+            Lesson 12: Naming Compounds 
+        </div>
+        <div class="review">
+            Naming compounds is an important skill in chemistry that allows us to communicate and understand chemical reactions. There are two main types of compounds: binary compounds and compounds containing polyatomic ions. <br><br>
+
+            Binary compounds are made up of two elements and are named by first identifying the elements present and then naming the first element followed by the second element with an -ide ending. For example, NaCl is named sodium chloride. <br><br>
+            
+            Compounds containing polyatomic ions are made up of a cation and an anion. The name of the cation comes first, followed by the name of the anion. It's important to memorize common polyatomic ions and their charges to properly name these compounds. Roman numerals are used to indicate the charge of the cation in cases where an element can form multiple ions. <br><br><br>
+            
+            Here's a table of common polyatomic ions and their charges: <br><br>
+            <table>
+                <tr>
+                    <th>Polyatomic Ion </th>
+                    <th>Formula</th>
+                    <th>charge</th>
+                </tr>
+                <tr>
+                    <td>Ammonium</td>
+                    <td>NH4+</td>
+                    <td>+1</td>
+                </tr>
+                <tr>
+                    <td>Acetate</td>
+                    <td>C2H3O2-</td>
+                    <td>-1</td>
+                </tr>
+                <tr>
+                    <td>Carbonate</td>
+                    <td>CO3 2-</td>
+                    <td>-2</td>
+                </tr>
+                <tr>
+                    <td>Chlorate</td>
+                    <td>ClO3</td>
+                    <td>-1</td>
+                </tr>
+                <tr>
+                    <td>Hydroxide</td>
+                    <td>OH-</td>
+                    <td>-1</td>
+                </tr>
+                <tr>
+                    <td>Nitrate</td>
+                    <td>NO3-</td>
+                    <td>-1</td>
+                </tr>
+                <tr>
+                    <td>Phosphate</td>
+                    <td>PO4 3-</td>
+                    <td>-3</td>
+                </tr>
+                <tr>
+                    <td>Sulfate</td>
+                    <td>SO3 2-</td>
+                    <td>-2</td>
+                </tr>
+            </table>
+           <br><br> Let's take the compound calcium carbonate (CaCO3) as an example. Calcium is a metal with a +2 charge, while carbonate is a polyatomic ion with a -2 charge. Therefore, the compound is named calcium carbonate. <br><br>
+
+In cases where the metal can form multiple ions, such as iron (Fe), the charge of the cation must be indicated with Roman numerals. For example, FeCl2 is named iron(II) chloride, while FeCl3 is named iron(III) chloride. <br><br>
+
+In summary, understanding the rules for naming compounds is crucial in chemistry. By identifying the elements present and memorizing common polyatomic ions and their charges, we can properly communicate and understand chemical reactions. <br><br>
+
+        </div>
+            <a href="../index.html">back</a>
+    </main>
+        <script>
+           const menu = document.querySelector('.menu')
+const dropdown_menu = document.querySelector('.dropdown_menu')
+onclick="myFunction(this)"
+
+function myFunction(x) {
+    x.classList.toggle("change")
+    
+  }
+
+menu.onclick = function () {
+    dropdown_menu.classList.toggle("open")
+    menu.classList.toggle("change")
+}
+
+        </script>   
+        <script src="../lesson/script.js"></script>
+    </header>
+</body>
+</html>

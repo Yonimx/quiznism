@@ -1,0 +1,86 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 19 | Review</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header> 
+        <div class="bar">
+            <a href="../index.html" class="back">&lt;</a>
+
+            <div class="logo">
+                    <a href="#" class="logo"><img src="../logo.jpg" alt=""></a>
+            </div> 
+            <span class="shesh">Chemistry Quiz</span>
+            <ul class="link">
+                
+                <li><a href="about">About</a></li>
+                <li><a href="contact">Contact</a></li>
+                <li><a href="home">Home</a></li>
+            </ul>
+            <img src="moon.png" id="icon">
+            <div>
+                <div class="menu">
+                  <div class="bar1"></div>
+                  <div class="bar2"></div>
+                  <div class="bar3"></div>
+                </div>
+                <div class="dropdown_menu">
+                    <li><a href="about">About</a></li>
+                    <li><a href="contact">Contact</a></li>
+                    <li><a href="home">Home</a></li>
+                </div>
+                
+        </div>
+    </header>
+    <main>
+        <div class="title">
+            Lesson 19: Definitions of Acids and Bases
+                </div>
+        <div class="review">
+            Acid <br>
+            Any substance with a sour taste (such as vinegar or lemon juice), the ability to consistently change the color of plant dyes (such as turning blue litmus paper red), the ability to react with some metals to produce hydrogen gas and a solution of a salt containing a metal cation, and the ability to dissolve carbonate salts like limestone (CaCO3) with the evolution of carbon dioxide were all considered to be acids in the past. <br><br><br>
+            
+            Base <br><br>
+            - A base was any 
+            a substance with a bitter taste, slippery to the touch, and producing in plant dyes color changes opposite to those produced by acids (e.g., turning red litmus paper blue).
+            
+            Oxidation-Reduction Reactions <br><br>
+            - any chemical process where a molecule, atom, or ion gains or loses an electron to modify its oxidation number. <br><br><br>
+            
+            Oxidation <br><br>
+            -The word "oxidation" was first used to describe reactions involving metals and oxygen, metal oxides in the atmosphere. <br><br><br>
+            
+            
+            
+            Reduction <br><br>
+            -When a metal oxide was heated with carbon monoxide, a standard technique for removing metals from their ores, the term "reduction" initially referred to the mass loss that happened. <br><br>
+            
+            Current definitions of oxidation-reduction processes include those that show a change in 
+            the oxidation states of one or more reactants by transferring electrons, which is known as a "oil rig" or "oxidation is loss, reduction is gain" mnemonic. Every atom in a compound has an oxidation state, which is the charge it would have if all of its bonding electrons were transferred to the atom with the stronger electron attraction. Atoms are given an oxidation state of zero when they are in their elemental condition, such as O2 or H2. <br><br><br>
+             </div>
+            <a href="../index.html">back</a>
+    </main>
+        <script>
+           const menu = document.querySelector('.menu')
+const dropdown_menu = document.querySelector('.dropdown_menu')
+onclick="myFunction(this)"
+
+function myFunction(x) {
+    x.classList.toggle("change")
+    
+  }
+
+menu.onclick = function () {
+    dropdown_menu.classList.toggle("open")
+    menu.classList.toggle("change")
+}
+
+        </script>   
+        <script src="../lesson/script.js"></script>
+    </header>
+</body>
+</html>

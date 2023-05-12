@@ -1,0 +1,102 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 15 | Review</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header> 
+        <div class="bar">
+            <a href="../index.html" class="back">&lt;</a>
+
+            <div class="logo">
+                    <a href="#" class="logo"><img src="../logo.jpg" alt=""></a>
+            </div> 
+            <span class="shesh">Chemistry Quiz</span>
+            <ul class="link">
+                
+                <li><a href="about">About</a></li>
+                <li><a href="contact">Contact</a></li>
+                <li><a href="home">Home</a></li>
+            </ul>
+            <img src="moon.png" id="icon">
+            <div>
+                <div class="menu">
+                  <div class="bar1"></div>
+                  <div class="bar2"></div>
+                  <div class="bar3"></div>
+                </div>
+                <div class="dropdown_menu">
+                    <li><a href="about">About</a></li>
+                    <li><a href="contact">Contact</a></li>
+                    <li><a href="home">Home</a></li>
+                </div>
+                
+        </div>
+    </header>
+    <main>
+        <div class="title">
+            Lesson 15: Balancing Chemical Equations 
+        </div>
+        <div class="review">
+            Balancing chemical equations is a fundamental skill in chemistry that involves ensuring that the number of atoms of each element is equal on both sides of an equation. This is important because chemical reactions must obey the law of conservation of mass. <br><br>
+
+            To balance a chemical equation, you must first identify the reactants and products and write their formulas. Then, you can add coefficients to each molecule to ensure that the number of atoms of each element is equal on both sides of the equation. <br><br>
+            
+            For example, consider the reaction between hydrogen gas and oxygen gas to form water: <br><br>
+            
+            H2 + O2 → H2O <br><br>
+            
+            This equation is not balanced because there are 2 hydrogen atoms and 2 oxygen atoms on the left side, but only 1 oxygen atom and 2 hydrogen atoms on the right side. To balance the equation, we can add a coefficient of 2 in front of the water molecule:
+            
+            H2 + O2 → 2H2O <br><br>
+            
+            Now, there are 4 hydrogen atoms and 2 oxygen atoms on both sides of the equation. <br><br>
+            
+            Balancing chemical equations can also involve stoichiometry, which is the study of the quantitative relationships between reactants and products in a chemical reaction. For example, if we know the mass of one reactant or product, we can use stoichiometry to calculate the mass of the other reactant or product. <br><br>
+            
+            For instance, if we have 2 grams of methane reacting with 8 grams of oxygen gas to form carbon dioxide and water, we can use stoichiometry to determine the mass of carbon dioxide produced. First, we balance the equation: <br><br>
+            
+            CH4 + 2O2 → CO2 + 2H2O <br><br> <br>
+            
+            Then, we calculate the number of moles of methane and oxygen gas: <br><br>
+            
+            2 g CH4 / 16.04 g/mol = 0.1246 mol CH4 <br>
+            8 g O2 / 32.00 g/mol = 0.2500 mol O2 <br>
+            
+            We can see that there are twice as many moles of oxygen gas as methane, so the methane is limiting. This means that all of the methane will react, and the amount of carbon dioxide produced will be determined by the stoichiometry of the balanced equation. <br><br>
+            
+            Using stoichiometry, we can calculate the number of moles of carbon dioxide produced: <br><br>
+            
+            0.1246 mol CH4 x (1 mol CO2 / 1 mol CH4) = 0.1246 mol CO2 <br><br>
+            
+            Finally, we convert the number of moles of carbon dioxide to grams: <br><br>
+            
+            0.1246 mol CO2 x 44.01 g/mol = 5.48 g CO2 <br><br>
+            
+            Therefore, 5.48 grams of carbon dioxide will be produced in this reaction. <br>br
+             </div>
+            <a href="../index.html">back</a>
+    </main>
+        <script>
+           const menu = document.querySelector('.menu')
+const dropdown_menu = document.querySelector('.dropdown_menu')
+onclick="myFunction(this)"
+
+function myFunction(x) {
+    x.classList.toggle("change")
+    
+  }
+
+menu.onclick = function () {
+    dropdown_menu.classList.toggle("open")
+    menu.classList.toggle("change")
+}
+
+        </script>  
+        <script src="../lesson/script.js"></script> 
+    </header>
+</body>
+</html>
