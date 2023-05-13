@@ -12,11 +12,11 @@
 
 :root{
   --primary-color: white;
-  --secondary-color: #212121;
+  --secondary-color: black;
 }
 
 .dark-theme{
-  --primary-color: #000106;
+  --primary-color: rgb(39, 39, 39);
   --secondary-color: white;
 }
 
@@ -209,8 +209,23 @@ body {
     .title {
       margin-top: 30px;
       margin-bottom: 30px;
-      font-size: 30px;
+      align-items: center;
+      justify-content: center;
+      font-size: 50px;
       font-weight: bold;
+      text-transform: uppercase;
+      place-items: center;
+    }
+     .lesson{
+      font-size: 15px;
+      margin-bottom: 30px;
+      margin-top: -30px;
+    }
+
+    .title .lesson{
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
     .review {
         font-size: 18px;
@@ -219,10 +234,11 @@ body {
       }
       
       .logo img {
-        width: 90px;
+        width: 180px;
         height: auto;
-        margin: 0 60%;
-        
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
 
       .back {
@@ -230,14 +246,18 @@ body {
       }
 
       .menu {
-        margin-right: -30px;
+        margin-right: -100px;
+      }
+
+      #icon{
+        margin-right: -40px;
+        margin-left: -150px;
       }
 
       .bar {
         justify-content: space-between;
-      max-width: 1000px;
-      padding-left: 1rem;
       }
+
 
      .bar .link a {
       display: none;
@@ -306,4 +326,7 @@ body {
 
   .btn a{
     color: var(--secondary-color);
+    place-content: center;
+    justify-content: center;
+    align-items: center;
   }

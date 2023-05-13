@@ -67,24 +67,24 @@ body {
   }
 }
 
-@media (width: 1100x) {
+@media only screen and (min-width: 768px) {
   header {
     padding: 0 30px;
   }
-
+  .bar .menu {
+    display: none;
+  }
 }
 
 
 
 
 @media (max-width: 12000px) {
-  .bar .menu {
-    display: none;
-  }
+  
 
 }
 
-@media (max-width: 900px) {
+@media only screen and (max-width: 767px) {
   .bar .link a {
     display: none;
   }
@@ -95,6 +95,12 @@ body {
 
   .dropdown_menu{
     display: block;
+  }
+  .logo img {
+    width: 180px;
+    height: auto;
+    margin-left: -20;
+    justify-content: space-between;
   }
 
 }
@@ -110,7 +116,7 @@ body {
 .bar1, .bar2, .bar3 {
   width: 1.8rem;
   height: .4vh;
-  background-color: white;
+  background-color: #292828;
   margin: 6px 0;
   transition: 0.4s;
 }
