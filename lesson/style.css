@@ -107,9 +107,9 @@ body {
   }
    
   header {
-    background-color: var(--tertiary-color);
+    color: var(--tertiary-color);
       position: relative;
-      backdrop-fi-lter: blur(1px);
+      backdrop-filter: blur(1px);
       margin: 0;
   }
   .bar { 
