@@ -16,8 +16,9 @@
 }
 
 .dark-theme{
-  --primary-color: rgb(39, 39, 39);
+  --primary-color: rgb(39,39,39);
   --secondary-color: white;
+  --tertiary-color: #5f7ad5;
 }
 
 
@@ -106,8 +107,9 @@ body {
   }
    
   header {
+    background-color: var(--tertiary-color);
       position: relative;
-      backdrop-filter: blur(1px);
+      backdrop-fi-lter: blur(1px);
       margin: 0;
   }
   .bar { 
