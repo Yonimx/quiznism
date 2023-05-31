@@ -7,7 +7,9 @@ const restart = info_box.querySelector(".restart");
 const rlesson_box = document.querySelector(".rlesson_box");
 const qlesson_box = document.querySelector(".qlesson_box");
 const back_btn = document.querySelector(".back_btn");
-
+const x = document.querySelector(".x");
+const back = document.querySelector(".back");
+const x_btn = document.querySelector(".x_btn");
 
 choose_r.onclick = ()=>{
     rlesson_box.classList.add("activeRlesson");
@@ -29,6 +31,18 @@ exit_btn.onclick = ()=>{
 back_btn.onclick = ()=>{
     rlesson_box.classList.remove("activeRlesson");
 }
+
+x.onclick = ()=>{
+    rlesson_box.classList.remove("activeRlesson");
+}
+back.onclick = ()=>{
+    qlesson_box.classList.remove("activeQlesson");
+}
+
+x_btn.onclick = ()=>{
+    qlesson_box.classList.remove("activeQlesson");
+}
+
 
 
 const menu = document.querySelector('.menu')
