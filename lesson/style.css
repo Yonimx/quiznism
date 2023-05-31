@@ -13,12 +13,13 @@
 :root{
   --primary-color: white;
   --secondary-color: black;
+  --tertiary-color: white;
 }
 
 .dark-theme{
-  --primary-color: rgb(39,39,39);
+  --primary-color: rgb(39, 39, 39);
   --secondary-color: white;
-  --tertiary-color: #5f7ad5;
+  --tertiary-color: #5f7adba7;
 }
 
 
@@ -77,10 +78,7 @@ body {
     transform: translate(0, -11px) rotate(45deg);
   }
 
-  .logo img{
-    left: 10px;
-}
-  
+
   /*.logo {
       width: 40px;
       margin-right: 10px;
@@ -107,7 +105,6 @@ body {
   }
    
   header {
-    color: var(--tertiary-color);
       position: relative;
       backdrop-filter: blur(1px);
       margin: 0;
@@ -155,8 +152,8 @@ body {
     .title {
         height: 50px;
         margin-top: 30px;
-        margin-bottom: 30px;
-        font-size: 40px;
+        margin-bottom: 5rem;
+        font-size: 80px;
         font-weight: bold;
     }
     .review {
@@ -168,10 +165,17 @@ body {
     .back {
         display: none;
     }
-    .logo img {
-        justify-content: left;
-        width: 120px;
-      }
+    .logo img{
+      margin-left: 50px;
+      margin-right: 50px;
+      width: 210px;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      justify-content: left;
+    }
+  
 
       .bar .menu {
         display: none;
@@ -301,7 +305,9 @@ body {
 */
    
     
-  
+  header {
+    background: var(--tertiary-color);
+  }
 
 
   main {
