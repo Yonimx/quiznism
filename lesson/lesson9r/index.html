@@ -1,0 +1,88 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 9 | Review</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header> 
+        <div class="bar">
+            <a href="../../index.html" class="back">&lt;</a>
+
+            <div class="logo">
+                    <a href="../../index.html" class="logo"><img src="../../logo.png" alt=""></a>
+            </div> 
+
+            <span class="shesh">Chemistry Quiz</span>
+        
+            <ul class="link">
+                
+                <li><a href="about">About</a></li>
+                <li><a href="contact">Contact</a></li>
+                <li><a href="home">Home</a></li>
+            </ul>
+            <img src="../moon.png" id="icon">
+            <div>
+                <div class="menu">
+                  <div class="bar1"></div>
+                  <div class="bar2"></div>
+                  <div class="bar3"></div>
+                </div>
+                <div class="dropdown_menu">
+                    <li><a href="about">About</a></li>
+                    <li><a href="contact">Contact</a></li>
+                    <li><a href="home">Home</a></li>
+                </div>
+                
+        </div>
+    </header>
+    <main>
+        <div class="title">
+             Dalton's Atomic Theory 
+        </div><div class="lesson">Lesson 9</div>
+        <div class="review">Dalton's Atomic Theory - It is a scientific theory that explains the nature of matter. John Dalton proposed this theory in the early 19th century. The theory has five postulates that explain how atoms interact with each other and how they form compounds. <br><br>
+
+
+            Elements are made of tiny particles called atoms that cannot be created, destroyed, or divided into smaller particles. <br><br>
+            
+            All atoms of a given element are identical in mass and properties. <br><br>
+            
+            
+            Atoms of different elements have different properties and mass. <br><br>
+            
+            
+            Atoms combine in whole-number ratios to form compounds. <br><br>
+            
+            
+            Chemical reactions involve the rearrangement of atoms. Atoms are not created or destroyed during chemical reactions. <br><br>
+            
+            
+            Dalton's Atomic Theory is significant in the development of modern atomic theory and the periodic table of elements. The theory provides a foundation for understanding the nature of matter and chemical reactions. It allows scientists to predict the properties of elements and compounds, and it is essential in the study of chemistry. Understanding Dalton's Atomic Theory is crucial for students who wish to pursue careers in science, engineering, and technology. <br><br>
+            </div>
+            <div class="btn">
+                <a href="../../index.html"><-- Go Back</a>       <a href="../../qui/q9">take the quiz?--></a><br><br><br>
+                </div>
+        </main>
+        <script src="../script.js"></script>
+        <script>
+           const menu = document.querySelector('.menu')
+const dropdown_menu = document.querySelector('.dropdown_menu')
+onclick="myFunction(this)"
+
+function myFunction(x) {
+    x.classList.toggle("change")
+    
+  }
+
+menu.onclick = function () {
+    dropdown_menu.classList.toggle("open")
+    menu.classList.toggle("change")
+}
+
+        </script>   
+        <script src="../lesson/script.js"></script>
+    </header>
+</body>
+</html>

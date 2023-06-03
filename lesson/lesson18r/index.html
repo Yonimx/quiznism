@@ -1,0 +1,83 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 18 | Review</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header> 
+        <div class="bar">
+            <a href="../../index.html" class="back">&lt;</a>
+
+            <div class="logo">
+                    <a href="../../index.html" class="logo"><img src="../../logo.png" alt=""></a>
+            </div> 
+
+            <span class="shesh">Chemistry Quiz</span>
+        
+            <ul class="link">
+                
+                <li><a href="about">About</a></li>
+                <li><a href="contact">Contact</a></li>
+                <li><a href="home">Home</a></li>
+            </ul>
+            <img src="../moon.png" id="icon">
+            <div>
+                <div class="menu">
+                  <div class="bar1"></div>
+                  <div class="bar2"></div>
+                  <div class="bar3"></div>
+                </div>
+                <div class="dropdown_menu">
+                    <li><a href="about">About</a></li>
+                    <li><a href="contact">Contact</a></li>
+                    <li><a href="home">Home</a></li>
+                </div>
+                
+        </div>
+    </header>
+    <main>
+        <div class="title">
+             Reactions in Aqueous Solutions 
+        </div><div class="lesson">Lesson 18</div>
+        <div class="review">
+            Aqueous Solutions <br><br>
+            - An aqueous solution is one in which water serves as the solvent. <br><br><br>
+            Non aqueous Solutions <br><br>
+            - the mixture in which a solvent other than water is a liquid <br><br><br>
+            
+            Precipitation Reactions <br><br>
+            -is a process that produces a precipitate, an insoluble byproduct. The blending of two solutions. In our description of a precipitation reaction, a colorless . <br>
+            To create a reddish precipitate of silver dichromate, a solution of silver nitrate was combined with a yellow-orange solution of potassium dichromate. <br><br><br>
+            
+            
+            Acid-Base Reactions <br><br>
+            -Both biochemistry and industrial chemistry depend on acid-base reactions. In addition, we frequently come across acids or bases in our houses, grocery stores, and pharmacies. For instance, antacids are bases and aspirin is an acid (acetylsalicylic acid). Actually, every home cook who has made mayonnaise or marinated fish with lemon juice has performed an acid-base interaction. Let's first define some of the qualities of such reactions before talking about their attributes, bases and acids. <br><br><br>
+             </div>
+             <div class="btn">
+                <a href="../../index.html"><-- Go Back</a>       <a href="../../qui/q18">take the quiz?--></a><br><br><br>
+                </div>
+        </main>
+        <script src="../script.js"></script>
+        <script>
+           const menu = document.querySelector('.menu')
+const dropdown_menu = document.querySelector('.dropdown_menu')
+onclick="myFunction(this)"
+
+function myFunction(x) {
+    x.classList.toggle("change")
+    
+  }
+
+menu.onclick = function () {
+    dropdown_menu.classList.toggle("open")
+    menu.classList.toggle("change")
+}
+
+        </script>   
+        <script src="../lesson/script.js"></script>
+    </header>
+</body>
+</html>

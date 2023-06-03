@@ -1,0 +1,83 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 5 | Review</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header> 
+        <div class="bar">
+            <a href="../../index.html" class="back">&lt;</a>
+
+            <div class="logo">
+                    <a href="../../index.html" class="logo"><img src="../../logo.png" alt=""></a>
+            </div> 
+
+            <span class="shesh">Chemistry Quiz</span>
+        
+            <ul class="link">
+                
+                <li><a href="about">About</a></li>
+                <li><a href="contact">Contact</a></li>
+                <li><a href="home">Home</a></li>
+            </ul>
+            <img src="../moon.png" id="icon">
+            <div>
+                <div class="menu">
+                  <div class="bar1"></div>
+                  <div class="bar2"></div>
+                  <div class="bar3"></div>
+                </div>
+                <div class="dropdown_menu">
+                    <li><a href="about">About</a></li>
+                    <li><a href="contact">Contact</a></li>
+                    <li><a href="home">Home</a></li>
+                </div>
+                
+        </div>
+    </header>
+    <main>
+        <div class="title">
+             Ways of Classifying Matter
+        </div><div class="lesson">Lesson 5</div>
+        <div class="review">Pure substance- A pure substance is made up of only one type of matter. Pure substances are further divided into single-element and compound categories. Homogeneous (single-phase) and heterogeneous (multi-phase). It is composed of a single type of particle, which may have a fixed or constant structure. These substances are further divided into their component elements and compounds. <br>
+            Ex: Steel, Iron, Gold, Diamond and many more. <br><br>
+            
+            Mixture - Mixture is made up of several different forms of matter. Mixtures are formed when two or more substances (elements or compounds) mix together without participating in a chemical change. The substances need not necessarily mix in a definite ratio to form a mixture. <br><br>
+            
+            Homogeneous mixture - 'Homo' means the same. The components mixed are uniformly distributed throughout the mixture. Homogeneous mixtures are also called solutions and It can't be separated out physically. <br>
+            Ex: Alcohol and water, vinegar and water, and etc. <br><br>
+            
+            Heterogeneous mixture - 'Hetero' means different. It is a mixture with a composition that is not uniform. It is two or more essential components that combine yet are physically separate mixes. The chemical characteristics of the components do not change, and each component can be seen clearly. <br>
+            Ex: Water and stones, ice in a drink, sand and water, and many more. <br><br>
+            
+            
+            Phase boundary - a thin region in which the intensive properties change discontinuously, separates each phase in a multiphase system from its neighbors. <br><br>
+            </div>
+            <div class="btn">
+                <a href="../../index.html"><-- Go Back</a>       <a href="../../qui/q5">take the quiz?--></a><br><br><br>
+                </div>
+        </main>
+        <script src="../script.js"></script>
+        <script>
+           const menu = document.querySelector('.menu')
+const dropdown_menu = document.querySelector('.dropdown_menu')
+onclick="myFunction(this)"
+
+function myFunction(x) {
+    x.classList.toggle("change")
+    
+  }
+
+menu.onclick = function () {
+    dropdown_menu.classList.toggle("open")
+    menu.classList.toggle("change")
+}
+
+        </script>   
+        <script src="../lesson/script.js"></script>
+    </header>
+</body>
+</html>

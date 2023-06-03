@@ -1,0 +1,89 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 16 | Review</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header> 
+        <div class="bar">
+            <a href="../../index.html" class="back">&lt;</a>
+
+            <div class="logo">
+                    <a href="../../index.html" class="logo"><img src="../../logo.png" alt=""></a>
+            </div> 
+
+            <span class="shesh">Chemistry Quiz</span>
+        
+            <ul class="link">
+                
+                <li><a href="about">About</a></li>
+                <li><a href="contact">Contact</a></li>
+                <li><a href="home">Home</a></li>
+            </ul>
+            <img src="../moon.png" id="icon">
+            <div>
+                <div class="menu">
+                  <div class="bar1"></div>
+                  <div class="bar2"></div>
+                  <div class="bar3"></div>
+                </div>
+                <div class="dropdown_menu">
+                    <li><a href="about">About</a></li>
+                    <li><a href="contact">Contact</a></li>
+                    <li><a href="home">Home</a></li>
+                </div>
+                
+        </div>
+    </header>
+    <main>
+        <div class="title">
+             Percent Composition and Chemical Formula
+        </div><div class="lesson">Lesson 16</div>
+        <div class="review">Percent composition is the percentage by mass of each element in a compound. The chemical formula of a compound provides the ratio of the number of atoms of each element present in the compound. In this lesson, we will review how to calculate percent composition and determine the chemical formula of a compound. <br><br>
+            To calculate the percent composition of a compound, we first determine the molar mass of the compound. We then divide the mass of each element in the compound by the molar mass of the compound, and multiply the result by 100 to get the percentage. <br><br><br>
+            
+            For example, let's calculate the percent composition of water (H2O). The molar mass of water is 18.015 g/mol. The mass of hydrogen in water is 2.016 g, and the mass of oxygen in water is 16.000 g. <br><br><br>
+            
+            The percent composition of hydrogen in water is (2.016 g / 18.015 g/mol) x 100 = 11.19%. The percent composition of oxygen in water is (16.000 g / 18.015 g/mol) x 100 = 88.81%. <br><br><br>
+            
+            
+            The chemical formula of a compound gives the ratio of the number of atoms of each element in the compound. To determine the chemical formula of a compound, we first calculate the percent composition of the compound. We then convert the percent composition to the empirical formula, which is the simplest whole-number ratio of atoms in the compound. <br><br><br>
+            
+            For example, let's determine the chemical formula of a compound that is 75.7% carbon and 24.3% hydrogen. To do this, we first assume a 100 g sample of the compound. This means that the sample contains 75.7 g of carbon and 24.3 g of hydrogen. <br><br><br>
+            
+            Next, we convert the masses of carbon and hydrogen to moles. The molar mass of carbon is 12.01 g/mol, and the molar mass of hydrogen is 1.008 g/mol. <br><br><br>
+            
+            The number of moles of carbon is 75.7 g / 12.01 g/mol = 6.30 mol. The number of moles of hydrogen is 24.3 g / 1.008 g/mol = 24.11 mol. <br><br><br>
+            
+            We then divide the number of moles of each element by the smallest number of moles. In this case, the smallest number of moles is 6.30 mol. <br><br><br><br>
+            
+            The ratio of carbon to hydrogen is 6.30 mol / 6.30 mol = 1. The empirical formula of the compound is CH.
+             </div>
+             <div class="btn">
+                <a href="../../index.html"><-- Go Back</a>       <a href="../../qui/q16">take the quiz?--></a><br><br><br>
+                </div>
+        </main>
+        <script src="../script.js"></script>
+        <script>
+           const menu = document.querySelector('.menu')
+const dropdown_menu = document.querySelector('.dropdown_menu')
+onclick="myFunction(this)"
+
+function myFunction(x) {
+    x.classList.toggle("change")
+    
+  }
+
+menu.onclick = function () {
+    dropdown_menu.classList.toggle("open")
+    menu.classList.toggle("change")
+}
+
+        </script>   
+        <script src="../lesson/script.js"></script>
+    </header>
+</body>
+</html>

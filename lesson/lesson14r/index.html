@@ -1,0 +1,161 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 14 | Review</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header> 
+        <div class="bar">
+            <a href="../../index.html" class="back">&lt;</a>
+
+            <div class="logo">
+                    <a href="../../index.html" class="logo"><img src="../../logo.png" alt=""></a>
+            </div> 
+
+            <span class="shesh">Chemistry Quiz</span>
+        
+            <ul class="link">
+                
+                <li><a href="about">About</a></li>
+                <li><a href="contact">Contact</a></li>
+                <li><a href="home">Home</a></li>
+            </ul>
+            <img src="../moon.png" id="icon">
+            <div>
+                <div class="menu">
+                  <div class="bar1"></div>
+                  <div class="bar2"></div>
+                  <div class="bar3"></div>
+                </div>
+                <div class="dropdown_menu">
+                    <li><a href="about">About</a></li>
+                    <li><a href="contact">Contact</a></li>
+                    <li><a href="home">Home</a></li>
+                </div>
+                
+        </div>
+    </header>
+    <main>
+        <div class="title">
+            Naming Acids and Bases
+         </div><div class="lesson">Lesson 14</div>
+        <div class="review">
+            Acids are compounds that produce hydrogen ions (H+) when dissolved in water. They are named based on the anion they contain. If the anion ends in -ide, the acid is named with the prefix hydro- and the suffix -ic. For example, HCl (hydrogen chloride) produces chloride ions (Cl-) and is named hydrochloric acid. If the anion ends in -ate, the acid is named with the suffix -ic. For example, HNO3 (nitric acid) produces nitrate ions (NO3-) and is named nitric acid. If the anion ends in -ite, the acid is named with the suffix -ous. For example, H2SO3 (sulfurous acid) produces sulfite ions (SO32-) and is named sulfurous acid. <br><br>
+
+            Examples: <br>
+            1. HClO4 - perchloric acid <br>
+            2. H2SO4 - sulfuric acid <br>
+            3. HBr - hydrobromic acid <br>
+            4. H2CO3 - carbonic acid <br>
+            5. HNO2 - nitrous acid <br><br>
+            
+            
+            Naming Bases: <br>
+            
+            Bases are compounds that produce hydroxide ions (OH-) when dissolved in water. They are named by using the name of the cation followed by the word "hydroxide." For example, NaOH (sodium hydroxide) produces sodium ions (Na+) and hydroxide ions (OH-) and is named sodium hydroxide. <br><br>
+            
+            Examples: <br>
+            1. Ca(OH)2 - calcium hydroxide <br>
+            2. NH4OH - ammonium hydroxide <br>
+            3. LiOH - lithium hydroxide <br>
+            4. Mg(OH)2 - magnesium hydroxide <br> <br> <br>
+            
+            Table of Common Polyatomic Ions: <br>
+
+            <table>
+                <tr>
+                    <th>Ion</th>
+                    <th>Chemical Formula</th>
+                    <th>Name</th>
+                </tr>
+                <tr>
+                    <td>Acetate</td>
+                    <td>C2H3O2-</td>
+                    <td>Acetate</td>
+                </tr>
+                <tr>
+                    <td>Carbonate</td>
+                    <td>CO32-</td>
+                    <td>Carbonate</td>
+                </tr>
+                <tr>
+                    <td>Chlorate</td>
+                    <td>ClO3-</td>
+                    <td>Chlorate</td>
+                </tr>
+                <tr>
+                    <td>Chlorite</td>
+                    <td>ClO2-</td>
+                    <td>Chlorite</td>
+                </tr>
+                <tr>
+                    <td>Hydrogen Carbonate (bicarbonate)</td>
+                    <td>HCO3-</td>
+                    <td>Hydrogen Carbonate (bicarbonate)</td>
+                </tr>
+                <tr>
+                    <td>Hydroxide</td>
+                    <td>OH-</td>
+                    <td>Hydroxide</td>
+                </tr>
+                <tr>
+                    <td>Nitrate</td>
+                    <td>NO3-</td>
+                    <td>Nitrate</td>
+                </tr>
+                <tr>
+                    <td>Nitrite</td>
+                    <td>NO2-</td>
+                    <td>Nitrite</td>
+                </tr>
+                <tr>
+                    <td>Permaganate</td>
+                    <td>MnO4-</td>
+                    <td>Permaganate</td>
+                </tr>
+                <tr>
+                    <td>Phosphate</td>
+                    <td>PO43-</td>
+                    <td>Phosphate</td>
+                </tr>
+                <tr>
+                    <td>Sulfate</td>
+                    <td>SO42-</td>
+                    <td>Sulfate</td>
+                </tr>
+                <tr>
+                    <td>Sulfite</td>
+                    <td>SO32-</td>
+                    <td>Sulfite</td>
+                </tr>
+            </table> <br><br><br>
+            
+            </div>
+            <div class="btn">
+                <a href="../../index.html"><-- Go Back</a>       <a href="../../qui/q14">take the quiz?--></a><br><br><br>
+                </div>
+        </main>
+        <script src="../script.js"></script>
+        <script>
+           const menu = document.querySelector('.menu')
+const dropdown_menu = document.querySelector('.dropdown_menu')
+onclick="myFunction(this)"
+
+function myFunction(x) {
+    x.classList.toggle("change")
+    
+  }
+
+menu.onclick = function () {
+    dropdown_menu.classList.toggle("open")
+    menu.classList.toggle("change")
+}
+
+        </script>   
+        <script src="../lesson/script.js"></script>
+    </header>
+</body>
+</html>

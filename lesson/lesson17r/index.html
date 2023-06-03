@@ -1,0 +1,83 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 17 | Review</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header> 
+        <div class="bar">
+            <a href="../../index.html" class="back">&lt;</a>
+
+            <div class="logo">
+                    <a href="../../index.html" class="logo"><img src="../../logo.png" alt=""></a>
+            </div> 
+
+            <span class="shesh">Chemistry Quiz</span>
+        
+            <ul class="link">
+                
+                <li><a href="about">About</a></li>
+                <li><a href="contact">Contact</a></li>
+                <li><a href="home">Home</a></li>
+            </ul>
+            <img src="../moon.png" id="icon">
+            <div>
+                <div class="menu">
+                  <div class="bar1"></div>
+                  <div class="bar2"></div>
+                  <div class="bar3"></div>
+                </div>
+                <div class="dropdown_menu">
+                    <li><a href="about">About</a></li>
+                    <li><a href="contact">Contact</a></li>
+                    <li><a href="home">Home</a></li>
+                </div>
+                
+        </div>
+    </header>
+    <main>
+        <div class="title">
+            Chemical Reactions and Chemical Equation
+        </div><div class="lesson">Lesson 17</div>
+        <div class="review">Chemical reactions involve the transformation of one set of chemical substances into another. A chemical equation is a symbolic representation of a chemical reaction where the reactants are written on the left and the products on the right. An example of a chemical reaction is the combustion of methane: <br><br><br>
+
+            CH4 + 2O2 -> CO2 + 2H2O <br><br><br>
+            
+            In this equation, methane (CH4) and oxygen (O2) are the reactants, while carbon dioxide (CO2) and water (H2O) are the products. The numbers in front of the chemical formulas indicate the stoichiometry of the reaction, i.e., the ratio in which the reactants and products combine. <br><br><br><br>
+            
+            To write a chemical equation, one must first identify the reactants and products, then balance the equation by adjusting the coefficients until the number of atoms of each element is the same on both sides. For example, the combustion of methane can be balanced by adding a coefficient of 2 in front of CH4: <br><br><br>
+            
+            CH4 + 2O2 -> CO2 + 2H2O <br><br><br>
+            
+            The balanced equation shows that two molecules of oxygen are required to react with one molecule of methane, producing one molecule of carbon dioxide and two molecules of water. <br><br> <br>
+            
+            Understanding chemical equations and reactions is important in a range of fields, from chemistry to biology to environmental science. It allows us to predict the outcome of reactions, design new materials, and understand the behavior of substances in different environments. Calculating percent composition and determining the chemical formula of compounds are also essential in understanding the composition and behavior of substances. <br><br><br><br>
+            </div>
+            <div class="btn">
+                <a href="../../index.html"><-- Go Back</a>       <a href="../../qui/q17">take the quiz?--></a><br><br><br>
+                </div>
+        </main>
+        <script src="../script.js"></script>
+        <script>
+           const menu = document.querySelector('.menu')
+const dropdown_menu = document.querySelector('.dropdown_menu')
+onclick="myFunction(this)"
+
+function myFunction(x) {
+    x.classList.toggle("change")
+    
+  }
+
+menu.onclick = function () {
+    dropdown_menu.classList.toggle("open")
+    menu.classList.toggle("change")
+}
+
+        </script>   
+        <script src="../lesson/script.js"></script>
+    </header>
+</body>
+</html>
