@@ -40,7 +40,8 @@ body {
 .quiz_box{
     color: #26292b;
     max-height: fit-content;
-    width: 90%;
+    height: 100%;
+    width: 100%;
     max-width: 550px;
     background: #fff;
     border-radius: 5px;
