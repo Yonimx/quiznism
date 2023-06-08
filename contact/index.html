@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+<body>
+    <header> 
+        <div class="bar">
+                <a href="../index.html" class="logo"><img src="../logo.png" alt=""></a>
+            <ul class="link">
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../index.html">Home</a></li>
+            </ul>
+            <div>
+                <div class="menu">
+                  <div class="bar1"></div>
+                  <div class="bar2"></div>
+                  <div class="bar3"></div>
+                </div>
+                <div class="dropdown_menu">
+                    <li><a href="../about.html">About</a></li>
+                    <li><a href="../index.html">Home</a></li>
+                </div>
+                <script>
+              
+                </script>
+        
+        </div>
+       
+    </header>
+    <section class="contact">
+        <div class="content">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or feedbacks, Please feel free to contact us!</p>
+        </div>
+        <div class="container">
+            <div class="cinfo">
+                <div class="box">
+                    <div class="icon"><i class='fas fa-map-marker-alt'></i></div>
+                    <div class="text">
+                            <h3>Address</h3>
+                            <p>Nicolites Montessori School</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></i>
+                    </div>
+                    <div class="text">
+                            <h3>Email</h3>
+                            <p>barcelon.johnhendrix.c@gmail.com</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                    <div class="text">
+                            <h3>Phone</h3>
+                            <p>+63 976-186-1706</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cform">
+                <form onsubmit="sendEmail(); reset(); return false;">
+                    <h2>Send Message</h2>
+                    <div class="input_box">
+                        <input type="text" id="name" placeholder="Full Name" required>
+                    </div>
+                    <div class="input_box">
+                        <input type="text" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="input_box">
+                        <textarea required="required" id="message"></textarea>
+                        <span>Your Message</span>
+                    </div>
+                    <div class="input_box">
+                        <input type="submit" onclick="validateEmail()" value="Send">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
