@@ -131,7 +131,7 @@ section{
   .logo img {
     width: 180px;
     height: auto;
-    margin-left: -20;
+    margin-left: 0;
     justify-content: space-between;
   }
 
@@ -151,7 +151,7 @@ section{
   width: 1.8rem;
   height: .4vh;
   background-color: #292828;
-  margin: 6px 0;
+  margin: 6px 20;
   transition: 0.4s;
 }
 
