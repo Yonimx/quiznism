@@ -1,168 +1,168 @@
-// creating an array and passing the number, questions, options, and answers
 let questions = [
   {
     numb: 1,
-    question: "What is the weakest intermolecular force?",
-    answer: "London Dispersion Force",
+    question: "What is the purpose of balancing a chemical equation?",
+    answer: "To establish the mathematical relationship between the quantity of reactants and products",
     options: [
-      "Kinetic Force",
-      "Hydrogen Bond",
-      "Gravitational Force",
-      "London Dispersion Force"
+      "To determine the direction of the reaction",
+      "To calculate the molar mass of the reactants and products",
+      "To indicate the states of matter in the equation",
+      "To establish the mathematical relationship between the quantity of reactants and products"
     ]
   },
-    {
+  {
     numb: 2,
-    question: "It is a model used to explain the behavior of matter",
-    answer: "Kinetic Molecular Theory",
+    question: "How many steps are involved in the process of balancing a chemical equation?",
+    answer: "3",
     options: [
-      "Coulombs Law",
-      "Kinetic Molecular Theory",
-      "SuperStar",
-      "Kinetic Energy"
+      "1",
+      "2",
+      "3",
+      "4"
     ]
   },
-    {
+  {
     numb: 3,
-    question: "The water acts as a solvent in a solution",
-    answer: "Aqueous Solution",
+    question: "What should be balanced first when balancing a chemical equation?",
+    answer: "Elements that appear in only one reactant and product",
     options: [
-      "Aqueous Solution",
-      "Non-aqueous Solution",
-      "Crystalline Solids",
-      "Tubig"
+      "Elements with the highest molar mass",
+      "Elements with the lowest atomic number",
+      "Elements that are in the same physical state",
+      "Elements that appear in only one reactant and product"
     ]
   },
-    {
+  {
     numb: 4,
-    question: "Substance that is dissolving",
-    answer: "Solute",
+    question: "What does the coefficient in front of a chemical formula represent?",
+    answer: "The number of moles or particles of that substance",
     options: [
-      "Solvent",
-      "Saturated Solution",
-      "Solute",
-      "Sinigang Mix"
+      "The charge of the ions in the substance",
+      "The state of matter of the substance",
+      "The number of atoms in the substance",
+      "The number of moles or particles of that substance"
     ]
   },
-    {
+  {
     numb: 5,
-    question: "A solution in which a small amount of solute is mixed in a large amount of solvent",
-    answer: "Dilute Solution",
+    question: "Why is it important to indicate the states of matter in a chemical equation?",
+    answer: "To show the physical form of the substances involved",
     options: [
-      "Matabang",
-      "Gauss' Law",
-      "Concentrated Solution",
-      "Dilute Solution"
+      "To differentiate between reactants and products",
+      "To determine the molar mass of the substances",
+      "To balance the equation correctly",
+      "To show the physical form of the substances involved"
     ]
   },
-    { 
+  {
     numb: 6,
-    question: "It is arranged in three-dimensional order",
-    answer: "Crystalline Solid",
+    question: "What does the term 'water vapor' indicate about the state of matter for water in the balanced equation?",
+    answer: "Water is in the gas phase",
     options: [
-      "Crystalline Solid",
-      "Solution",
-      "Amorphous solid",
-      "Rubic's Cube"
+      "Water is in the solid phase",
+      "Water is in the liquid phase",
+      "Water is in the aqueous phase",
+      "Water is in the gas phase"
     ]
   },
-    {
+  {
     numb: 7,
-    question: "What keeps the molecule apart and moving around?",
-    answer: "Kinetic Energy",
+    question: "Which element was balanced first in the worked example problem?",
+    answer: "Oxygen",
     options: [
-      "Negative Energy",
-      "Kinetic Energy",
-      "Electtric Energy",
-      "Garter"
+      "Tin",
+      "Hydrogen",
+      "Oxygen",
+      "Carbon"
     ]
   },
-    { 
+  {
     numb: 8,
-    question: "Free flowing and shapeless",
-    answer: "Liquid",
+    question: "What is the state of matter for tin oxide (SnO2) in the balanced equation for the reaction?",
+    answer: "Solid",
+    options: [
+      "Gas",
+      "Liquid",
+      "Solid",
+      "Aqueous"
+    ]
+  },
+  {
+    numb: 9,
+    question: "What is the state of matter for hydrogen gas (H2) in the balanced equation for the reaction?",
+    answer: "Gas",
     options: [
       "Solid",
       "Liquid",
-      "Kadita",
-      "Air Jordan"
-    ]
-  },
-    {
-    numb: 9,
-    question: "It is the pressure of the vapour that is equilibrium to the liquid",
-    answer: "Vapour Pressure",
-    options: [
-      "Intermolecular Forces",
       "Gas",
-      "Milk Tae",
-      "Vapour Pressure"
+      "Aqueous"
     ]
   },
-    { 
+
+  {
     numb: 10,
-    question: "Less solute in beaker than cell then the cell swell",
-    answer: "Hypotonic",
-    options: [
-      "Hypotonic",
-      "Sugat",
-      "alcohol",
-      "Nucleus"
-    ]
-  },
-    {
-    numb: 11,
-    question: "Which is not true about amorphous solids?",
-    answer: "Anisotrophic",
-    options: [
-      "IMF are not equal",
-      "Irregular arrangement",
-      "Anisotrophic",
-      "Shapeless"
-    ]
-  },
-    { 
-    numb: 12,
-    question: "What is a force within a single molecule?",
-    answer: "Intramolecular Forces",
-    options: [
-      "Net Force",
-      "London Bridge Forces",
-      "Intramolecular Forces",
-      "Negative Force"
-    ]
-  },
-    {
-    numb: 13,
-    question: "Strong Intermolecular forces but Low kinetic energy",
+    question: "What is the state of matter for tin (Sn) in the balanced equation for the reaction?",
     answer: "Solid",
     options: [
+      "Gas",
+      "Liquid",
       "Solid",
-      "Water",
-      "amorphous",
-      "Gas"
+      "Aqueous"
     ]
   },
-    { 
+  {
+    numb: 11,
+    question: "What is the state of matter for water vapor (H2O) in the balanced equation for the reaction?",
+    answer: "Gas",
+    options: [
+      "Solid",
+      "Liquid",
+      "Gas",
+      "Aqueous"
+    ]
+  },
+  {
+    numb: 12,
+    question: "What is the coefficient in front of hydrogen gas (H2) in the balanced equation?",
+    answer: "2",
+    options: [
+      "1",
+      "2",
+      "3",
+      "4"
+    ]
+  },
+  {
+    numb: 13,
+    question: "How many hydrogen atoms are there in the balanced equation?",
+    answer: "4",
+    options: [
+      "1",
+      "2",
+      "3",
+      "4"
+    ]
+  },
+  {
     numb: 14,
-    question: "Two or more substance are mixed together to form a solution",
-    answer: "Solution",
+    question: "How many oxygen atoms are there in the balanced equation?",
+    answer: "2",
     options: [
-      "Experiment",
-      "Goku",
-      "Solute",
-      "Solution"
+      "1",
+      "2",
+      "3",
+      "4"
     ]
   },
-    {
+  {
     numb: 15,
-    question: "What is the substance that dissolves solute?",
-    answer: "Solvent",
+    question: "What is the purpose of balancing a chemical equation?",
+    answer: "To establish the mathematical relationship between the quantity of reactants and products",
     options: [
-      "Luffy",
-      "Solvent",
-      "Naruto",
-      "bolpen"
+      "To determine the direction of the reaction",
+      "To calculate the molar mass of the reactants and products",
+      "To indicate the states of matter in the equation",
+      "To establish the mathematical relationship between the quantity of reactants and products"
     ]
-  },
-]
+  }
+];

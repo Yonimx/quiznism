@@ -1,168 +1,167 @@
-// creating an array and passing the number, questions, options, and answers
 let questions = [
   {
     numb: 1,
-    question: "What is the weakest intermolecular force?",
-    answer: "London Dispersion Force",
+    question: "What is percent composition?",
+    answer: "The percentage by mass of each element in a compound.",
     options: [
-      "Kinetic Force",
-      "Hydrogen Bond",
-      "Gravitational Force",
-      "London Dispersion Force"
+      "The percentage by mass of each element in a compound.",
+      "The relative abundance of a given element in distinct compounds.",
+      "The experimental process of finding the chemical formula of a compound.",
+      "The ratio of the number of atoms in a compound."
     ]
   },
-    {
+  {
     numb: 2,
-    question: "It is a model used to explain the behavior of matter",
-    answer: "Kinetic Molecular Theory",
+    question: "How is percent composition calculated?",
+    answer: "By dividing the mass of each element by the overall mass of the compound and converting to a percentage.",
     options: [
-      "Coulombs Law",
-      "Kinetic Molecular Theory",
-      "SuperStar",
-      "Kinetic Energy"
+      "By dividing the mass of each element by the overall mass of the compound and converting to a percentage.",
+      "By calculating the molar mass of the compound and the atomic masses of its elements.",
+      "By analyzing the ratio of the number of atoms in the compound.",
+      "By determining the relative abundance of the element in different compounds."
     ]
   },
-    {
+  {
     numb: 3,
-    question: "The water acts as a solvent in a solution",
-    answer: "Aqueous Solution",
+    question: "In Example 1, what is the percent composition of the liquid compound?",
+    answer: "61.0% C, 15.4% H, and 23.7% N",
     options: [
-      "Aqueous Solution",
-      "Non-aqueous Solution",
-      "Crystalline Solids",
-      "Tubig"
+      "61.0% C, 15.4% H, and 23.7% N",
+      "7.34% C, 1.85% H, and 2.85% N",
+      "75% C and 25% H",
+      "25% H and 75% C"
     ]
   },
-    {
+  {
     numb: 4,
-    question: "Substance that is dissolving",
-    answer: "Solute",
+    question: "What is the purpose of determining percent composition from the chemical formula?",
+    answer: "To calculate the percentage of a specific element in the compound.",
     options: [
-      "Solvent",
-      "Saturated Solution",
-      "Solute",
-      "Sinigang Mix"
+      "To determine the overall mass of the compound.",
+      "To calculate the percentage of a specific element in the compound.",
+      "To identify the formula mass of the compound.",
+      "To compare the percent compositions of different compounds."
     ]
   },
-    {
+  {
     numb: 5,
-    question: "A solution in which a small amount of solute is mixed in a large amount of solvent",
-    answer: "Dilute Solution",
+    question: "What is the formula mass of ammonia (NH3)?",
+    answer: "17.0305 amu",
     options: [
-      "Matabang",
-      "Gauss' Law",
-      "Concentrated Solution",
-      "Dilute Solution"
+      "17.0305 amu",
+      "14.0067 amu",
+      "3.02382 amu",
+      "1.00794 amu"
     ]
   },
-    { 
+  {
     numb: 6,
-    question: "It is arranged in three-dimensional order",
-    answer: "Crystalline Solid",
+    question: "In Example 2, what is the percent composition of aspirin (C9H8O4)?",
+    answer: "60.0% C, 5.33% H, and 34.7% O",
     options: [
-      "Crystalline Solid",
-      "Solution",
-      "Amorphous solid",
-      "Rubic's Cube"
+      "9.0% C, 8.0% H, and 4.0% O",
+      "9.8% C, 8.7% H, and 4.3% O",
+      "60.0% C, 5.33% H, and 34.7% O",
+      "40.0% C, 45.3% H, and 14.7% O"
     ]
   },
-    {
+  {
     numb: 7,
-    question: "What keeps the molecule apart and moving around?",
-    answer: "Kinetic Energy",
+    question: "What is the percent composition of ammonia (NH3)?",
+    answer: "82.35% N and 17.65% H",
     options: [
-      "Negative Energy",
-      "Kinetic Energy",
-      "Electtric Energy",
-      "Garter"
+      "75% N and 25% H",
+      "66.67% N and 33.33% H",
+      "50% N and 50% H",
+      "82.35% N and 17.65% H"
     ]
   },
-    { 
+  {
     numb: 8,
-    question: "Free flowing and shapeless",
-    answer: "Liquid",
+    question: "In Example 2, what is the total mass of the compound C9H8O4?",
+    answer: "180.160 g/mole",
     options: [
-      "Solid",
-      "Liquid",
-      "Kadita",
-      "Air Jordan"
+      "180.160 g/mole",
+      "9.8 g",
+      "8.7 g",
+      "4.3 g"
     ]
   },
-    {
+  {
     numb: 9,
-    question: "It is the pressure of the vapour that is equilibrium to the liquid",
-    answer: "Vapour Pressure",
+    question: "What is the purpose of calculating percent composition in chemical analysis?",
+    answer: "To determine the elemental makeup of a compound.",
     options: [
-      "Intermolecular Forces",
-      "Gas",
-      "Milk Tae",
-      "Vapour Pressure"
+      "To calculate the molar mass of a compound.",
+      "To determine the elemental makeup of a compound.",
+      "To compare the percentages of different compounds.",
+      "To identify the formula mass of a compound."
     ]
   },
-    { 
+  {
     numb: 10,
-    question: "Less solute in beaker than cell then the cell swell",
-    answer: "Hypotonic",
+    question: "In percent composition, what is the denominator used to calculate the percentage?",
+    answer: "The overall mass of the compound.",
     options: [
-      "Hypotonic",
-      "Sugat",
-      "alcohol",
-      "Nucleus"
+      "The mass of each element in the compound.",
+      "The formula mass of the compound.",
+      "The overall mass of the compound.",
+      "The molar mass of the compound."
     ]
   },
-    {
+  {
     numb: 11,
-    question: "Which is not true about amorphous solids?",
-    answer: "Anisotrophic",
+    question: "What is the percent composition of a compound?",
+    answer: "The percentage by mass of each element in the compound.",
     options: [
-      "IMF are not equal",
-      "Irregular arrangement",
-      "Anisotrophic",
-      "Shapeless"
+      "The ratio of the number of atoms in the compound.",
+      "The relative abundance of a given element in distinct compounds.",
+      "The experimental process of finding the chemical formula of a compound.",
+      "The percentage by mass of each element in the compound."
     ]
   },
-    { 
+  {
     numb: 12,
-    question: "What is a force within a single molecule?",
-    answer: "Intramolecular Forces",
+    question: "What is the percent composition of ammonium nitrate (NH4NO3)?",
+    answer: "35.0% N, 21.6% H, and 43.4% O",
     options: [
-      "Net Force",
-      "London Bridge Forces",
-      "Intramolecular Forces",
-      "Negative Force"
+      "28.5% N, 21.6% H, and 49.9% O",
+      "35.0% N, 21.6% H, and 43.4% O",
+      "14.2% N, 36.3% H, and 49.5% O",
+      "50.0% N, 12.9% H, and 37.1% O"
     ]
   },
-    {
+  {
     numb: 13,
-    question: "Strong Intermolecular forces but Low kinetic energy",
-    answer: "Solid",
+    question: "What is the formula mass of urea (CH4N2O)?",
+    answer: "60.0553 amu",
     options: [
-      "Solid",
-      "Water",
-      "amorphous",
-      "Gas"
+      "60.0553 amu",
+      "30.0276 amu",
+      "90.0829 amu",
+      "120.1106 amu"
     ]
   },
-    { 
+  {
     numb: 14,
-    question: "Two or more substance are mixed together to form a solution",
-    answer: "Solution",
+    question: "In Example 2, what is the mass percentage of carbon (C) in aspirin (C9H8O4)?",
+    answer: "59.9%",
     options: [
-      "Experiment",
-      "Goku",
-      "Solute",
-      "Solution"
+      "9.8%",
+      "59.9%",
+      "8.7%",
+      "4.3%"
     ]
   },
-    {
+  {
     numb: 15,
-    question: "What is the substance that dissolves solute?",
-    answer: "Solvent",
+    question: "What is the percent composition of the compound H2SO4?",
+    answer: "2.06% H, 32.7% S, and 65.2% O",
     options: [
-      "Luffy",
-      "Solvent",
-      "Naruto",
-      "bolpen"
+      "20.6% H, 32.7% S, and 46.7% O",
+      "40.8% H, 53.1% S, and 6.1% O",
+      "2.06% H, 32.7% S, and 65.2% O",
+      "48.3% H, 32.7% S, and 19.0% O"
     ]
   },
 ]

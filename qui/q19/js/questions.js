@@ -1,168 +1,167 @@
-// creating an array and passing the number, questions, options, and answers
 let questions = [
   {
     numb: 1,
-    question: "What is the weakest intermolecular force?",
-    answer: "London Dispersion Force",
+    question: "Acids are compounds that dissolve in water and produce __ ions.",
+    answer: "H+",
     options: [
-      "Kinetic Force",
-      "Hydrogen Bond",
-      "Gravitational Force",
-      "London Dispersion Force"
+      "OH-",
+      "HO-",
+      "H+",
+      "O2-"
     ]
   },
-    {
+  {
     numb: 2,
-    question: "It is a model used to explain the behavior of matter",
-    answer: "Kinetic Molecular Theory",
+    question: "Bases are substances that dissolve in water and produce __ ions.",
+    answer: " OH-",
     options: [
-      "Coulombs Law",
-      "Kinetic Molecular Theory",
-      "SuperStar",
-      "Kinetic Energy"
+      "OH-",
+      "HO-",
+      "H+",
+      "O2-"
     ]
   },
-    {
+  {
     numb: 3,
-    question: "The water acts as a solvent in a solution",
-    answer: "Aqueous Solution",
+    question: "What are some characteristics of acids?",
+    answer: "Sour taste, color changes in plant dyes, react with metals to produce hydrogen gas",
     options: [
-      "Aqueous Solution",
-      "Non-aqueous Solution",
-      "Crystalline Solids",
-      "Tubig"
+      "Bitter taste, color changes in plant dyes, react with metals to produce hydrogen gas",
+      "Sweet taste, no effect on plant dyes, react with metals to produce hydrogen gas",
+      "Sour taste, color changes in plant dyes, no reaction with metals",
+      "Sour taste, color changes in plant dyes, react with metals to produce hydrogen gas"
     ]
   },
-    {
+  {
     numb: 4,
-    question: "Substance that is dissolving",
-    answer: "Solute",
+    question: "What are some characteristics of bases?",
+    answer: "Bitter taste, slick to the touch, color changes in plant dyes",
     options: [
-      "Solvent",
-      "Saturated Solution",
-      "Solute",
-      "Sinigang Mix"
+      "Sour taste, slick to the touch, color changes in plant dyes",
+      "Bitter taste, slick to the touch, color changes in plant dyes",
+      "Sweet taste, rough to the touch, no effect on plant dyes",
+      "Bitter taste, smooth to the touch, no effect on plant dyes"
     ]
   },
-    {
+  {
     numb: 5,
-    question: "A solution in which a small amount of solute is mixed in a large amount of solvent",
-    answer: "Dilute Solution",
+    question: "What are oxidation-reduction reactions also known as?",
+    answer: "Redox reactions",
     options: [
-      "Matabang",
-      "Gauss' Law",
-      "Concentrated Solution",
-      "Dilute Solution"
+      "Acid-base reactions",
+      "Precipitation reactions",
+      "Redox reactions",
+      "Aqueous reactions"
     ]
   },
-    { 
+  {
     numb: 6,
-    question: "It is arranged in three-dimensional order",
-    answer: "Crystalline Solid",
+    question: "What happens during oxidation in a redox reaction?",
+    answer: "Loss of electrons",
     options: [
-      "Crystalline Solid",
-      "Solution",
-      "Amorphous solid",
-      "Rubic's Cube"
+      "Gain of electrons",
+      "Loss of electrons",
+      "Gain of protons",
+      "Loss of protons"
     ]
   },
-    {
+  {
     numb: 7,
-    question: "What keeps the molecule apart and moving around?",
-    answer: "Kinetic Energy",
+    question: "What happens during reduction in a redox reaction?",
+    answer: "Gain of electrons",
     options: [
-      "Negative Energy",
-      "Kinetic Energy",
-      "Electtric Energy",
-      "Garter"
+      "Gain of electrons",
+      "Loss of electrons",
+      "Gain of protons",
+      "Loss of protons"
     ]
   },
-    { 
+  {
     numb: 8,
-    question: "Free flowing and shapeless",
-    answer: "Liquid",
+    question: "What is the oxidation state of an element in its elemental form?",
+    answer: "0",
     options: [
-      "Solid",
-      "Liquid",
-      "Kadita",
-      "Air Jordan"
+      "+1",
+      "-1",
+      "0",
+      "+2"
     ]
   },
-    {
+  {
     numb: 9,
-    question: "It is the pressure of the vapour that is equilibrium to the liquid",
-    answer: "Vapour Pressure",
+    question: "In the reaction of aluminum with oxygen to produce aluminum oxide (Al2O3), which element is oxidized?",
+    answer: "Aluminum",
     options: [
-      "Intermolecular Forces",
-      "Gas",
-      "Milk Tae",
-      "Vapour Pressure"
+      "Oxygen",
+      "Hydrogen",
+      "Carbon",
+      "Aluminum"
     ]
   },
-    { 
+  {
     numb: 10,
-    question: "Less solute in beaker than cell then the cell swell",
-    answer: "Hypotonic",
+    question: "What is the oxidation state of oxygen in aluminum oxide (Al2O3)?",
+    answer: "-2",
     options: [
-      "Hypotonic",
-      "Sugat",
-      "alcohol",
-      "Nucleus"
+      "+1",
+      "-2",
+      "+3",
+      "0"
     ]
   },
-    {
+  {
     numb: 11,
-    question: "Which is not true about amorphous solids?",
-    answer: "Anisotrophic",
+    question: "Which of the following is a correct definition of acids and bases?",
+    answer: "Acids produce H+ ions, bases produce OH- ions",
     options: [
-      "IMF are not equal",
-      "Irregular arrangement",
-      "Anisotrophic",
-      "Shapeless"
+      "Acids produce OH- ions, bases produce H+ ions",
+      "Acids produce H- ions, bases produce O2- ions",
+      "Acids produce H+ ions, bases produce OH- ions",
+      "Acids produce O2- ions, bases produce H- ions"
     ]
   },
-    { 
+  {
     numb: 12,
-    question: "What is a force within a single molecule?",
-    answer: "Intramolecular Forces",
+    question: "What is the mnemonic used to remember the transfer of electrons in oxidation-reduction reactions?",
+    answer: "Oil rig",
     options: [
-      "Net Force",
-      "London Bridge Forces",
-      "Intramolecular Forces",
-      "Negative Force"
+      "Oil rig",
+      "Acid-base",
+      "Redox",
+      "Aqueous"
     ]
   },
-    {
+  {
     numb: 13,
-    question: "Strong Intermolecular forces but Low kinetic energy",
-    answer: "Solid",
+    question: "What is the oxidation state of chlorine in HCl (hydrochloric acid)?",
+    answer: "-1",
     options: [
-      "Solid",
-      "Water",
-      "amorphous",
-      "Gas"
+      "+1",
+      "-1",
+      "+2",
+      "0"
     ]
   },
-    { 
+  {
     numb: 14,
-    question: "Two or more substance are mixed together to form a solution",
-    answer: "Solution",
+    question: "Which of the following is an example of an acid?",
+    answer: "Vinegar (acetic acid)",
     options: [
-      "Experiment",
-      "Goku",
-      "Solute",
-      "Solution"
+      "Baking soda (sodium bicarbonate)",
+      "Table salt (sodium chloride)",
+      "Vinegar (acetic acid)",
+      "Ammonia (NH3)"
     ]
   },
-    {
+  {
     numb: 15,
-    question: "What is the substance that dissolves solute?",
-    answer: "Solvent",
+    question: "Which of the following is an example of a base?",
+    answer: "Sodium hydroxide (NaOH)",
     options: [
-      "Luffy",
-      "Solvent",
-      "Naruto",
-      "bolpen"
+      "Sodium hydroxide (NaOH)",
+      "Hydrogen peroxide (H2O2)",
+      "Sulfuric acid (H2SO4)",
+      "Ethanol (C2H5OH)"
     ]
-  },
+  }
 ]
