@@ -6,11 +6,35 @@
 }
 
 body {
-  height: 100vh;
+  height: 100%;
   background-color: #2e3239;
   background-size: cover;
   background-position: center;
 }
+
+section{
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url ('bg.jpg');
+  background-size: cover;
+  position: absolute;
+}
+#particle-js{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-position: center;
+  
+}
+
+
+
+
+
+
+
+
+
 
 .qlesson_box.activeQlesson,
 .hero.activeHero {
@@ -69,13 +93,8 @@ body {
   justify-content: center;
 }
 
-@media (max-width: 1320px) {
-  header {
-    padding: 0 50px;
-  }
-}
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 900px) {
   header {
     padding: 0 30px;
   }
@@ -84,9 +103,9 @@ body {
     display: none;
   }
   .logo img {
-    width: 180px;
+    width: 200px;
     height: auto;
-    margin-left: -20;
+    margin-left: -50;
     justify-content: space-between;
   }
 
@@ -95,9 +114,8 @@ body {
 
 
 
-@media (max-width: 12000px) {}
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 899px) {
   .bar .link a {
     display: none;
   }
@@ -119,7 +137,7 @@ body {
 
 }
 
-@media (max-width: 576px) {
+@media (max-width: px) {
   .menu {
     left: 2rem;
     width: unset;
@@ -326,12 +344,13 @@ header {
 
 
 .choose_r {
+  position: relative;
   align-items: center;
   background-color: transparent;
   color: #fff;
   cursor: pointer;
   display: flex;
-  font-family: ui-sans-serif, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.5;
@@ -344,11 +363,11 @@ header {
 
 .choose_r:before {
   background-color: #fff;
-  content: "";
+  content:"";
   display: inline-block;
   height: 2px;
   margin-right: px;
-  transition: all .42s cubic-bezier(.25, .8, .25, 1);
+  transition: all .42s cubic-bezier(.25,.8,.25,1);
   width: 0;
 }
 

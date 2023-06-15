@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 33 | Review</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header> 
+        <div class="bar">
+            <a href="../../index.html" class="back">&lt;</a>
+
+            <div class="logo">
+                    <a href="../../index.html" class="logo"><img src="../../logo.png" alt=""></a>
+            </div> 
+
+            <span class="shesh">Chemistry Quiz</span>
+        
+            <ul class="link">
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../about/index.html">About</a></li>
+                <li><a href="../../contact/index.html">Contact</a></li>
+            </ul>
+            <img src="../moon.png" id="icon">
+            <div>
+                <div class="menu">
+                  <div class="bar1"></div>
+                  <div class="bar2"></div>
+                  <div class="bar3"></div>
+                </div>
+                <div class="dropdown_menu">
+                    <li><a href="../../index.html">Home</a></li>
+                    <li><a href="../../about/index.html">About</a></li>
+                    <li><a href="../../contact/index.html">Contact</a></li>
+                </div>
+                
+        </div>
+    </header>
+    <main>
+        <div class="title">
+            Polar and Non-Polar Covalent Bonds
+          </div><div class="lesson">Lesson 32</div>
+        <div class="review">Understanding the difference between polar and nonpolar covalent bonds is crucial in studying the behavior of molecules and their properties. Let's review the key points: <br><br><br>
+
+
+            Polar Covalent Bonds: <br><br>
+            Polar covalent bonds occur when there is an unequal sharing of electrons between two atoms. This inequality arises when atoms have different electronegativities, causing a partial positive charge (+) on one atom and a partial negative charge (-) on the other. Key characteristics of polar covalent bonds include: <br><br>
+            a. Electron Distribution: The more electronegative atom attracts the shared electrons closer to itself, resulting in an electron imbalance. <br><br>
+            b. Dipole Moment: Due to the uneven distribution of charge, polar covalent bonds possess a dipole moment, which creates a separation of positive and negative charges within the molecule. <br><br>
+            c. Examples: A classic example of a polar covalent bond is found in the water molecule (H2O), where oxygen (O) is more electronegative than hydrogen (H), creating a partial negative charge on oxygen and partial positive charges on the hydrogen atoms. <br><br><br>
+            Nonpolar Covalent Bonds: <br><br>
+            Nonpolar covalent bonds occur when there is an equal sharing of electrons between two atoms. This equality arises when atoms have similar or identical electronegativities, resulting in a balanced distribution of charge. Key characteristics of nonpolar covalent bonds include: <br><br>
+            a. Electron Distribution: The electrons in the bond are shared equally between the atoms. <br><br>
+            b. Absence of Dipole Moment: Nonpolar covalent bonds do not possess a dipole moment because the charges within the molecule are evenly distributed. <br><br>
+            c. Examples: A common example of a nonpolar covalent bond is found in the diatomic molecule oxygen (O2), where the two oxygen atoms have similar electronegativities and share the electrons equally. <br><br><br>
+            Understanding the nature of polar and nonpolar covalent bonds is crucial in predicting the overall polarity of molecules and their interactions with other substances. Polarity influences physical properties such as solubility, boiling points, and intermolecular forces. By analyzing the electronegativity difference between atoms, we can determine the type of covalent bond formed and its impact on the molecular characteristics. <br><br><br>
+            <a href="../../index.html"><-- Go Back</a>     <a href="../../qui/q32">take the quiz?--></a><br><br><br>
+                </div>
+        </main>
+        <script src="../script.js"></script>
+        <script>
+           const menu = document.querySelector('.menu')
+const dropdown_menu = document.querySelector('.dropdown_menu')
+onclick="myFunction(this)"
+
+function myFunction(x) {
+    x.classList.toggle("change")
+    
+  }
+
+menu.onclick = function () {
+    dropdown_menu.classList.toggle("open")
+    menu.classList.toggle("change")
+}
+
+        </script>   
+        <script src="../lesson/script.js"></script>
+    </header>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 31 | Review</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header> 
+        <div class="bar">
+            <a href="../../index.html" class="back">&lt;</a>
+
+            <div class="logo">
+                    <a href="../../index.html" class="logo"><img src="../../logo.png" alt=""></a>
+            </div> 
+
+            <span class="shesh">Chemistry Quiz</span>
+        
+            <ul class="link">
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../about/index.html">About</a></li>
+                <li><a href="../../contact/index.html">Contact</a></li>
+            </ul>
+            <img src="../moon.png" id="icon">
+            <div>
+                <div class="menu">
+                  <div class="bar1"></div>
+                  <div class="bar2"></div>
+                  <div class="bar3"></div>
+                </div>
+                <div class="dropdown_menu">
+                    <li><a href="../../index.html">Home</a></li>
+                    <li><a href="../../about/index.html">About</a></li>
+                    <li><a href="../../contact/index.html">Contact</a></li>
+                </div>
+                
+        </div>
+    </header>
+    <main>
+        <div class="title">
+            Formation of Covalent Bonds     
+          </div><div class="lesson">Lesson 31</div>
+        <div class="review">The formation of covalent bonds, along with the properties they exhibit, and the octet rule that governs their stability, are essential concepts in chemistry. Let's review these topics: <br><br><br>
+
+            Formation of Covalent Bonds: <br><br>
+            Covalent bonds are formed when atoms share electrons to achieve a more stable electron configuration. This bonding occurs primarily between nonmetal atoms. The shared electrons occupy the overlapping regions of the atomic orbitals, creating a strong bond between the atoms involved. Covalent bonds can be represented using Lewis dot structures, which illustrate the shared electrons between atoms.                         <br><br><br>
+             
+            Properties of Covalent Bond: <br><br><br>
+Covalent bonds possess distinct properties that differentiate them from other types of chemical bonds: <br><br>
+a. Strength: Covalent bonds are relatively strong but not as strong as ionic bonds. The bond strength depends on the number of shared electrons and the atoms involved. <br><br>
+b. Low Melting and Boiling Points: Covalent compounds generally have lower melting and boiling points compared to ionic compounds. This is because the intermolecular forces between covalent molecules are weaker than the electrostatic forces in ionic compounds. <br><br>
+c. Poor Conductivity: Most covalent compounds are poor conductors of electricity. This is because covalent bonds involve the sharing of electrons rather than the formation of charged ions necessary for conducting electricity. <br><br>
+d. Variable Solubility: Covalent compounds can exhibit variable solubility depending on their polarity. Polar covalent compounds tend to dissolve in polar solvents, while nonpolar covalent compounds dissolve in nonpolar solvents. <br><br> <br>
+Octet Rule: <br><br>
+The octet rule is a guideline that states that atoms tend to gain, lose, or share electrons in order to achieve a stable electron configuration with eight electrons in their valence shell (except for hydrogen and helium, which aim for a duet). By completing their outermost energy levels, atoms can attain a stable, noble gas-like electron configuration. This stability is achieved through the formation of covalent bonds by sharing electrons or by the transfer of electrons in ionic bonds. <br><br><br><br>
+
+        </div>
+             <div class="btn">
+                <a href="../../index.html"><-- Go Back</a>       <a href="../../qui/q31">take the quiz?--></a><br><br><br>
+                </div>
+        </main>
+        <script src="../script.js"></script>
+        <script>
+           const menu = document.querySelector('.menu')
+const dropdown_menu = document.querySelector('.dropdown_menu')
+onclick="myFunction(this)"
+
+function myFunction(x) {
+    x.classList.toggle("change")
+    
+  }
+
+menu.onclick = function () {
+    dropdown_menu.classList.toggle("open")
+    menu.classList.toggle("change")
+}
+
+        </script>   
+        <script src="../lesson/script.js"></script>
+    </header>
+</body>
+</html>

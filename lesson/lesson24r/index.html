@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 24 | Review</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header> 
+        <div class="bar">
+            <a href="../../index.html" class="back">&lt;</a>
+
+            <div class="logo">
+                    <a href="../../index.html" class="logo"><img src="../../logo.png" alt=""></a>
+            </div> 
+
+            <span class="shesh">Chemistry Quiz</span>
+        
+            <ul class="link">
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../about/index.html">About</a></li>
+                <li><a href="../../contact/index.html">Contact</a></li>
+            </ul>
+            <img src="../moon.png" id="icon">
+            <div>
+                <div class="menu">
+                  <div class="bar1"></div>
+                  <div class="bar2"></div>
+                  <div class="bar3"></div>
+                </div>
+                <div class="dropdown_menu">
+                    <li><a href="../../index.html">Home</a></li>
+                    <li><a href="../../about/index.html">About</a></li>
+                    <li><a href="../../contact/index.html">Contact</a></li>
+                </div>
+                
+        </div>
+    </header>
+    <main>
+        <div class="title">
+            Quantum Mechanical Description of the Atom       
+          </div><div class="lesson">Lesson 24</div>
+        <div class="review">
+            Erwin Schrödinger (1887–1961)- Scientist from Austria  used the electron's wave–particle duality to develop and solve a challenging mathematical equation that in 1926 precisely described the behavior of the electron in a hydrogen atom. The solution to Schrödinger's equation leads to creation of quantum mechanical model of the atom.  Electron energy must be quantized in order to find the solution to the equation. Unlike to the Bohr model, 
+where quantization was merely asserted without any support of mathematics. <br> <br><br> Quantum mechanical paradigm -  probability of finding an electron at a specific location near the nucleus is all that is indicated by wave functions, which are solutions to the Schrödinger wave equation. Electrons do not travel around the nucleus in simple circular orbits. Furthermore, according to a mathematical function known as a wave function, the quantum mechanical model of atoms logically explains the electron's three-dimensional position. Orbitals are another name for atomic wave functions. <br><br><br>  Electron cloud - In a quantum mechanical model of the atom, the location of electrons is referred to as the "electron cloud." There is no way to determine exactly where the electron is, because of the uncertainty principle.  Electron cloud has two densities: a high density where the electron is most likely to be and a low density where the electron is least likely to be. <br><br><br>
+Brighter zone farther from the nucleus suggests a lower probability of locating the electron, the darker region closer to the nucleus indicates a significant probability of successfully doing it. <br><br><br>It is common to refer to the area of space where there is a 90% chance of locating the electron in order to specifically specify the geometry of the cloud. The three-dimensional area of space that shows where there is a good chance of finding an electron is known as an orbital.
+        </div>
+             <div class="btn">
+                <a href="../../index.html"><-- Go Back</a>       <a href="../../qui/q24">take the quiz?--></a><br><br><br>
+                </div>
+        </main>
+        <script src="../script.js"></script>
+        <script>
+           const menu = document.querySelector('.menu')
+const dropdown_menu = document.querySelector('.dropdown_menu')
+onclick="myFunction(this)"
+
+function myFunction(x) {
+    x.classList.toggle("change")
+    
+  }
+
+menu.onclick = function () {
+    dropdown_menu.classList.toggle("open")
+    menu.classList.toggle("change")
+}
+
+        </script>   
+        <script src="../lesson/script.js"></script>
+    </header>
+</body>
+</html>
