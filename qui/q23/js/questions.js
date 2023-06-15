@@ -1,168 +1,168 @@
-// creating an array and passing the number, questions, options, and answers
 let questions = [
   {
     numb: 1,
-    question: "What is the weakest intermolecular force?",
-    answer: "London Dispersion Force",
+    question: "What is the ideal gas law?",
+    answer: "PV = nRT",
     options: [
-      "Kinetic Force",
-      "Hydrogen Bond",
-      "Gravitational Force",
-      "London Dispersion Force"
+     "P/T = constant",
+     "V/T = constant",
+     "V/n = constant",
+     "PV = nRT"
     ]
   },
-    {
+  {
     numb: 2,
-    question: "It is a model used to explain the behavior of matter",
-    answer: "Kinetic Molecular Theory",
+    question: "What does the ideal gas law relate?",
+    answer: "Pressure, volume, temperature, and number of moles",
     options: [
-      "Coulombs Law",
-      "Kinetic Molecular Theory",
-      "SuperStar",
-      "Kinetic Energy"
+     "Pressure and volume",
+     "Temperature and number of moles",
+     "Pressure and temperature",
+     "Volume and number of moles"
     ]
   },
-    {
+  {
     numb: 3,
-    question: "The water acts as a solvent in a solution",
-    answer: "Aqueous Solution",
+    question: "What is the ideal gas constant denoted as?",
+    answer: "R",
     options: [
-      "Aqueous Solution",
-      "Non-aqueous Solution",
-      "Crystalline Solids",
-      "Tubig"
+     "P",
+     "V",
+     "n",
+     "R"
     ]
   },
-    {
+  {
     numb: 4,
-    question: "Substance that is dissolving",
-    answer: "Solute",
+    question: "What are the units commonly used for the ideal gas constant?",
+    answer: "0.08206 L atm mol–1 K–1 and 8.314 kPa L mol–1 K–1",
     options: [
-      "Solvent",
-      "Saturated Solution",
-      "Solute",
-      "Sinigang Mix"
+     "0.08206 L atm mol K",
+     "8.314 L kPa mol–1 K–1",
+     "0.08206 kPa L mol–1 K–1",
+     "8.314 L atm mol–1 K–1"
     ]
   },
-    {
+  {
     numb: 5,
-    question: "A solution in which a small amount of solute is mixed in a large amount of solvent",
-    answer: "Dilute Solution",
+    question: "What does it mean for a gas to exhibit ideal behavior?",
+    answer: "Its properties of P, V, and T are accurately described by the ideal gas law or other gas laws.",
     options: [
-      "Matabang",
-      "Gauss' Law",
-      "Concentrated Solution",
-      "Dilute Solution"
+     "Its properties of P, V, and T deviate from the ideal gas law.",
+     "Its properties of P, V, and T remain constant regardless of conditions.",
+     "It follows a random pattern of behavior.",
+     "It cannot be described by any gas laws."
     ]
   },
-    { 
+  {
     numb: 6,
-    question: "It is arranged in three-dimensional order",
-    answer: "Crystalline Solid",
+    question: "Under what conditions does the ideal gas law hold true?",
+    answer: "Relatively low pressure and high temperature",
     options: [
-      "Crystalline Solid",
-      "Solution",
-      "Amorphous solid",
-      "Rubic's Cube"
+     "Relatively high pressure and low temperature",
+     "Relatively high pressure and high temperature",
+     "Relatively low pressure and low temperature",
+     "All pressure and temperature conditions"
     ]
   },
-    {
+  {
     numb: 7,
-    question: "What keeps the molecule apart and moving around?",
-    answer: "Kinetic Energy",
+    question: "What is the modified gas law used for?",
+    answer: "To account for the non-ideal behavior observed for many gases at relatively high pressures and low temperatures.",
     options: [
-      "Negative Energy",
-      "Kinetic Energy",
-      "Electtric Energy",
-      "Garter"
+     "To calculate the properties of an ideal gas.",
+     "To simplify gas law calculations.",
+     "To describe the behavior of gases under any conditions.",
+     "To determine the volume of a gas sample."
     ]
   },
-    { 
+  {
     numb: 8,
-    question: "Free flowing and shapeless",
-    answer: "Liquid",
+    question: "Which equation represents the ideal gas law?",
+    answer: "PV = nRT",
     options: [
-      "Solid",
-      "Liquid",
-      "Kadita",
-      "Air Jordan"
+     "P/T = constant",
+     "V/T = constant",
+     "V/n = constant",
+     "PV = nRT"
     ]
   },
-    {
+ {
     numb: 9,
-    question: "It is the pressure of the vapour that is equilibrium to the liquid",
-    answer: "Vapour Pressure",
+    question: "What units must be used for pressure, volume, and temperature in the ideal gas law equation if R = 0.08206 L atm mol–1 K–1?",
+    answer: "atm, L, and K",
     options: [
-      "Intermolecular Forces",
-      "Gas",
-      "Milk Tae",
-      "Vapour Pressure"
+     "kPa, L, and °C",
+     "psi, m^3, and °F",
+     "torr, cm^3, and °C",
+     "pascal, m^3, and K"
     ]
   },
-    { 
+  {
     numb: 10,
-    question: "Less solute in beaker than cell then the cell swell",
-    answer: "Hypotonic",
+    question: "What is the volume of 655 g of CH4 at 25 °C and 745 torr?",
+    answer: "1020 L (269 gal)",
     options: [
-      "Hypotonic",
-      "Sugat",
-      "alcohol",
-      "Nucleus"
+     "510 L (134.5 gal)",
+     "2040 L (538.2 gal)",
+     "765 L (202 gal)",
+     "1020 L (269 gal)"
     ]
   },
-    {
+  {
     numb: 11,
-    question: "Which is not true about amorphous solids?",
-    answer: "Anisotrophic",
+    question: "Which term represents the number of moles of a gas in the ideal gas law equation?",
+    answer: "n",
     options: [
-      "IMF are not equal",
-      "Irregular arrangement",
-      "Anisotrophic",
-      "Shapeless"
+     "P",
+     "V",
+     "T",
+     "R"
     ]
   },
-    { 
+  {
     numb: 12,
-    question: "What is a force within a single molecule?",
-    answer: "Intramolecular Forces",
+    question: "What does the gas constant 'R' represent in the ideal gas law equation?",
+    answer: "Ideal gas constant or universal gas constant",
     options: [
-      "Net Force",
-      "London Bridge Forces",
-      "Intramolecular Forces",
-      "Negative Force"
+     "Pressure",
+     "Volume",
+     "Number of moles",
+     "Ideal gas constant or universal gas constant"
     ]
   },
-    {
+  {
     numb: 13,
-    question: "Strong Intermolecular forces but Low kinetic energy",
-    answer: "Solid",
+    question: "What does it mean for a gas to exhibit ideal behavior?",
+    answer: "Its properties of P, V, and T are accurately described by the ideal gas law or other gas laws.",
     options: [
-      "Solid",
-      "Water",
-      "amorphous",
-      "Gas"
+     "Its properties of P, V, and T deviate from the ideal gas law.",
+     "Its properties of P, V, and T remain constant regardless of conditions.",
+     "It follows a random pattern of behavior.",
+     "It cannot be described by any gas laws."
     ]
   },
-    { 
+  {
     numb: 14,
-    question: "Two or more substance are mixed together to form a solution",
-    answer: "Solution",
+    question: "Under what conditions does the ideal gas law hold true?",
+    answer: "Relatively low pressure and high temperature",
     options: [
-      "Experiment",
-      "Goku",
-      "Solute",
-      "Solution"
+     "Relatively high pressure and low temperature",
+     "Relatively high pressure and high temperature",
+     "Relatively low pressure and low temperature",
+     "All pressure and temperature conditions"
     ]
   },
-    {
+  {
     numb: 15,
-    question: "What is the substance that dissolves solute?",
-    answer: "Solvent",
+    question: "What is the purpose of the modified gas law?",
+    answer: "To account for the non-ideal behavior observed for many gases at relatively high pressures and low temperatures.",
     options: [
-      "Luffy",
-      "Solvent",
-      "Naruto",
-      "bolpen"
+     "To calculate the properties of an ideal gas.",
+     "To simplify gas law calculations.",
+     "To describe the behavior of gases under any conditions.",
+     "To determine the volume of a gas sample."
     ]
   },
 ]
+ 

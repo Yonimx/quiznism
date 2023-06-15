@@ -1,168 +1,167 @@
-// creating an array and passing the number, questions, options, and answers
 let questions = [
   {
     numb: 1,
-    question: "What is the weakest intermolecular force?",
-    answer: "London Dispersion Force",
+    question: "According to Amontons's Law, the relationship between pressure and temperature of a gas, at constant volume, is:",
+    answer: "Directly proportional",
     options: [
-      "Kinetic Force",
-      "Hydrogen Bond",
-      "Gravitational Force",
-      "London Dispersion Force"
+      "Inversely proportional",
+      "Directly proportional",
+      "Not related",
+      "Random"
     ]
   },
-    {
+  {
     numb: 2,
-    question: "It is a model used to explain the behavior of matter",
-    answer: "Kinetic Molecular Theory",
+    question: "The P-T relationship for gases is known as:",
+    answer: "Amontons's law",
     options: [
-      "Coulombs Law",
-      "Kinetic Molecular Theory",
-      "SuperStar",
-      "Kinetic Energy"
+      "Boyle's law",
+      "Charles's law",
+      "Amontons's law",
+      "Gay-Lussac's law"
     ]
   },
-    {
+  {
     numb: 3,
-    question: "The water acts as a solvent in a solution",
-    answer: "Aqueous Solution",
+    question: "In Amontons's law, if the temperature of a gas increases, what happens to its pressure at constant volume?",
+    answer: "Increases",
     options: [
-      "Aqueous Solution",
-      "Non-aqueous Solution",
-      "Crystalline Solids",
-      "Tubig"
+      "Decreases",
+      "Increases",
+      "Remains the same",
+      "Cannot be determined"
     ]
   },
-    {
+  {
     numb: 4,
-    question: "Substance that is dissolving",
-    answer: "Solute",
+    question: "What is the mathematical representation of Amontons's law?",
+    answer: "P ∝ T",
     options: [
-      "Solvent",
-      "Saturated Solution",
-      "Solute",
-      "Sinigang Mix"
+      "P ∝ T",
+      "P = V/T",
+      "P = kV",
+      "P = nRT"
     ]
   },
-    {
+  {
     numb: 5,
-    question: "A solution in which a small amount of solute is mixed in a large amount of solvent",
-    answer: "Dilute Solution",
+    question: "At constant volume, if the temperature of a gas is doubled, how does its pressure change?",
+    answer: "Doubles",
     options: [
-      "Matabang",
-      "Gauss' Law",
-      "Concentrated Solution",
-      "Dilute Solution"
+      "Halves",
+      "Doubles",
+      "Quadruples",
+      "Remains the same"
     ]
   },
-    { 
+  {
     numb: 6,
-    question: "It is arranged in three-dimensional order",
-    answer: "Crystalline Solid",
+    question: "What is the lowest possible temperature on the Kelvin scale?",
+    answer: "Absolute zero",
     options: [
-      "Crystalline Solid",
-      "Solution",
-      "Amorphous solid",
-      "Rubic's Cube"
+      "0 °C",
+      "K",
+      "Absolute zero",
+      "-273 °C"
     ]
   },
-    {
+  {
     numb: 7,
-    question: "What keeps the molecule apart and moving around?",
-    answer: "Kinetic Energy",
+    question: "Who first empirically established the relationship between pressure and temperature of a gas?",
+    answer: "Guillaume Amontons",
     options: [
-      "Negative Energy",
-      "Kinetic Energy",
-      "Electtric Energy",
-      "Garter"
+      "Guillaume Amontons",
+      "Robert Boyle",
+      "Jacques Charles",
+      "Joseph Gay-Lussac"
     ]
   },
-    { 
+  {
     numb: 8,
-    question: "Free flowing and shapeless",
-    answer: "Liquid",
+    question: "What is the proportionality constant in Amontons's law equation?",
+    answer: "k",
     options: [
-      "Solid",
-      "Liquid",
-      "Kadita",
-      "Air Jordan"
+      "P",
+      "T",
+      "V",
+      "k"
     ]
   },
-    {
+  {
     numb: 9,
-    question: "It is the pressure of the vapour that is equilibrium to the liquid",
-    answer: "Vapour Pressure",
+    question: "In Amontons's law, what remains constant when temperature and pressure change at constant volume?",
+    answer: "P/T",
     options: [
-      "Intermolecular Forces",
-      "Gas",
-      "Milk Tae",
-      "Vapour Pressure"
+      "P",
+      "T",
+      "P/T",
+      "V"
     ]
   },
-    { 
+  {
     numb: 10,
-    question: "Less solute in beaker than cell then the cell swell",
-    answer: "Hypotonic",
+    question: "If a gas has an initial pressure of 200 kPa at 300 K, what would be the pressure at 600 K, assuming constant volume?",
+    answer: "400 kPa",
     options: [
-      "Hypotonic",
-      "Sugat",
-      "alcohol",
-      "Nucleus"
+      "200 kPa",
+      "400 kPa",
+      "600 kPa",
+      "800 kPa"
     ]
   },
-    {
+  {
     numb: 11,
-    question: "Which is not true about amorphous solids?",
-    answer: "Anisotrophic",
+    question: "A gas at a constant volume has a pressure of 150 kPa at 400 K. What would be the temperature if the pressure is increased to 300 kPa?",
+    answer: "800 K",
     options: [
-      "IMF are not equal",
-      "Irregular arrangement",
-      "Anisotrophic",
-      "Shapeless"
+      "200 K",
+      "400 K",
+      "800 K",
+      "1200 K"
     ]
   },
-    { 
+  {
     numb: 12,
-    question: "What is a force within a single molecule?",
-    answer: "Intramolecular Forces",
+    question: "If the pressure of a gas is halved at constant volume, what happens to its temperature according to Amontons's Law?",
+    answer: "Halved",
     options: [
-      "Net Force",
-      "London Bridge Forces",
-      "Intramolecular Forces",
-      "Negative Force"
+      "Halved",
+      "Doubled",
+      "Quadrupled",
+      "Remains the same"
     ]
   },
-    {
+  {
     numb: 13,
-    question: "Strong Intermolecular forces but Low kinetic energy",
-    answer: "Solid",
+    question: "If the temperature of a gas is decreased by 20% at constant volume, how does its pressure change?",
+    answer: "Decreases by 20%",
     options: [
-      "Solid",
-      "Water",
-      "amorphous",
-      "Gas"
+      "Decreases by 40%",
+      "Increases by 20%",
+      "Decreases by 20%",
+      "Remains the same"
     ]
   },
-    { 
+  {
     numb: 14,
-    question: "Two or more substance are mixed together to form a solution",
-    answer: "Solution",
+    question: "The pressure and temperature of a gas at constant volume are related according to Amontons's Law. What is the constant in this relationship?",
+    answer: "P/T",
     options: [
-      "Experiment",
-      "Goku",
-      "Solute",
-      "Solution"
+      "P",
+      "P/T",
+      "T",
+      "k"
     ]
   },
-    {
+  {
     numb: 15,
-    question: "What is the substance that dissolves solute?",
-    answer: "Solvent",
+    question: "What happens to the pressure of a gas at constant volume if its temperature is decreased to absolute zero?",
+    answer: "The pressure becomes zero",
     options: [
-      "Luffy",
-      "Solvent",
-      "Naruto",
-      "bolpen"
+      "The pressure doubles",
+      "The pressure remains the same",
+      "The pressure quadruples",
+      "The pressure becomes zero"
     ]
-  },
+  }
 ]
