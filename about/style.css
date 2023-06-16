@@ -178,7 +178,70 @@
       margin-left: -20;
       justify-content: space-between;
     }
+    header {
+      padding: 0 30px;
+    }
   
+    .bar .menu {
+      display: none;
+    }
+    .logo img {
+      width: 200px;
+      height: auto;
+      margin-left: -50;
+      justify-content: space-between;
+    }
+
+
+    .section1 {
+      height: 100vh;
+      background: #2e3239;
+      background-size: cover;
+  }
+  
+  .pics {
+    position: relative;
+    width: 200px;
+    justify-items: right;
+    justify-content: right;
+    margin: 70px;
+  }
+  
+  .box-main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      max-width: 100%;
+      margin: auto;
+      height: 80%;
+  }
+  
+  .unahan {
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+  
+  .unahan img {
+      display: flex;
+  
+  }
+  
+  .title {
+      font-weight: bold;
+      font-size: 50px;
+      text-align: left;
+      justify-items: center;
+      position: relative;
+  }
+  
+  .description {
+      font-size: 18px;
+      text-align: justify;
+      width: 70%;
+  }
   }
   
   @media (max-width: px) {
