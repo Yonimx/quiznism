@@ -1,170 +1,167 @@
-// creating an array and passing the number, questions, options, and answers
 let questions = [
   {
     numb: 1,
-    question: "It is defined as something that can be weighed and takes up space.",
-    answer: "Matter",
+    question: "What is matter?",
+    answer: "Something that can be weighed and takes up space",
+    options: [
+      "Something that cannot be measured",
+      "Something that can be seen but not touched",
+      "Something that can be weighed and takes up space",
+      "Something that exists only in the mind"
+    ]
+  },
+  {
+    numb: 2,
+    question: "Which of the following is an example of matter?",
+    answer: "Water",
+    options: [
+      "Sunlight",
+      "Thoughts",
+      "Sound",
+      "Water"
+    ]
+  },
+  {
+    numb: 3,
+    question: "What are the two essential properties of matter?",
+    answer: "Mass and volume",
+    options: [
+      "Color and texture",
+      "Temperature and pressure",
+      "Speed and velocity",
+      "Mass and volume"
+    ]
+  },
+  {
+    numb: 4,
+    question: "Which state of matter has a definite shape and volume?",
+    answer: "Solid",
+    options: [
+      "Liquid",
+      "Gas",
+      "Plasma",
+      "Solid"
+    ]
+  },
+  {
+    numb: 5,
+    question: "What is the smallest unit of matter?",
+    answer: "Atom",
     options: [
       "Molecule",
-      "Matter",
-      "Volume",
-      "Mass"
+      "Cell",
+      "Particle",
+      "Atom"
     ]
   },
-    {
-    numb: 2,
-    question: "It is  used to classify the chemical properties of materials.",
-    answer: "Pure substances and mixtures",
-    options: [
-      "Coulombs Law and Gauss' Law",
-      "Kinetic Molecular Theory",
-      "Pure substances and mixtures",
-      "Matter and Density"
-    ]
-  },
-    {
-    numb: 3,
-    question: "Anything that has mass and takes up space.",
-    answer: "Matter",
-    options: [
-      "Density",
-      "Volume",
-      "Crystalline Solids",
-      "Matter"
-    ]
-  },
-    {
-    numb: 4,
-    question: "True or False: In general, Matter can exist in four states: liquid, solid, gaseous, and plasma",
-    answer: "True",
-    options: [
-      "True",
-      "False",
-      ".",
-      "."
-    ]
-  },
-    {
-    numb: 5,
-    question: "True or False: The universe is not a matter. ",
-    answer: "False",
-    options: [
-      "True",
-      "False",
-      ".",
-      "."
-    ]
-  },
-    { 
+  {
     numb: 6,
-    question: "It is made up of tiny atoms.",
-    answer: "Matter",
+    question: "Which of the following is a mixture?",
+    answer: "Air",
     options: [
-      "Crystalline Solid",
-      "Matter",
-      "Amorphous solid",
-      "Rubic's Cube"
+      "Gold",
+      "Sugar",
+      "Water",
+      "Air"
     ]
   },
-    {
+  {
     numb: 7,
-    question: "True or False: not all energy is made up of matter. ",
-    answer: "True",
+    question: "Which of the following is a pure substance?",
+    answer: "Oxygen",
     options: [
-      "True",
-      "False",
-      "maybe",
-      "I'm not sure"
+      "Sand",
+      "Milk",
+      "Air",
+      "Oxygen"
     ]
   },
-    { 
+  {
     numb: 8,
-    question: "True or False: Matter is not something we can see, hear, feel, touch, or taste. ",
-    answer: "False",
+    question: "What is the interparticle force that holds matter together?",
+    answer: "Intermolecular force",
     options: [
-      "True",
-      "False",
-      "maybe",
-      "I'm not sure"
+      "Gravitational force",
+      "Electromagnetic force",
+      "Nuclear force",
+      "Intermolecular force"
     ]
   },
-    {
+  {
     numb: 9,
-    question: "True or False: Matter has its own mass and takes up space.",
-    answer: "True",
+    question: "Which type of matter can be broken down into simpler substances by chemical means?",
+    answer: "Compound",
     options: [
-      "True",
-      "False",
-      "maybe",
-      "I'm not sure"
-    
-    
+      "Element",
+      "Mixture",
+      "Compound",
+      "Atom"
     ]
   },
-    { 
+  {
     numb: 10,
-    question: "True or False: We can categorize matter based on its physical and chemical properties.  ",
-    answer: "True",
+    question: "Which type of matter has a fixed composition and distinct properties?",
+    answer: "Pure substance",
     options: [
-      "True",
-      "False",
-      "maybe",
-      "I'm not sure"
+      "Mixture",
+      "Compound",
+      "Pure substance",
+      "Element"
     ]
   },
-    {
+  {
     numb: 11,
-    question: "True or False:  Different kinds of matter have different kinds of atoms.",
-    answer: "True",
+    question: "What is the measure of how much matter is packed into a given space?",
+    answer: "Density",
     options: [
-      "True",
-      "False",
-      "maybe",
-      "I'm not sure"
-    ]
-  },
-    { 
-    numb: 12,
-    question: "True or False: The density and inertia of all matter are the same.",
-    answer: "False",
-    options: [
-      "True",
-      "False",
-      "maybe",
-      "I'm not sure"
-    ]
-  },
-    {
-    numb: 13,
-    question: "True or False: The interparticle force or the intermolecular force is what draws matter particles together. ",
-    answer: "True",
-    options: [
-      "True",
-      "False",
-      "maybe",
-      "I'm not sure"
-    ]
-  },
-    { 
-    numb: 14,
-    question: "True or False: Atoms that have protons, neutrons, electrons and a nucleus consist of matter. ",
-    answer: "True",
-    options: [
-      "True",
-      "False",
-      "maybe",
-      "I'm not sure"
-    ]
-  },
-    {
-    numb: 15,
-    question: "Both living and non-living entities are made out of what?",
-    answer: "Matter",
-    options: [
-      "Luffy",
       "Volume",
-      "Density",
-      "Matter"
+      "Mass",
+      "Weight",
+      "Density"
     ]
   },
+  {
+    numb: 12,
+    question: "Which of the following is an example of an amorphous solid?",
+    answer: "Glass",
+    options: [
+      "Diamond",
+      "Iron",
+      "Salt",
+      "Glass"
+    ]
+  },
+  {
+    numb: 13,
+    question: "What is the study of the properties and behavior of matter?",
+    answer: "Chemistry",
+    options: [
+      "Physics",
+      "Biology",
+      "Chemistry",
+      "Geology"
+    ]
+  },
+  {
+    numb: 14,
+    question: "Which of the following is not a physical property of matter?",
+    answer: "Reactivity",
+    options: [
+      "Color",
+      "Melting point",
+      "Density",
+      "Reactivity"
+    ]
+  },
+  {
+    numb: 15,
+    question: "Which type of matter cannot be separated into simpler substances by physical or chemical means?",
+    answer: "Element",
+    options: [
+      "Mixture",
+      "Compound",
+      "Element",
+      "Atom"
+    ]
+  }
 ]

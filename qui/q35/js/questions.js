@@ -12,156 +12,156 @@ let questions = [
   },
   {
     numb: 2,
-    question: "What is the role of functional groups in organic chemistry?",
-    answer: "Responsible for the compound's unique chemical reactions",
+    question: "What are some examples of natural polymers?",
+    answer: "DNA and RNA",
     options: [
-      "Determine the physical properties of the compound",
-      "Responsible for the compound's unique chemical reactions",
-      "Provide structural stability to the compound",
-      "Determine the solubility of the compound"
+      "Polyethylene and polystyrene",
+      "PVC and Teflon",
+      "DNA and RNA",
+      "Bakelite and rayon"
     ]
   },
   {
     numb: 3,
-    question: "How do functional groups influence chemical processes?",
-    answer: "By directing and influencing reactions",
+    question: "Which was the first synthetic plastic developed in 1909?",
+    answer: "Bakelite",
     options: [
-      "Enhance structural stability",
-      "Determine the physical properties",
-      "Direct and influence reactions",
-      "Alter the solubility"
+      "Polyethylene",
+      "PVC",
+      "Bakelite",
+      "Teflon"
     ]
   },
   {
     numb: 4,
-    question: "What is the alpha carbon in a functional group?",
-    answer: "The first carbon atom to bond to the functional group",
+    question: "What is the main difference between thermoplastic and thermoset polymers?",
+    answer: "Thermoplastic polymers can be remelted, while thermoset polymers cannot.",
     options: [
-      "The first carbon atom to bond to the functional group",
-      "The second carbon atom to bond to the functional group",
-      "The central carbon atom in the functional group",
-      "The carbon atom farthest from the functional group"
+      "Thermoplastic polymers can be remelted, while thermoset polymers cannot.",
+      "Thermoplastic polymers cannot be remelted, while thermoset polymers can.",
+      "Thermoplastic polymers have a carbon backbone, while thermoset polymers have a silicon backbone.",
+      "Thermoplastic polymers have high reactivity, while thermoset polymers have low reactivity."
     ]
   },
   {
     numb: 5,
-    question: "Which classification is based on the number of carbon atoms attached to the central carbon in alcohols?",
-    answer: "Primary, secondary, or tertiary",
+    question: "What type of network can a polymer form in a two-dimensional arrangement?",
+    answer: "Two-dimensional network",
     options: [
-      "Organic, inorganic, or hydrocarbon",
-      "Primary, secondary, or tertiary",
-      "Saturated, unsaturated, or aromatic",
-      "Aliphatic, cyclic, or heterocyclic"
+      "Three-dimensional network",
+      "One-dimensional network",
+      "Two-dimensional network",
+      "None of the above"
     ]
   },
   {
     numb: 6,
-    question: "What is the process of adding functional groups to a molecule by chemical synthesis called?",
-    answer: "Functionalization",
+    question: "Which element is connected to the all-carbon backbone of polyvinyl chloride (PVC)?",
+    answer: "Chlorine",
     options: [
-      "Polymerization",
-      "Isomerization",
-      "Substitution",
-      "Functionalization"
+      "Chlorine",
+      "Hydrogen",
+      "Oxygen",
+      "Fluorine"
     ]
   },
   {
     numb: 7,
-    question: "Which functional group is represented by the abbreviation -CO2H?",
-    answer: "Carboxylic acids",
+    question: "Which polymer contains nitrogen atoms in its backbone?",
+    answer: "Nylon",
     options: [
-      "Aldehydes",
-      "Ketones",
-      "Carboxylic acids",
-      "Esters"
+      "Polyethylene",
+      "Polystyrene",
+      "Nylon",
+      "Teflon"
     ]
   },
   {
     numb: 8,
-    question: "Which functional group is represented by the abbreviation -CO2R?",
-    answer: "Esters",
+    question: "What is the most basic description of a polymer?",
+    answer: "Repeating units linked together in a chain",
     options: [
-      "Aldehydes",
-      "Ketones",
-      "Carboxylic acids",
-      "Esters"
+      "Large chains of carbon atoms",
+      "Repeating units linked together in a chain",
+      "Specific atoms bonded in a certain arrangement",
+      "Two-dimensional network of repeating units"
     ]
   },
   {
     numb: 9,
-    question: "Which functional group is represented by the abbreviation NH2?",
-    answer: "Amines",
+    question: "What are some natural polymers found in living organisms?",
+    answer: "Spider silk and hair",
     options: [
-      "Alcohols",
-      "Carboxylic acids",
-      "Amines",
-      "Ethers"
+      "Spider silk and hair",
+      "PVC and cellulose",
+      "Polyethylene and polystyrene",
+      "Bakelite and rayon"
     ]
   },
   {
     numb: 10,
-    question: "Which functional group is represented by the abbreviation -CO?",
-    answer: "Aldehydes",
+    question: "What raw materials have been used to make synthetic rubber and plastics?",
+    answer: "Rubber tree latex and cellulose",
     options: [
-      "Alcohols",
-      "Ketones",
-      "Aldehydes",
-      "Esters"
+      "Spider silk and hair",
+      "PVC and cellulose",
+      "Rubber tree latex and cellulose",
+      "Bakelite and rayon"
     ]
   },
   {
     numb: 11,
-    question: "Which functional group is represented by the abbreviation -OH?",
-    answer: "Alcohols",
+    question: "What is the backbone of polyesters and polycarbonates composed of?",
+    answer: "Oxygen",
     options: [
-      "Alcohols",
-      "Carboxylic acids",
-      "Amines",
-      "Ethers"
+      "Carbon and hydrogen",
+      "Nitrogen",
+      "Oxygen",
+      "Silicon or phosphorous"
     ]
   },
   {
     numb: 12,
-    question: "Which functional group is represented by the abbreviation -NH2?",
-    answer: "Amines",
+    question: "Which polymer cannot be remelted once it is formed?",
+    answer: "Thermoset polymer",
     options: [
-      "Alcohols",
-      "Carboxylic acids",
-      "Amines",
-      "Ethers"
+      "Thermoplastic polymer",
+      "Thermoset polymer",
+      "PVC",
+      "Teflon"
     ]
   },
   {
     numb: 13,
-    question: "Which functional group is represented by the abbreviation -CO2R?",
-    answer: "Esters",
+    question: "When was rayon, the first produced polymeric fiber, developed?",
+    answer: "1910",
     options: [
-      "Aldehydes",
-      "Ketones",
-      "Carboxylic acids",
-      "Esters"
+      "1909",
+      "1910",
+      "1935",
+      "It is a natural polymer"
     ]
   },
   {
     numb: 14,
-    question: "Which functional group is represented by the abbreviation -C≡N?",
-    answer: "Nitriles",
+    question: "What is the primary function of functional groups in organic compounds?",
+    answer: "To give the compound certain properties and reactivity",
     options: [
-      "Alcohols",
-      "Ketones",
-      "Carboxylic acids",
-      "Nitriles"
+      "To provide color to the compound",
+      "To increase the size of the compound",
+      "To give the compound certain properties and reactivity",
+      "To make the compound resistant to heat"
     ]
   },
   {
     numb: 15,
-    question: "Which functional group is represented by the abbreviation -CONH2?",
-    answer: "Amides",
+    question: "Which of the following is an inorganic polymer?",
+    answer: "Silicone",
     options: [
-      "Aldehydes",
-      "Ketones",
-      "Amides",
-      "Esters"
+      "Polyethylene",
+      "PVC",
+      "Nylon",
+      "Silicone"
     ]
   }
 ];

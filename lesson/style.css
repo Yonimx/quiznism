@@ -245,19 +245,17 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin: 0 40 0 20;
       }
 
       .back {
         margin-left: -30px;
       }
 
-      .menu {
-        margin-right: -100px;
-      }
 
       #icon{
-        margin-right: -40px;
-        margin-left: -150px;
+        margin-right: 20px;
+        margin-left: -65px;
       }
 
       .bar {

@@ -263,13 +263,11 @@ footer button.show{
 }
 
 .result_box .icon{
-    font-size: 100px;
-    color: #007bff;
-    margin-bottom: 10px;
+    display: none;
 }
 
 .result_box .complete_text{
-    font-size: 20px;
+    font-size: 50px;
     font-weight: 500;
 }
 
