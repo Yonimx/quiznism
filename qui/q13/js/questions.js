@@ -1,168 +1,167 @@
-// creating an array and passing the number, questions, options, and answers
 let questions = [
   {
     numb: 1,
-    question: "What is the weakest intermolecular force?",
-    answer: "London Dispersion Force",
+    question: "What is the name of the compound CO?",
+    answer: "Carbon monoxide",
     options: [
-      "Kinetic Force",
-      "Hydrogen Bond",
-      "Gravitational Force",
-      "London Dispersion Force"
+      "Carbon dioxide",
+      "Carbon monoxide",
+      "Carbon oxide",
+      "Carbon trioxide"
     ]
   },
-    {
+  {
     numb: 2,
-    question: "It is a model used to explain the behavior of matter",
-    answer: "Kinetic Molecular Theory",
+    question: "What is the name of the compound N2O?",
+    answer: "Dinitrogen monoxide",
     options: [
-      "Coulombs Law",
-      "Kinetic Molecular Theory",
-      "SuperStar",
-      "Kinetic Energy"
+      "Nitrogen oxide",
+      "Dinitrogen monoxide",
+      "Nitrogen dioxide",
+      "Nitrogen trioxide"
     ]
   },
-    {
+  {
     numb: 3,
-    question: "The water acts as a solvent in a solution",
-    answer: "Aqueous Solution",
+    question: "What is the name of the compound PCl5?",
+    answer: "Phosphorus pentachloride",
     options: [
-      "Aqueous Solution",
-      "Non-aqueous Solution",
-      "Crystalline Solids",
-      "Tubig"
+      "Phosphorus chloride",
+      "Phosphorus pentachloride",
+      "Phosphorus trichloride",
+      "Phosphorus tetrachloride"
     ]
   },
-    {
+  {
     numb: 4,
-    question: "Substance that is dissolving",
-    answer: "Solute",
+    question: "What is the name of the compound SF6?",
+    answer: "Sulfur hexafluoride",
     options: [
-      "Solvent",
-      "Saturated Solution",
-      "Solute",
-      "Sinigang Mix"
+      "Sulfur fluoride",
+      "Sulfur hexafluoride",
+      "Sulfur tetrafluoride",
+      "Sulfur octafluoride"
     ]
   },
-    {
+  {
     numb: 5,
-    question: "A solution in which a small amount of solute is mixed in a large amount of solvent",
-    answer: "Dilute Solution",
+    question: "What is the name of the compound H2O?",
+    answer: "Dihydrogen monoxide",
     options: [
-      "Matabang",
-      "Gauss' Law",
-      "Concentrated Solution",
-      "Dilute Solution"
+      "Hydrogen oxide",
+      "Dihydrogen monoxide",
+      "Hydrogen peroxide",
+      "Hydrogen dioxide"
     ]
   },
-    { 
+  {
     numb: 6,
-    question: "It is arranged in three-dimensional order",
-    answer: "Crystalline Solid",
+    question: "What is the name of the compound N2O3?",
+    answer: "Dinitrogen trioxide",
     options: [
-      "Crystalline Solid",
-      "Solution",
-      "Amorphous solid",
-      "Rubic's Cube"
+      "Nitrogen oxide",
+      "Dinitrogen monoxide",
+      "Nitrogen dioxide",
+      "Dinitrogen trioxide"
     ]
   },
-    {
+  {
     numb: 7,
-    question: "What keeps the molecule apart and moving around?",
-    answer: "Kinetic Energy",
+    question: "What is the name of the compound CO2?",
+    answer: "Carbon dioxide",
     options: [
-      "Negative Energy",
-      "Kinetic Energy",
-      "Electtric Energy",
-      "Garter"
+      "Carbon monoxide",
+      "Carbon dioxide",
+      "Carbon oxide",
+      "Carbon trioxide"
     ]
   },
-    { 
+  {
     numb: 8,
-    question: "Free flowing and shapeless",
-    answer: "Liquid",
+    question: "What is the name of the compound P2O5?",
+    answer: "Diphosphorus pentoxide",
     options: [
-      "Solid",
-      "Liquid",
-      "Kadita",
-      "Air Jordan"
+      "Phosphorus oxide",
+      "Phosphorus pentoxide",
+      "Phosphorus trioxide",
+      "Diphosphorus pentoxide"
     ]
   },
-    {
+  {
     numb: 9,
-    question: "It is the pressure of the vapour that is equilibrium to the liquid",
-    answer: "Vapour Pressure",
+    question: "What is the name of the compound N2O4?",
+    answer: "Dinitrogen tetroxide",
     options: [
-      "Intermolecular Forces",
-      "Gas",
-      "Milk Tae",
-      "Vapour Pressure"
+      "Nitrogen oxide",
+      "Dinitrogen monoxide",
+      "Nitrogen dioxide",
+      "Dinitrogen tetroxide"
     ]
   },
-    { 
+  {
     numb: 10,
-    question: "Less solute in beaker than cell then the cell swell",
-    answer: "Hypotonic",
+    question: "What is the name of the compound SO2?",
+    answer: "Sulfur dioxide",
     options: [
-      "Hypotonic",
-      "Sugat",
-      "alcohol",
-      "Nucleus"
+      "Sulfur monoxide",
+      "Sulfur dioxide",
+      "Sulfur oxide",
+      "Sulfur trioxide"
     ]
   },
-    {
+  {
     numb: 11,
-    question: "Which is not true about amorphous solids?",
-    answer: "Anisotrophic",
+    question: "What is the name of the compound H2S?",
+    answer: "Dihydrogen sulfide",
     options: [
-      "IMF are not equal",
-      "Irregular arrangement",
-      "Anisotrophic",
-      "Shapeless"
+      "Hydrogen sulfide",
+      "Dihydrogen sulfide",
+      "Hydrogen oxide",
+      "Hydrogen dioxide"
     ]
   },
-    { 
+  {
     numb: 12,
-    question: "What is a force within a single molecule?",
-    answer: "Intramolecular Forces",
+    question: "What is the name of the compound NO2?",
+    answer: "Nitrogen dioxide",
     options: [
-      "Net Force",
-      "London Bridge Forces",
-      "Intramolecular Forces",
-      "Negative Force"
+      "Nitrogen monoxide",
+      "Nitrogen dioxide",
+      "Nitrogen oxide",
+      "Nitrogen trioxide"
     ]
   },
-    {
+  {
     numb: 13,
-    question: "Strong Intermolecular forces but Low kinetic energy",
-    answer: "Solid",
+    question: "What is the name of the compound Cl2O?",
+    answer: "Dichlorine monoxide",
     options: [
-      "Solid",
-      "Water",
-      "amorphous",
-      "Gas"
+      "Chlorine monoxide",
+      "Dichlorine monoxide",
+      "Chlorine oxide",
+      "Dichlorine oxide"
     ]
   },
-    { 
+  {
     numb: 14,
-    question: "Two or more substance are mixed together to form a solution",
-    answer: "Solution",
+    question: "What is the name of the compound ICl3?",
+    answer: "Iodine trichloride",
     options: [
-      "Experiment",
-      "Goku",
-      "Solute",
-      "Solution"
+      "Iodine chloride",
+      "Iodine trichloride",
+      "Iodine pentachloride",
+      "Iodine tetrachloride"
     ]
   },
-    {
+  {
     numb: 15,
-    question: "What is the substance that dissolves solute?",
-    answer: "Solvent",
+    question: "What is the name of the compound BF3?",
+    answer: "Boron trifluoride",
     options: [
-      "Luffy",
-      "Solvent",
-      "Naruto",
-      "bolpen"
+      "Boron fluoride",
+      "Boron trifluoride",
+      "Boron monofluoride",
+      "Boron tetrafluoride"
     ]
-  },
-]
+  }
+];

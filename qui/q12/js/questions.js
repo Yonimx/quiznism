@@ -1,168 +1,167 @@
-// creating an array and passing the number, questions, options, and answers
 let questions = [
   {
     numb: 1,
-    question: "What is the weakest intermolecular force?",
-    answer: "London Dispersion Force",
+    question: "Binary compounds are made up of how many elements?",
+    answer: "Two",
     options: [
-      "Kinetic Force",
-      "Hydrogen Bond",
-      "Gravitational Force",
-      "London Dispersion Force"
+      "One",
+      "Two",
+      "Three",
+      "Four"
     ]
   },
-    {
+  {
     numb: 2,
-    question: "It is a model used to explain the behavior of matter",
-    answer: "Kinetic Molecular Theory",
+    question: "How are binary compounds named?",
+    answer: "By identifying the elements present and naming the first element followed by the second element with an -ide ending",
     options: [
-      "Coulombs Law",
-      "Kinetic Molecular Theory",
-      "SuperStar",
-      "Kinetic Energy"
+      "By combining the names of the elements",
+      "By identifying the elements present and naming the second element followed by the first element with an -ide ending",
+      "By identifying the elements present and naming the first element followed by the second element with an -ate ending",
+      "By identifying the elements present and naming the second element followed by the first element with an -ate ending"
     ]
   },
-    {
+  {
     numb: 3,
-    question: "The water acts as a solvent in a solution",
-    answer: "Aqueous Solution",
+    question: "What is the name of the compound NaCl?",
+    answer: "Sodium chloride",
     options: [
-      "Aqueous Solution",
-      "Non-aqueous Solution",
-      "Crystalline Solids",
-      "Tubig"
+      "Sodium chloride",
+      "Sodium chlorate",
+      "Sodium carbonite",
+      "Sodium carbonide"
     ]
   },
-    {
+  {
     numb: 4,
-    question: "Substance that is dissolving",
-    answer: "Solute",
+    question: "Compounds containing polyatomic ions are made up of a cation and ________.",
+    answer: "An anion",
     options: [
-      "Solvent",
-      "Saturated Solution",
-      "Solute",
-      "Sinigang Mix"
+      "A metal",
+      "A molecule",
+      "An anion",
+      "A binary compound"
     ]
   },
-    {
+  {
     numb: 5,
-    question: "A solution in which a small amount of solute is mixed in a large amount of solvent",
-    answer: "Dilute Solution",
+    question: "What comes first in the name of a compound containing polyatomic ions?",
+    answer: "The name of the cation",
     options: [
-      "Matabang",
-      "Gauss' Law",
-      "Concentrated Solution",
-      "Dilute Solution"
+      "The name of the anion",
+      "The name of the cation",
+      "The name of the metal",
+      "The name of the binary compound"
     ]
   },
-    { 
+  {
     numb: 6,
-    question: "It is arranged in three-dimensional order",
-    answer: "Crystalline Solid",
+    question: "What are used to indicate the charge of the cation in compounds with polyatomic ions?",
+    answer: "Roman numerals",
     options: [
-      "Crystalline Solid",
-      "Solution",
-      "Amorphous solid",
-      "Rubic's Cube"
+      "Greek letters",
+      "Subscripts",
+      "Periodic table symbols",
+      "Roman numerals"
     ]
   },
-    {
+  {
     numb: 7,
-    question: "What keeps the molecule apart and moving around?",
-    answer: "Kinetic Energy",
+    question: "What is the name of the compound CaCO3?",
+    answer: "Calcium carbonate",
     options: [
-      "Negative Energy",
-      "Kinetic Energy",
-      "Electtric Energy",
-      "Garter"
+      "Carbon calcium",
+      "Calcium carbonate",
+      "Calcium carbide",
+      "Carbonic acid"
     ]
   },
-    { 
+  {
     numb: 8,
-    question: "Free flowing and shapeless",
-    answer: "Liquid",
+    question: "What is the charge of the carbonate polyatomic ion?",
+    answer: "-2",
     options: [
-      "Solid",
-      "Liquid",
-      "Kadita",
-      "Air Jordan"
+      "+2",
+      "-1",
+      "-2",
+      "+3"
     ]
   },
-    {
+  {
     numb: 9,
-    question: "It is the pressure of the vapour that is equilibrium to the liquid",
-    answer: "Vapour Pressure",
+    question: "How is FeCl2 named?",
+    answer: "Iron(II) chloride",
     options: [
-      "Intermolecular Forces",
-      "Gas",
-      "Milk Tae",
-      "Vapour Pressure"
+      "Iron chloride",
+      "Ferric chloride",
+      "Iron(II) chloride",
+      "Iron dichloride"
     ]
   },
-    { 
+  {
     numb: 10,
-    question: "Less solute in beaker than cell then the cell swell",
-    answer: "Hypotonic",
+    question: "How is FeCl3 named?",
+    answer: "Iron(III) chloride",
     options: [
-      "Hypotonic",
-      "Sugat",
-      "alcohol",
-      "Nucleus"
+      "Iron chloride",
+      "Ferric chloride",
+      "Iron(III) chloride",
+      "Iron trichloride"
     ]
   },
-    {
+  {
     numb: 11,
-    question: "Which is not true about amorphous solids?",
-    answer: "Anisotrophic",
+    question: "What is the name of the compound NH4NO3?",
+    answer: "Ammonium nitrate",
     options: [
-      "IMF are not equal",
-      "Irregular arrangement",
-      "Anisotrophic",
-      "Shapeless"
+      "Ammonium nitride",
+      "Ammonium nitrate",
+      "Ammonia nitrate",
+      "Ammonia nitride"
     ]
   },
-    { 
+  {
     numb: 12,
-    question: "What is a force within a single molecule?",
-    answer: "Intramolecular Forces",
+    question: "What is the charge of the nitrate polyatomic ion?",
+    answer: "-1",
     options: [
-      "Net Force",
-      "London Bridge Forces",
-      "Intramolecular Forces",
-      "Negative Force"
+      "+1",
+      "-1",
+      "+2",
+      "-2"
     ]
   },
-    {
+  {
     numb: 13,
-    question: "Strong Intermolecular forces but Low kinetic energy",
-    answer: "Solid",
+    question: "What is the name of the compound KOH?",
+    answer: "Potassium hydroxide",
     options: [
-      "Solid",
-      "Water",
-      "amorphous",
-      "Gas"
+      "Potassium oxide",
+      "Potassium hydroxide",
+      "Potassium peroxide",
+      "Potassium hydrogen oxide"
     ]
   },
-    { 
+  {
     numb: 14,
-    question: "Two or more substance are mixed together to form a solution",
-    answer: "Solution",
+    question: "What is the charge of the hydroxide polyatomic ion?",
+    answer: "-1",
     options: [
-      "Experiment",
-      "Goku",
-      "Solute",
-      "Solution"
+      "+1",
+      "-1",
+      "+2",
+      "-2"
     ]
   },
-    {
+  {
     numb: 15,
-    question: "What is the substance that dissolves solute?",
-    answer: "Solvent",
+    question: "What is the name of the compound SO4 2-?",
+    answer: "Sulfate",
     options: [
-      "Luffy",
-      "Solvent",
-      "Naruto",
-      "bolpen"
+      "Sulfide",
+      "Sulfite",
+      "Sulfate",
+      "Sulfur oxide"
     ]
-  },
-]
+  }
+];

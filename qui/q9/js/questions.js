@@ -1,168 +1,167 @@
-// creating an array and passing the number, questions, options, and answers
 let questions = [
   {
     numb: 1,
-    question: "What is the weakest intermolecular force?",
-    answer: "London Dispersion Force",
+    question: "Who proposed Dalton's Atomic Theory?",
+    answer: "John Dalton",
     options: [
-      "Kinetic Force",
-      "Hydrogen Bond",
-      "Gravitational Force",
-      "London Dispersion Force"
+      "Isaac Newton",
+      "Albert Einstein",
+      "Marie Curie",
+      "John Dalton"
     ]
   },
-    {
+  {
     numb: 2,
-    question: "It is a model used to explain the behavior of matter",
-    answer: "Kinetic Molecular Theory",
+    question: "According to Dalton's Atomic Theory, elements are made up of tiny particles called ________.",
+    answer: "Atoms",
     options: [
-      "Coulombs Law",
-      "Kinetic Molecular Theory",
-      "SuperStar",
-      "Kinetic Energy"
+      "Molecules",
+      "Particles",
+      "Compounds",
+      "Atoms"
     ]
   },
-    {
+  {
     numb: 3,
-    question: "The water acts as a solvent in a solution",
-    answer: "Aqueous Solution",
+    question: "According to Dalton, all atoms of a given element are identical in ________ and properties.",
+    answer: "Mass",
     options: [
-      "Aqueous Solution",
-      "Non-aqueous Solution",
-      "Crystalline Solids",
-      "Tubig"
+      "Size",
+      "Charge",
+      "Shape",
+      "Mass"
     ]
   },
-    {
+  {
     numb: 4,
-    question: "Substance that is dissolving",
-    answer: "Solute",
+    question: "Atoms of different elements have different ________ and properties.",
+    answer: "Properties",
     options: [
-      "Solvent",
-      "Saturated Solution",
-      "Solute",
-      "Sinigang Mix"
+      "Shapes",
+      "Sizes",
+      "Masses",
+      "Properties"
     ]
   },
-    {
+  {
     numb: 5,
-    question: "A solution in which a small amount of solute is mixed in a large amount of solvent",
-    answer: "Dilute Solution",
+    question: "According to Dalton's Atomic Theory, atoms combine in ________ ratios to form compounds.",
+    answer: "Whole-number",
     options: [
-      "Matabang",
-      "Gauss' Law",
-      "Concentrated Solution",
-      "Dilute Solution"
+      "Fractional",
+      "Complex",
+      "Decimal",
+      "Whole-number"
     ]
   },
-    { 
+  {
     numb: 6,
-    question: "It is arranged in three-dimensional order",
-    answer: "Crystalline Solid",
+    question: "According to Dalton, atoms are not created or destroyed during ________ reactions.",
+    answer: "Chemical",
     options: [
-      "Crystalline Solid",
-      "Solution",
-      "Amorphous solid",
-      "Rubic's Cube"
+      "Physical",
+      "Biological",
+      "Nuclear",
+      "Chemical"
     ]
   },
-    {
+  {
     numb: 7,
-    question: "What keeps the molecule apart and moving around?",
-    answer: "Kinetic Energy",
+    question: "Dalton's Atomic Theory is significant in the development of modern ________ theory.",
+    answer: "Atomic",
     options: [
-      "Negative Energy",
-      "Kinetic Energy",
-      "Electtric Energy",
-      "Garter"
+      "Quantum",
+      "Relativity",
+      "Chemical",
+      "Atomic"
     ]
   },
-    { 
+  {
     numb: 8,
-    question: "Free flowing and shapeless",
-    answer: "Liquid",
+    question: "Dalton's Atomic Theory provides a foundation for understanding the nature of ________.",
+    answer: "Matter",
     options: [
-      "Solid",
-      "Liquid",
-      "Kadita",
-      "Air Jordan"
+      "Energy",
+      "Light",
+      "Electricity",
+      "Matter"
     ]
   },
-    {
+  {
     numb: 9,
-    question: "It is the pressure of the vapour that is equilibrium to the liquid",
-    answer: "Vapour Pressure",
+    question: "Dalton's Atomic Theory allows scientists to predict the properties of elements and ________.",
+    answer: "Compounds",
     options: [
-      "Intermolecular Forces",
-      "Gas",
-      "Milk Tae",
-      "Vapour Pressure"
+      "Atoms",
+      "Molecules",
+      "Mixtures",
+      "Compounds"
     ]
   },
-    { 
+  {
     numb: 10,
-    question: "Less solute in beaker than cell then the cell swell",
-    answer: "Hypotonic",
+    question: "Understanding Dalton's Atomic Theory is crucial in the study of ________.",
+    answer: "Chemistry",
     options: [
-      "Hypotonic",
-      "Sugat",
-      "alcohol",
-      "Nucleus"
+      "Physics",
+      "Biology",
+      "Geology",
+      "Chemistry"
     ]
   },
-    {
+  {
     numb: 11,
-    question: "Which is not true about amorphous solids?",
-    answer: "Anisotrophic",
+    question: "Dalton's Atomic Theory explains how atoms interact with each other and how they form ________.",
+    answer: "Compounds",
     options: [
-      "IMF are not equal",
-      "Irregular arrangement",
-      "Anisotrophic",
-      "Shapeless"
+      "Elements",
+      "Particles",
+      "Molecules",
+      "Compounds"
     ]
   },
-    { 
+  {
     numb: 12,
-    question: "What is a force within a single molecule?",
-    answer: "Intramolecular Forces",
+    question: "According to Dalton's Atomic Theory, atoms cannot be ________, destroyed, or divided into smaller particles.",
+    answer: "Created",
     options: [
-      "Net Force",
-      "London Bridge Forces",
-      "Intramolecular Forces",
-      "Negative Force"
+      "Transformed",
+      "Altered",
+      "Created",
+      "Combined"
     ]
   },
-    {
+  {
     numb: 13,
-    question: "Strong Intermolecular forces but Low kinetic energy",
-    answer: "Solid",
+    question: "Dalton's Atomic Theory postulates that atoms combine in ________ ratios to form compounds.",
+    answer: "Whole-number",
     options: [
-      "Solid",
-      "Water",
-      "amorphous",
-      "Gas"
+      "Fractional",
+      "Decimal",
+      "Complex",
+      "Whole-number"
     ]
   },
-    { 
+  {
     numb: 14,
-    question: "Two or more substance are mixed together to form a solution",
-    answer: "Solution",
+    question: "According to Dalton, chemical reactions involve the rearrangement of ________.",
+    answer: "Atoms",
     options: [
-      "Experiment",
-      "Goku",
-      "Solute",
-      "Solution"
+      "Molecules",
+      "Particles",
+      "Compounds",
+      "Atoms"
     ]
   },
-    {
+  {
     numb: 15,
-    question: "What is the substance that dissolves solute?",
-    answer: "Solvent",
+    question: "Dalton's Atomic Theory allows scientists to predict the properties of elements and ________.",
+    answer: "Compounds",
     options: [
-      "Luffy",
-      "Solvent",
-      "Naruto",
-      "bolpen"
+      "Atoms",
+      "Molecules",
+      "Mixtures",
+      "Compounds"
     ]
-  },
-]
+  }
+];

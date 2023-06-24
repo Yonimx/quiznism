@@ -1,168 +1,167 @@
-// creating an array and passing the number, questions, options, and answers
 let questions = [
   {
     numb: 1,
-    question: "What is the weakest intermolecular force?",
-    answer: "London Dispersion Force",
+    question: "Acids are compounds that produce ________ ions when dissolved in water.",
+    answer: "Hydrogen",
     options: [
-      "Kinetic Force",
-      "Hydrogen Bond",
-      "Gravitational Force",
-      "London Dispersion Force"
+      "Hydroxide",
+      "Oxygen",
+      "Carbonate",
+      "Hydrogen"
     ]
   },
-    {
+  {
     numb: 2,
-    question: "It is a model used to explain the behavior of matter",
-    answer: "Kinetic Molecular Theory",
+    question: "Which prefix is used for naming an acid when the anion ends in -ide?",
+    answer: "Hydro-",
     options: [
-      "Coulombs Law",
-      "Kinetic Molecular Theory",
-      "SuperStar",
-      "Kinetic Energy"
+      "Peri-",
+      "Mono-",
+      "Hydro-",
+      "Penta-"
     ]
   },
-    {
+  {
     numb: 3,
-    question: "The water acts as a solvent in a solution",
-    answer: "Aqueous Solution",
+    question: "HCl produces ________ ions and is named hydrochloric acid.",
+    answer: "Chloride",
     options: [
-      "Aqueous Solution",
-      "Non-aqueous Solution",
-      "Crystalline Solids",
-      "Tubig"
+      "Hydroxide",
+      "Oxide",
+      "Chloride",
+      "Nitrate"
     ]
   },
-    {
+  {
     numb: 4,
-    question: "Substance that is dissolving",
-    answer: "Solute",
+    question: "What is the name of HNO3, which produces nitrate ions?",
+    answer: "Nitric acid",
     options: [
-      "Solvent",
-      "Saturated Solution",
-      "Solute",
-      "Sinigang Mix"
+      "Hydrobromic acid",
+      "Carbonic acid",
+      "Nitric acid",
+      "Sulfurous acid"
     ]
   },
-    {
+  {
     numb: 5,
-    question: "A solution in which a small amount of solute is mixed in a large amount of solvent",
-    answer: "Dilute Solution",
+    question: "Bases produce ________ ions when dissolved in water.",
+    answer: "Hydroxide",
     options: [
-      "Matabang",
-      "Gauss' Law",
-      "Concentrated Solution",
-      "Dilute Solution"
+      "Hydrogen",
+      "Oxygen",
+      "Carbonate",
+      "Hydroxide"
     ]
   },
-    { 
+  {
     numb: 6,
-    question: "It is arranged in three-dimensional order",
-    answer: "Crystalline Solid",
+    question: "How is NaOH named?",
+    answer: "Sodium hydroxide",
     options: [
-      "Crystalline Solid",
-      "Solution",
-      "Amorphous solid",
-      "Rubic's Cube"
+      "Nitrous acid",
+      "Calcium hydroxide",
+      "Sodium hydroxide",
+      "Magnesium hydroxide"
     ]
   },
-    {
+  {
     numb: 7,
-    question: "What keeps the molecule apart and moving around?",
-    answer: "Kinetic Energy",
+    question: "Which ion is represented by the formula CO32-?",
+    answer: "Carbonate",
     options: [
-      "Negative Energy",
-      "Kinetic Energy",
-      "Electtric Energy",
-      "Garter"
+      "Nitrate",
+      "Chlorite",
+      "Carbonate",
+      "Sulfate"
     ]
   },
-    { 
+  {
     numb: 8,
-    question: "Free flowing and shapeless",
-    answer: "Liquid",
+    question: "What is the chemical formula for the hydroxide ion?",
+    answer: "OH-",
     options: [
-      "Solid",
-      "Liquid",
-      "Kadita",
-      "Air Jordan"
+      "Cl-",
+      "SO42-",
+      "CO32-",
+      "OH-"
     ]
   },
-    {
+  {
     numb: 9,
-    question: "It is the pressure of the vapour that is equilibrium to the liquid",
-    answer: "Vapour Pressure",
+    question: "Which ion is represented by the formula NO3-?",
+    answer: "Nitrate",
     options: [
-      "Intermolecular Forces",
-      "Gas",
-      "Milk Tae",
-      "Vapour Pressure"
+      "Phosphate",
+      "Sulfite",
+      "Nitrite",
+      "Nitrate"
     ]
   },
-    { 
+  {
     numb: 10,
-    question: "Less solute in beaker than cell then the cell swell",
-    answer: "Hypotonic",
+    question: "What is the name of MnO4-?",
+    answer: "Permanganate",
     options: [
-      "Hypotonic",
-      "Sugat",
-      "alcohol",
-      "Nucleus"
+      "Chlorate",
+      "Chlorite",
+      "Permanganate",
+      "Phosphate"
     ]
   },
-    {
+  {
     numb: 11,
-    question: "Which is not true about amorphous solids?",
-    answer: "Anisotrophic",
+    question: "Which ion is represented by the formula PO43-?",
+    answer: "Phosphate",
     options: [
-      "IMF are not equal",
-      "Irregular arrangement",
-      "Anisotrophic",
-      "Shapeless"
+      "Sulfate",
+      "Carbonate",
+      "Nitrate",
+      "Phosphate"
     ]
   },
-    { 
+  {
     numb: 12,
-    question: "What is a force within a single molecule?",
-    answer: "Intramolecular Forces",
+    question: "What is the name of SO42-?",
+    answer: "Sulfate",
     options: [
-      "Net Force",
-      "London Bridge Forces",
-      "Intramolecular Forces",
-      "Negative Force"
+      "Sulfite",
+      "Nitrite",
+      "Sulfate",
+      "Carbonate"
     ]
   },
-    {
+  {
     numb: 13,
-    question: "Strong Intermolecular forces but Low kinetic energy",
-    answer: "Solid",
+    question: "What is the name of ClO2-?",
+    answer: "Chlorite",
     options: [
-      "Solid",
-      "Water",
-      "amorphous",
-      "Gas"
+      "Chlorate",
+      "Nitrate",
+      "Permanganate",
+      "Chlorite"
     ]
   },
-    { 
+  {
     numb: 14,
-    question: "Two or more substance are mixed together to form a solution",
-    answer: "Solution",
+    question: "Which ion is represented by the formula HCO3-?",
+    answer: "Hydrogen Carbonate (bicarbonate)",
     options: [
-      "Experiment",
-      "Goku",
-      "Solute",
-      "Solution"
+      "Chlorate",
+      "Hydroxide",
+      "Nitrite",
+      "Hydrogen Carbonate (bicarbonate)"
     ]
   },
-    {
+  {
     numb: 15,
-    question: "What is the substance that dissolves solute?",
-    answer: "Solvent",
+    question: "What is the name of ClO3-?",
+    answer: "Chlorate",
     options: [
-      "Luffy",
-      "Solvent",
-      "Naruto",
-      "bolpen"
+      "Chlorite",
+      "Chlorate",
+      "Sulfate",
+      "Phosphate"
     ]
-  },
-]
+  }
+];

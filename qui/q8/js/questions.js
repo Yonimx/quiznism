@@ -1,168 +1,168 @@
-// creating an array and passing the number, questions, options, and answers
 let questions = [
   {
     numb: 1,
-    question: "What is the weakest intermolecular force?",
-    answer: "London Dispersion Force",
+    question: "What is an exact number?",
+    answer: "A number with an infinite range of significant values",
     options: [
-      "Kinetic Force",
-      "Hydrogen Bond",
-      "Gravitational Force",
-      "London Dispersion Force"
+      "A number with no significant digits",
+      "A number with a limited range of significant values",
+      "A number with an infinite range of significant values",
+      "A number that cannot be determined"
     ]
   },
-    {
+  {
     numb: 2,
-    question: "It is a model used to explain the behavior of matter",
-    answer: "Kinetic Molecular Theory",
+    question: "Which of the following numbers is an example of an exact number?",
+    answer: "1.000000000000000",
     options: [
-      "Coulombs Law",
-      "Kinetic Molecular Theory",
-      "SuperStar",
-      "Kinetic Energy"
+      "0.0025",
+      "23.3",
+      "3033",
+      "1.000000000000000"
     ]
   },
-    {
+  {
     numb: 3,
-    question: "The water acts as a solvent in a solution",
-    answer: "Aqueous Solution",
+    question: "Which rule states that all non-zero numbers are significant?",
+    answer: "Rule 1",
     options: [
-      "Aqueous Solution",
-      "Non-aqueous Solution",
-      "Crystalline Solids",
-      "Tubig"
+      "Rule 1",
+      "Rule 2",
+      "Rule 3",
+      "Rule 4"
     ]
   },
-    {
+  {
     numb: 4,
-    question: "Substance that is dissolving",
-    answer: "Solute",
+    question: "In the number 3033, how many significant figures are there?",
+    answer: "4",
     options: [
-      "Solvent",
-      "Saturated Solution",
-      "Solute",
-      "Sinigang Mix"
+      "2",
+      "3",
+      "4",
+      "5"
     ]
   },
-    {
+  {
     numb: 5,
-    question: "A solution in which a small amount of solute is mixed in a large amount of solvent",
-    answer: "Dilute Solution",
+    question: "Which type of zeros are not significant?",
+    answer: "Leading zeros",
     options: [
-      "Matabang",
-      "Gauss' Law",
-      "Concentrated Solution",
-      "Dilute Solution"
+      "Trailing zeros",
+      "Leading zeros",
+      "All zeros are significant",
+      "Zeros between two non-zero digits"
     ]
   },
-    { 
+  {
     numb: 6,
-    question: "It is arranged in three-dimensional order",
-    answer: "Crystalline Solid",
+    question: "In the number 0.004500, how many significant figures are there?",
+    answer: "3",
     options: [
-      "Crystalline Solid",
-      "Solution",
-      "Amorphous solid",
-      "Rubic's Cube"
+      "1",
+      "2",
+      "3",
+      "4"
     ]
   },
-    {
+  {
     numb: 7,
-    question: "What keeps the molecule apart and moving around?",
-    answer: "Kinetic Energy",
+    question: "What should be done with trailing zeros in a decimal number when considering significant figures?",
+    answer: "They are significant",
     options: [
-      "Negative Energy",
-      "Kinetic Energy",
-      "Electtric Energy",
-      "Garter"
-    ]
-  },
-    { 
-    numb: 8,
-    question: "Free flowing and shapeless",
-    answer: "Liquid",
-    options: [
-      "Solid",
-      "Liquid",
-      "Kadita",
-      "Air Jordan"
+      "They are not significant",
+      "They are significant",
+      "They are significant only if they are after a non-zero digit",
+      "They are significant only if they are before a non-zero digit"
     ]
   },
     {
-    numb: 9,
-    question: "It is the pressure of the vapour that is equilibrium to the liquid",
-    answer: "Vapour Pressure",
-    options: [
-      "Intermolecular Forces",
-      "Gas",
-      "Milk Tae",
-      "Vapour Pressure"
-    ]
-  },
-    { 
+      numb: 8,
+      question: "When adding or subtracting numbers, what should be done?",
+      answer: "Add or subtract the numbers directly",
+      options: [
+        "Multiply the numbers",
+        "Divide the numbers",
+        "Add or subtract the numbers directly",
+        "Round off the numbers"
+      ]
+    },
+    {
+      numb: 9,
+      question: "What is the rule for determining the number of significant figures in a whole number?",
+      answer: "All non-zero digits are significant",
+      options: [
+        "All leading zeros are significant",
+        "All trailing zeros are significant",
+        "All non-zero digits are significant",
+        "All zeros are significant"
+      ]
+    },
+  
+  {
     numb: 10,
-    question: "Less solute in beaker than cell then the cell swell",
-    answer: "Hypotonic",
+    question: "In the calculation 41.45 x 101.25, how many significant figures should the answer have?",
+    answer: "4",
     options: [
-      "Hypotonic",
-      "Sugat",
-      "alcohol",
-      "Nucleus"
+      "2",
+      "3",
+      "4",
+      "5"
     ]
   },
-    {
+  {
     numb: 11,
-    question: "Which is not true about amorphous solids?",
-    answer: "Anisotrophic",
+    question: "Which digit is dropped when rounding off the answer 4,196.8125 to 4 significant figures?",
+    answer: "8",
     options: [
-      "IMF are not equal",
-      "Irregular arrangement",
-      "Anisotrophic",
-      "Shapeless"
+      "1",
+      "2",
+      "6",
+      "8"
     ]
   },
-    { 
+  {
     numb: 12,
-    question: "What is a force within a single molecule?",
-    answer: "Intramolecular Forces",
+    question: "What is the result of rounding off the answer 4,196.8125 to 4 significant figures?",
+    answer: "4,197",
     options: [
-      "Net Force",
-      "London Bridge Forces",
-      "Intramolecular Forces",
-      "Negative Force"
+      "4,195",
+      "4,196",
+      "4,196.8",
+      "4,197"
     ]
   },
-    {
+  {
     numb: 13,
-    question: "Strong Intermolecular forces but Low kinetic energy",
-    answer: "Solid",
+    question: "In the number 41.45, how many significant figures are there?",
+    answer: "4",
     options: [
-      "Solid",
-      "Water",
-      "amorphous",
-      "Gas"
+      "2",
+      "3",
+      "4",
+      "5"
     ]
   },
-    { 
+  {
     numb: 14,
-    question: "Two or more substance are mixed together to form a solution",
-    answer: "Solution",
+    question: "What is the result of 5365.999 - 234.66706, rounded off to the correct number of decimal places?",
+    answer: "5131.332",
     options: [
-      "Experiment",
-      "Goku",
-      "Solute",
-      "Solution"
+      "5131.331",
+      "5131.332",
+      "5131.333",
+      "5131.334"
     ]
   },
-    {
+  {
     numb: 15,
-    question: "What is the substance that dissolves solute?",
-    answer: "Solvent",
+    question: "What should be done with the first dropped digit when rounding off an answer?",
+    answer: "Round up the last remaining digit",
     options: [
-      "Luffy",
-      "Solvent",
-      "Naruto",
-      "bolpen"
+      "Round down the last remaining digit",
+      "Replace the last remaining digit with zero",
+      "Leave the last remaining digit as it is",
+      "Round up the last remaining digit"
     ]
-  },
-]
+  }
+];

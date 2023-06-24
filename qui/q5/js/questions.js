@@ -1,168 +1,167 @@
-// creating an array and passing the number, questions, options, and answers
 let questions = [
   {
     numb: 1,
-    question: "What is the weakest intermolecular force?",
-    answer: "London Dispersion Force",
+    question: "A pure substance is made up of only one type of ________.",
+    answer: "Matter",
     options: [
-      "Kinetic Force",
-      "Hydrogen Bond",
-      "Gravitational Force",
-      "London Dispersion Force"
+      "Element",
+      "Compound",
+      "Particle",
+      "Matter"
     ]
   },
-    {
+  {
     numb: 2,
-    question: "Can be thought of as being uniform and continuous.",
-    answer: "Homogeneous Matter",
+    question: "Pure substances are further divided into single-element and ________ categories.",
+    answer: "Compound",
     options: [
-      "Coulombs Law",
-      "Kinetic Molecular Theory",
-      "Homogeneous Matter",
-      "Kinetic Energy"
-    ]
-  },
-    {
-    numb: 3,
-    question: "It means DIFFERENT in English",
-    answer: "Hetero",
-    options: [
-      "Homogeneous Matter",
-      "Hetero",
-      "Crystalline Solids",
-      "Homo"
-    ]
-  },
-    {
-    numb: 4,
-    question: "It means SAME in English",
-    answer: "Homo",
-    options: [
-      "Homo",
-      "Saturated Solution",
-      "Hetero",
-      "Sinigang Mix"
-    ]
-  },
-    {
-    numb: 5,
-    question: "Implies non-uniformity and discontinuity",
-    answer: "Heterogeneous Matter",
-    options: [
-      "Heterogeneous Matter",
-      "Gauss' Law",
-      "Homogeneous Matter",
-      "apple"
-    ]
-  },
-    { 
-    numb: 6,
-    question: "Usually refers to a sample of matter that has a distinct set of properties  that are common to all other samples of that substance.",
-    answer: "Pure substance",
-    options: [
-      "Homogeneous Matter",
-      "Pure substance",
-      "Substances",
-      "Rubic's Cube"
-    ]
-  },
-    {
-    numb: 7,
-    question: "Compost of two or more substances",
-    answer: "Mixture",
-    options: [
-      "Solute",
-      "Kinetic Energy",
-      "Pure substance",
-      "Mixture"
-    ]
-  },
-    { 
-    numb: 8,
-    question: "It is a region of matter that possesses uniform intensive properties throughout its volume.",
-    answer: "Phase",
-    options: [
-      "Solid",
-      "Liquid",
-      "Kadita",
+      "Homogeneous",
+      "Heterogeneous",
+      "Compound",
       "Phase"
     ]
   },
-    {
-    numb: 9,
-    question: "A thin region in which the intensive properties change discontinuity, separates each phase in a multiphase system from its neighbors.",
-    answer: "Phase Boundary",
+  {
+    numb: 3,
+    question: "A homogeneous mixture is also known as a ________.",
+    answer: "Solution",
     options: [
-      "Intermolecular Forces",
-      "Gas",
-      "Phase Boundary",
+      "Compound",
+      "Heterogeneous mixture",
+      "Solution",
+      "Phase boundary"
+    ]
+  },
+  {
+    numb: 4,
+    question: "In a homogeneous mixture, the components are ________ distributed throughout the mixture.",
+    answer: "Uniformly",
+    options: [
+      "Randomly",
+      "Separately",
+      "Uniformly",
+      "Sparsely"
+    ]
+  },
+  {
+    numb: 5,
+    question: "Which type of mixture cannot be separated out physically?",
+    answer: "Homogeneous mixture",
+    options: [
+      "Heterogeneous mixture",
+      "Compound",
+      "Pure substance",
+      "Homogeneous mixture"
+    ]
+  },
+  {
+    numb: 6,
+    question: "A heterogeneous mixture has a composition that is ________.",
+    answer: "Not uniform",
+    options: [
+      "Uniform",
+      "Homogeneous",
+      "Not uniform",
+      "Pure"
+    ]
+  },
+  {
+    numb: 7,
+    question: "In a heterogeneous mixture, the components are ________.",
+    answer: "Physically separate",
+    options: [
+      "Chemically combined",
+      "Uniformly distributed",
+      "Physically separate",
+      "Indistinguishable"
+    ]
+  },
+  {
+    numb: 8,
+    question: "Which type of mixture can you see the individual components clearly?",
+    answer: "Heterogeneous mixture",
+    options: [
+      "Compound",
+      "Homogeneous mixture",
+      "Pure substance",
+      "Heterogeneous mixture"
+    ]
+  },
+  {
+    numb: 9,
+    question: "A phase boundary separates each phase in a multiphase system from its ________.",
+    answer: "Neighbors",
+    options: [
+      "Elements",
+      "Compounds",
+      "Particles",
+      "Neighbors"
+    ]
+  },
+  {
+    numb: 10,
+    question: "A homogeneous mixture is also referred to as a ________ mixture.",
+    answer: "Single-phase",
+    options: [
+      "Multi-phase",
+      "Heterogeneous",
+      "Single-phase",
+      "Pure"
+    ]
+  },
+  {
+    numb: 11,
+    question: "Which type of mixture has a composition that is uniform throughout?",
+    answer: "Homogeneous mixture",
+    options: [
+      "Heterogeneous mixture",
+      "Compound",
+      "Pure substance",
+      "Homogeneous mixture"
+    ]
+  },
+  {
+    numb: 12,
+    question: "Which type of mixture forms when two or more substances mix together without participating in a chemical change?",
+    answer: "Mixture",
+    options: [
+      "Element",
+      "Compound",
+      "Phase boundary",
       "Mixture"
     ]
   },
-    { 
-    numb: 10,
-    question: "It is an example of heterogeneous mixture",
-    answer: "All of the above",
-    options: [
-      "Concrete",
-      "Salad",
-      "Peanut butter",
-      "All of the above"
-    ]
-  },
-    {
-    numb: 11,
-    question: "It is an example of heterogeneous pure substance.",
-    answer: "Ice floating on water.",
-    options: [
-      "Ice floating on water.",
-      "juice",
-      "salt water",
-      "sugar and water"
-    ]
-  },
-    { 
-    numb: 12,
-    question: "It is an example of homogeneous mixture",
-    answer: "Salt water",
-    options: [
-      "Salt water",
-      "Concrete",
-      "Salad",
-      "Negative Force"
-    ]
-  },
-    {
+  {
     numb: 13,
-    question: "Uniform intensive properties throughout single phase only.",
-    answer: "Homogeneous",
+    question: "An example of a homogeneous mixture is alcohol and ________.",
+    answer: "Water",
     options: [
-      "Substance",
-      "Electromagnetism",
-      "Homogeneous",
-      "Heterogeneous"
+      "Oil",
+      "Sand",
+      "Salt",
+      "Water"
     ]
   },
-    { 
+  {
     numb: 14,
-    question: "An example of a single phase",
-    answer: "A grain of sand",
+    question: "An example of a heterogeneous mixture is water and ________.",
+    answer: "Stones",
     options: [
-      "water",
-      "A grain of sand",
-      "Solute",
-      "Solution"
+      "Sugar",
+      "Air",
+      "Salt",
+      "Stones"
     ]
   },
-    {
+  {
     numb: 15,
-    question: "What is the substance that dissolves solute?",
-    answer: "Solvent",
+    question: "In which type of mixture can the individual components be physically separated out?",
+    answer: "Heterogeneous mixture",
     options: [
-      "Luffy",
-      "Solvent",
-      "Naruto",
-      "bolpen"
+      "Homogeneous mixture",
+      "Compound",
+      "Pure substance",
+      "Heterogeneous mixture"
     ]
-  },
-]
+  }
+];

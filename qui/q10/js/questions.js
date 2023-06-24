@@ -1,168 +1,167 @@
-// creating an array and passing the number, questions, options, and answers
 let questions = [
   {
     numb: 1,
-    question: "What is the weakest intermolecular force?",
-    answer: "London Dispersion Force",
+    question: "Atomic Structure deals with the composition and behavior of atomic particles such as ________.",
+    answer: "Protons, neutrons, and electrons",
     options: [
-      "Kinetic Force",
-      "Hydrogen Bond",
-      "Gravitational Force",
-      "London Dispersion Force"
+      "Protons, electrons, and photons",
+      "Protons, neutrons, and electrons",
+      "Protons, neutrons, and positrons",
+      "Protons, electrons, and neutrinos"
     ]
   },
-    {
+  {
     numb: 2,
-    question: "It is a model used to explain the behavior of matter",
-    answer: "Kinetic Molecular Theory",
+    question: "Dalton's Atomic Theory consists of ________ postulates.",
+    answer: "Five",
     options: [
-      "Coulombs Law",
-      "Kinetic Molecular Theory",
-      "SuperStar",
-      "Kinetic Energy"
+      "Two",
+      "Three",
+      "Four",
+      "Five"
     ]
   },
-    {
+  {
     numb: 3,
-    question: "The water acts as a solvent in a solution",
-    answer: "Aqueous Solution",
+    question: "According to Dalton's Atomic Theory, all matter is made up of ________.",
+    answer: "Atoms",
     options: [
-      "Aqueous Solution",
-      "Non-aqueous Solution",
-      "Crystalline Solids",
-      "Tubig"
+      "Elements",
+      "Particles",
+      "Molecules",
+      "Atoms"
     ]
   },
-    {
+  {
     numb: 4,
-    question: "Substance that is dissolving",
-    answer: "Solute",
+    question: "According to Dalton's Atomic Theory, atoms of the same element have ________ properties.",
+    answer: "Identical",
     options: [
-      "Solvent",
-      "Saturated Solution",
-      "Solute",
-      "Sinigang Mix"
+      "Similar",
+      "Different",
+      "Variable",
+      "Identical"
     ]
   },
-    {
+  {
     numb: 5,
-    question: "A solution in which a small amount of solute is mixed in a large amount of solvent",
-    answer: "Dilute Solution",
+    question: "Atoms of different elements have ________ properties, according to Dalton's Atomic Theory.",
+    answer: "Different",
     options: [
-      "Matabang",
-      "Gauss' Law",
-      "Concentrated Solution",
-      "Dilute Solution"
+      "Similar",
+      "Identical",
+      "Variable",
+      "Different"
     ]
   },
-    { 
+  {
     numb: 6,
-    question: "It is arranged in three-dimensional order",
-    answer: "Crystalline Solid",
+    question: "Dalton's Atomic Theory states that atoms combine in ________ ratios to form compounds.",
+    answer: "Whole-number",
     options: [
-      "Crystalline Solid",
-      "Solution",
-      "Amorphous solid",
-      "Rubic's Cube"
+      "Fractional",
+      "Arbitrary",
+      "Complex",
+      "Whole-number"
     ]
   },
-    {
+  {
     numb: 7,
-    question: "What keeps the molecule apart and moving around?",
-    answer: "Kinetic Energy",
+    question: "According to Dalton's Atomic Theory, in chemical reactions, atoms ________.",
+    answer: "Rearrange",
     options: [
-      "Negative Energy",
-      "Kinetic Energy",
-      "Electtric Energy",
-      "Garter"
+      "Disappear",
+      "Combine",
+      "Multiply",
+      "Rearrange"
     ]
   },
-    { 
+  {
     numb: 8,
-    question: "Free flowing and shapeless",
-    answer: "Liquid",
+    question: "Dalton's Atomic Theory proposed that atoms are ________ and ________.",
+    answer: "Indivisible, indestructible",
     options: [
-      "Solid",
-      "Liquid",
-      "Kadita",
-      "Air Jordan"
+      "Compressible, changeable",
+      "Mutable, divisible",
+      "Indivisible, indestructible",
+      "Expansible, volatile"
     ]
   },
-    {
+  {
     numb: 9,
-    question: "It is the pressure of the vapour that is equilibrium to the liquid",
-    answer: "Vapour Pressure",
+    question: "Dalton's Atomic Theory provided a framework for understanding the behavior of ________.",
+    answer: "Atoms",
     options: [
-      "Intermolecular Forces",
-      "Gas",
-      "Milk Tae",
-      "Vapour Pressure"
+      "Elements",
+      "Molecules",
+      "Ions",
+      "Atoms"
     ]
   },
-    { 
+  {
     numb: 10,
-    question: "Less solute in beaker than cell then the cell swell",
-    answer: "Hypotonic",
+    question: "Dalton's Atomic Theory helped scientists identify and classify elements based on their ________ properties.",
+    answer: "Atomic",
     options: [
-      "Hypotonic",
-      "Sugat",
-      "alcohol",
-      "Nucleus"
+      "Chemical",
+      "Physical",
+      "Molecular",
+      "Atomic"
     ]
   },
-    {
+  {
     numb: 11,
-    question: "Which is not true about amorphous solids?",
-    answer: "Anisotrophic",
+    question: "Understanding Atomic Structure and Dalton's Atomic Theory is essential for students pursuing careers in ________.",
+    answer: "Science, engineering, and technology",
     options: [
-      "IMF are not equal",
-      "Irregular arrangement",
-      "Anisotrophic",
-      "Shapeless"
+      "Business and finance",
+      "Arts and humanities",
+      "Medicine and healthcare",
+      "Science, engineering, and technology"
     ]
   },
-    { 
+  {
     numb: 12,
-    question: "What is a force within a single molecule?",
-    answer: "Intramolecular Forces",
+    question: "Mastery of Atomic Structure is crucial for students seeking careers in fields such as ________.",
+    answer: "Chemistry, physics, materials science, and nanotechnology",
     options: [
-      "Net Force",
-      "London Bridge Forces",
-      "Intramolecular Forces",
-      "Negative Force"
+      "Biology, psychology, and sociology",
+      "Geology, environmental science, and geography",
+      "Mathematics, statistics, and computer science",
+      "Chemistry, physics, materials science, and nanotechnology"
     ]
   },
-    {
+  {
     numb: 13,
-    question: "Strong Intermolecular forces but Low kinetic energy",
-    answer: "Solid",
+    question: "Dalton's Atomic Theory played a significant role in the development of ________.",
+    answer: "Modern atomic theory and the periodic table",
     options: [
-      "Solid",
-      "Water",
-      "amorphous",
-      "Gas"
+      "Classical physics and mechanics",
+      "Quantum mechanics and relativity",
+      "Organic and inorganic chemistry",
+      "Modern atomic theory and the periodic table"
     ]
   },
-    { 
+  {
     numb: 14,
-    question: "Two or more substance are mixed together to form a solution",
-    answer: "Solution",
+    question: "The composition and behavior of atomic particles are studied in the field of ________.",
+    answer: "Atomic physics",
     options: [
-      "Experiment",
-      "Goku",
-      "Solute",
-      "Solution"
+      "Astrophysics",
+      "Particle physics",
+      "Nuclear physics",
+      "Atomic physics"
     ]
   },
-    {
+  {
     numb: 15,
-    question: "What is the substance that dissolves solute?",
-    answer: "Solvent",
+    question: "Dalton's Atomic Theory states that atoms are ________ and ________.",
+    answer: "Indivisible, indestructible",
     options: [
-      "Luffy",
-      "Solvent",
-      "Naruto",
-      "bolpen"
+      "Mutable, divisible",
+      "Expansible, volatile",
+      "Indivisible, indestructible",
+      "Compressible, changeable"
     ]
-  },
-]
+  }
+];
