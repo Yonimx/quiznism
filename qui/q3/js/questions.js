@@ -1,168 +1,167 @@
-// creating an array and passing the number, questions, options, and answers
 let questions = [
   {
     numb: 1,
-    question: "It can be measured or observed without affecting the chemical composition of a material.",
+    question: "Which type of property can be measured or observed without affecting the chemical composition of a material?",
     answer: "Physical properties",
     options: [
+      "Chemical properties",
       "Physical properties",
-      "Hydrogen Bond",
-      "Gravitational Force",
-      "London Dispersion Force"
+      "Extensive properties",
+      "Intensive properties"
     ]
   },
-    {
+  {
     numb: 2,
-    question: "A property of a substance relating to its chemical reactivity.",
+    question: "What are the properties that can be measured or observed without affecting the chemical composition of a material called?",
+    answer: "Physical properties",
+    options: [
+      "Chemical properties",
+      "Physical properties",
+      "Extensive properties",
+      "Intensive properties"
+    ]
+  },
+  {
+    numb: 3,
+    question: "Which type of property describes the ability of a substance to change from one type of matter into another?",
     answer: "Chemical properties",
     options: [
-      "Coulombs Law",
-      "Kinetic Molecular Theory",
+      "Physical properties",
       "Chemical properties",
-      "Kinetic Energy"
+      "Extensive properties",
+      "Intensive properties"
     ]
   },
-    {
-    numb: 3,
-    question: "changes in the size or shape",
-    answer: "Physical changes ",
-    options: [
-      "Aqueous Solution",
-      "Non-aqueous Solution",
-      "Crystalline Solids",
-      "Physical changes "
-    ]
-  },
-    {
+  {
     numb: 4,
-    question: "Its examples are photosynthesis, rust, baking, and digestion.",
-    answer: "Chemical changes",
+    question: "Which property relates to the reactivity of a substance?",
+    answer: "Chemical properties",
     options: [
-      "Chemical changes",
-      "Saturated Solution",
-      "Solute",
-      "Sinigang Mix"
+      "Physical properties",
+      "Chemical properties",
+      "Extensive properties",
+      "Intensive properties"
     ]
   },
-    {
+  {
     numb: 5,
-    question: "It creates one or more types of matter that are different from the forms of matter that were present before the transformation.",
-    answer: "Chemical changes",
-    options: [
-      "Matabang",
-      "Chemical changes",
-      "Concentrated Solution",
-      "Dilute Solution"
-    ]
-  },
-    { 
-    numb: 6,
-    question: "It does not transform a substance into one that is completely different.",
+    question: "Which type of change in matter does not involve a change in the chemical identities of the components?",
     answer: "Physical changes",
     options: [
-      "Crystalline Solid",
+      "Chemical changes",
       "Physical changes",
-      "Amorphous solid",
-      "Rubic's Cube"
+      "Extensive changes",
+      "Intensive changes"
     ]
   },
-    {
+  {
+    numb: 6,
+    question: "What is a change in matter's properties or qualities without a change in the chemical identities of the components called?",
+    answer: "Physical changes",
+    options: [
+      "Chemical changes",
+      "Physical changes",
+      "Extensive changes",
+      "Intensive changes"
+    ]
+  },
+  {
     numb: 7,
-    question: "Reactants are the ingredients in a reaction, while products are the outputs of that reaction.",
+    question: "Which type of change in matter creates one or more types of matter that are different from the forms present before the transformation?",
     answer: "Chemical changes",
     options: [
-      "Negative Energy",
-      "Kinetic Energy",
+      "Physical changes",
       "Chemical changes",
-      "Garter"
+      "Extensive changes",
+      "Intensive changes"
     ]
   },
-    { 
+  {
     numb: 8,
-    question: "Which is not an example of Physical properties?",
-    answer: "digestion",
+    question: "What is a change in matter that involves the transformation of substances into different forms called?",
+    answer: "Chemical changes",
     options: [
-      "digestion",
-      "melting",
-      "hardness",
-      "colour"
+      "Physical changes",
+      "Chemical changes",
+      "Extensive changes",
+      "Intensive changes"
     ]
   },
-    {
+  {
     numb: 9,
-    question: " Acidity is an example of _? ",
-    answer: "Chemical properties",
+    question: "Which type of property depends on the amount of matter present?",
+    answer: "Extensive properties",
     options: [
-      "Intermolecular Forces",
-      "Chemical properties",
-      "Milk Tae",
-      "Vapour Pressure"
+      "Intensive properties",
+      "Extensive properties",
+      "Physical properties",
+      "Chemical properties"
     ]
   },
-    { 
+  {
     numb: 10,
-    question: "Which is not an example of Chemical properties.",
-    answer: "Nucleus",
+    question: "Which type of property does not depend on the amount of matter present?",
+    answer: "Intensive properties",
+    options: [
+      "Intensive properties",
+      "Extensive properties",
+      "Physical properties",
+      "Chemical properties"
+    ]
+  },
+  {
+    numb: 11,
+    question: "Which property describes the ratio of mass to volume?",
+    answer: "Density",
+    options: [
+      "Hardness",
+      "Colour",
+      "Melting point",
+      "Density"
+    ]
+  },
+  {
+    numb: 12,
+    question: "Which property refers to the ability of a substance to catch fire and burn?",
+    answer: "Flammability",
     options: [
       "Acidity",
-      "flammability",
-      "toxicity ",
-      "Nucleus"
+      "Toxicity",
+      "Flammability",
+      "Hardness"
     ]
   },
-    {
-    numb: 11,
-    question: "Which is not an example of Chemical changes?",
-    answer: "Anisotrophic",
-    options: [
-      "baking",
-      "Anisotrophic",
-      "Photosynthesis",
-      "rust"
-    ]
-  },
-    { 
-    numb: 12,
-    question: " Physical properties are those that can be measured or _ without affecting the chemical composition of a material",
-    answer: "observed",
-    options: [
-      "Physical properties",
-      "London Bridge Forces",
-      "Intramolecular Forces",
-      "observed"
-    ]
-  },
-    {
+  {
     numb: 13,
-    question: "It is also known as chemical reactions",
-    answer: "Chemical changes",
-    options: [
-      "Solid",
-      "Chemical changes",
-      "amorphous",
-      "Gas"
-    ]
-  },
-    { 
-    numb: 14,
-    question: "A change in matter's properties or qualities without a  change in the components'  of chemical identities.",
+    question: "Which type of change can be observed through changes in size or shape?",
     answer: "Physical changes",
     options: [
-      "Experiment",
-      "Goku",
+      "Chemical changes",
       "Physical changes",
-      "Solution"
+      "Extensive changes",
+      "Intensive changes"
     ]
   },
-    {
-    numb: 15,
-    question: "The ability to change from one type of matter into another",
-    answer: "Chemical properties",
+  {
+    numb: 14,
+    question: "Which type of change involves the formation of new substances with different properties?",
+    answer: "Chemical changes",
     options: [
-      "Chemical properties",
-      "Solvent",
-      "Naruto",
-      "bolpen"
+      "Physical changes",
+      "Chemical changes",
+      "Extensive changes",
+      "Intensive changes"
     ]
   },
-]
+  {
+    numb: 15,
+    question: "What are the inputs in a chemical reaction called?",
+    answer: "Reactants",
+    options: [
+      "Products",
+      "Reactants",
+      "Ingredients",
+      "Transformations"
+    ]
+  }
+];

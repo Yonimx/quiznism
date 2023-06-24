@@ -1,168 +1,167 @@
-// creating an array and passing the number, questions, options, and answers
 let questions = [
   {
     numb: 1,
-    question: "It is a property that depends on the amount of matter.",
-    answer: "Extensive Property",
+    question: "Which type of property is mass?",
+    answer: "Extensive",
     options: [
-      "Extensive Property",
-      "Hydrogen Bond",
-      "Gravitational Force",
-      "Intensive properties"
+      "Extensive",
+      "Intensive",
+      "Chemical",
+      "Physical"
     ]
   },
-    {
+  {
     numb: 2,
-    question: " It do not depend on the quantity of matter.",
-    answer: "Intensive properties",
+    question: "What kind of property is density?",
+    answer: "Intensive",
     options: [
-      "Extensive Property",
-      "Intensive properties",
-      "SuperStar",
-      "Kinetic Energy"
+      "Extensive",
+      "Intensive",
+      "Chemical",
+      "Physical"
     ]
   },
-    {
+  {
     numb: 3,
-    question: "Volume and ____ are examples of extensive property. ",
-    answer: "mass",
+    question: "Which category do properties like color and solubility belong to?",
+    answer: "Intensive",
     options: [
-      "Aqueous Solution",
-      "characterized matter.",
-      "Crystalline Solids",
-      "mass"
+      "Extensive",
+      "Intensive",
+      "Chemical",
+      "Physical"
     ]
   },
-    {
+  {
     numb: 4,
-    question: "Intensive properties serve to _______.",
-    answer: "Characterized matter.",
+    question: "If a property depends on the size or amount of matter, it is classified as:",
+    answer: "Extensive",
     options: [
-      "Characterized matter.",
-      "Saturated Solution",
-      "Solute",
-      "Sinigang Mix"
+      "Extensive",
+      "Intensive",
+      "Chemical",
+      "Physical"
     ]
   },
-    {
+  {
     numb: 5,
-    question: "Weight and length are examples of what? ",
-    answer: "extensive property ",
+    question: "Which type of property is the percentage of alcohol in a beverage?",
+    answer: "Intensive",
     options: [
-      "extensive property ",
-      "Gauss' Law",
-      "Concentrated Solution",
-      "Dilute Solution"
+      "Extensive",
+      "Intensive",
+      "Chemical",
+      "Physical"
     ]
   },
-    { 
+  {
     numb: 6,
-    question: "It is an example of intensive property. ",
+    question: "The ratio of two extensive properties results in:",
+    answer: "Intensive property",
+    options: [
+      "Extensive property",
+      "Intensive property",
+      "Chemical property",
+      "Physical property"
+    ]
+  },
+  {
+    numb: 7,
+    question: "What is an example of an intensive property?",
+    answer: "Melting point",
+    options: [
+      "Volume",
+      "Weight",
+      "Density",
+      "Melting point"
+    ]
+  },
+  {
+    numb: 8,
+    question: "Which type of property characterizes a specific type of matter?",
+    answer: "Intensive",
+    options: [
+      "Extensive",
+      "Intensive",
+      "Chemical",
+      "Physical"
+    ]
+  },
+  {
+    numb: 9,
+    question: "The electrical resistance of a wire depends on its:",
+    answer: "Length",
+    options: [
+      "Material",
+      "Temperature",
+      "Length",
+      "Thickness"
+    ]
+  },
+  {
+    numb: 10,
+    question: "Which property is dependent on the quantity of matter?",
+    answer: "Extensive",
+    options: [
+      "Extensive",
+      "Intensive",
+      "Chemical",
+      "Physical"
+    ]
+  },
+  {
+    numb: 11,
+    question: "What is the characteristic of intensive properties for different types of matter?",
+    answer: "They are unique",
+    options: [
+      "They are proportional",
+      "They are measurable",
+      "They are universal",
+      "They are unique"
+    ]
+  },
+  {
+    numb: 12,
+    question: "Which property can be identified through simple observations?",
     answer: "Color",
     options: [
-      "Color",
-      "Weight",
-      "Amorphous solid",
-      "length"
+      "Mass",
+      "Volume",
+      "Density",
+      "Color"
     ]
   },
-    {
-    numb: 7,
-    question: "True or False: Boiling point is an example of extensive property. ",
-    answer: "False",
-    options: [
-      "True",
-      "False",
-      ".",
-      "."
-    ]
-  },
-    { 
-    numb: 8,
-    question: "One example of intensive property is?",
-    answer: "Temperature",
-    options: [
-      "Solid",
-      "Weight",
-      "Kadita",
-      "Temperature"
-    ]
-  },
-    {
-    numb: 9,
-    question: "Hardness is an example of? ",
-    answer: "Intensive properties",
-    options: [
-      "Intensive properties",
-      "Extensive Property",
-      "Milk Tae",
-      "Vapour Pressure"
-    ]
-  },
-    { 
-    numb: 10,
-    question: "Taste is an example of? ",
-    answer: "Intensive properties",
-    options: [
-      "Intensive properties",
-      "Extensive properties",
-      "alcohol",
-      "Nucleus"
-    ]
-  },
-    {
-    numb: 11,
-    question: "Freezing point is example of? ",
-    answer: "Intensive properties",
-    options: [
-      "Intensive properties",
-      "Extensive properties",
-      "Anisotrophic",
-      "Shapeless"
-    ]
-  },
-    { 
-    numb: 12,
-    question: "Pressure is?",
-    answer: "Intensive properties",
-    options: [
-      "Intensive properties",
-      "Extensive properties",
-      "Intramolecular Forces",
-      "Negative Force"
-    ]
-  },
-    {
+  {
     numb: 13,
-    question: "Density is an example of?",
-    answer: "Intensive properties",
+    question: "Which type of property is directly related to the chemical composition of a substance?",
+    answer: "Intensive",
     options: [
-      "Intensive properties",
-      "Extensive properties",
-      "amorphous",
-      "Gas"
+      "Extensive",
+      "Intensive",
+      "Chemical",
+      "Physical"
     ]
   },
-    { 
+  {
     numb: 14,
-    question: "Where is extensive property depends on?",
-    answer: "amount of matter",
+    question: "What do extensive properties depend on?",
+    answer: "Amount of matter",
     options: [
-      "Experiment",
-      "quality",
-      "amount of matter",
-      "Solution"
+      "Temperature",
+      "Pressure",
+      "Chemical composition",
+      "Amount of matter"
     ]
   },
-    {
+  {
     numb: 15,
-    question: "Which is an example of extensive properties. ",
-    answer: "Energy",
+    question: "What do intensive properties depend on?",
+    answer: "Type of matter",
     options: [
-      "Luffy",
-      "Solvent",
-      "Naruto",
-      "Energy"
+      "Temperature",
+      "Pressure",
+      "Chemical composition",
+      "Type of matter"
     ]
-  },
-]
+  }
+];
