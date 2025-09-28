@@ -10,10 +10,12 @@ const timeCount = document.querySelector(".timer .timer_sec");
 
 starts.onclick = ()=>{
     quiz_box.classList.add("activeQuiz"); //show quiz box
+    questions = shuffleArray(questions);  
+    
     showQuetions(0); //calling showQestions function
     queCounter(1); //passing 1 parameter to queCounter
-    startTimer(20); //calling startTimer function
-    startTimerLine(0); //calling startTimerLine function
+   // startTimer(20); //calling startTimer function
+    //startTimerLine(0); //calling startTimerLine function
 }
 
 
@@ -25,6 +27,8 @@ let counter;
 let counterLine;
 let widthValue = 0;
 
+
+
 const restart = result_box.querySelector(".buttons .restart");
 const quit = result_box.querySelector(".buttons .quit");
 // if restartQuiz button clicked
@@ -34,8 +38,40 @@ restart.onclick = ()=>{
 
 const next_btn = document.querySelector("footer .next_btn");
 const bottom_ques_counter = document.querySelector("footer .total_que");
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        let j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]]; // swap
+    }
+    return array;
+}
+// if Next Que button 
+// clicked
+function showQuetions(index){
+    const que_text = document.querySelector(".que_text");
 
-// if Next Que button clicked
+    // question text
+    let que_tag = '<span>'+ questions[index].numb + ". " + questions[index].question +'</span>';
+    que_text.innerHTML = que_tag;
+
+    // shuffle the options
+    let options = [...questions[index].options]; // copy options
+    options = shuffleArray(options);             // shuffle options
+
+    // generate option HTML
+    let option_tag = options.map(opt =>
+        `<div class="option"><span>${opt}</span></div>`
+    ).join("");
+
+    option_list.innerHTML = option_tag;
+
+    // set onclick for all options
+    const option = option_list.querySelectorAll(".option");
+    for(let i=0; i < option.length; i++){
+        option[i].setAttribute("onclick", "optionSelected(this)");
+    }
+}
+
 next_btn.onclick = ()=>{
     if(que_count < questions.length - 1){ //if question count is less than total question length
         que_count++; //increment the que_count value

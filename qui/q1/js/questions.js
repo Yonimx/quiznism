@@ -1,167 +1,453 @@
 let questions = [
   {
     numb: 1,
-    question: "What is matter?",
-    answer: "Something that can be weighed and takes up space",
+    question: "ISDN is an example of",
+    answer: "Circuit switching",
     options: [
-      "Something that cannot be measured",
-      "Something that can be seen but not touched",
-      "Something that can be weighed and takes up space",
-      "Something that exists only in the mind"
+      "Circuit switching",
+      "Packet switching",
+      "Fiber Internet",
+      "DSL"
     ]
   },
   {
     numb: 2,
-    question: "Which of the following is an example of matter?",
-    answer: "Water",
+    question: "Frame relay is an example of",
+    answer: "Packet switching",
     options: [
-      "Sunlight",
-      "Thoughts",
-      "Sound",
-      "Water"
+      "Circuit switching",
+      "Packet switching",
+      "PSTN",
+      "Ethernet line"
     ]
   },
   {
     numb: 3,
-    question: "What are the two essential properties of matter?",
-    answer: "Mass and volume",
+    question: "Devices you connect using a straight-through cable",
+    answer: "PC-Switch",
     options: [
-      "Color and texture",
-      "Temperature and pressure",
-      "Speed and velocity",
-      "Mass and volume"
+      "PC-Switch",
+      "Router-PC",
+      "Mobile",
+      "Bridge"
     ]
   },
   {
     numb: 4,
-    question: "Which state of matter has a definite shape and volume?",
-    answer: "Solid",
+    question: "Devices you connect using a crossover cable",
+    answer: "Router-PC",
     options: [
-      "Liquid",
-      "Gas",
-      "Plasma",
-      "Solid"
+      "PC-Switch",
+      "Router-PC",
+      "Switch",
+      "NIC"
     ]
   },
   {
     numb: 5,
-    question: "What is the smallest unit of matter?",
-    answer: "Atom",
+    question: "Common application of wireless data communication is for",
+    answer: "Mobile",
     options: [
-      "Molecule",
-      "Cell",
-      "Particle",
-      "Atom"
+      "Mobile",
+      "Server",
+      "Switch",
+      "Token ring"
     ]
   },
   {
     numb: 6,
-    question: "Which of the following is a mixture?",
-    answer: "Air",
+    question: "If the destination address is unknown to the bridge, the bridge forwards the frame to all segments except the one on which it was received",
+    answer: "Flooding",
     options: [
-      "Gold",
-      "Sugar",
-      "Water",
-      "Air"
+      "Flooding",
+      "Switching",
+      "Routing",
+      "Repeating"
     ]
   },
   {
     numb: 7,
-    question: "Which of the following is a pure substance?",
-    answer: "Oxygen",
+    question: "Type of communication channel that allows data to be transmitted sequentially, one bit at a time",
+    answer: "Serial line",
     options: [
-      "Sand",
-      "Milk",
-      "Air",
-      "Oxygen"
+      "Serial line",
+      "DSL",
+      "Ethernet line",
+      "Token ring"
     ]
   },
   {
     numb: 8,
-    question: "What is the interparticle force that holds matter together?",
-    answer: "Intermolecular force",
+    question: "What cable can be used for Point to Point Protocol (PPP)?",
+    answer: "Serial line",
     options: [
-      "Gravitational force",
-      "Electromagnetic force",
-      "Nuclear force",
-      "Intermolecular force"
+      "Serial line",
+      "Fiber",
+      "RJ45",
+      "Coaxial"
     ]
   },
   {
     numb: 9,
-    question: "Which type of matter can be broken down into simpler substances by chemical means?",
-    answer: "Compound",
+    question: "AUI stands for",
+    answer: "Attachment Unit Interface",
     options: [
-      "Element",
-      "Mixture",
-      "Compound",
-      "Atom"
+      "Attachment Unit Interface",
+      "Analog Unit Input",
+      "Auxiliary User Interface",
+      "Adapter Utility Integration"
     ]
   },
   {
     numb: 10,
-    question: "Which type of matter has a fixed composition and distinct properties?",
-    answer: "Pure substance",
+    question: "RJ in RJ45 means",
+    answer: "Registered Jack",
     options: [
-      "Mixture",
-      "Compound",
-      "Pure substance",
-      "Element"
+      "Registered Jack",
+      "Remote Junction",
+      "Rapid Joint",
+      "Routing Jack"
     ]
   },
   {
     numb: 11,
-    question: "What is the measure of how much matter is packed into a given space?",
-    answer: "Density",
+    question: "Classified as Data Link Layer (Layer 2) because each one carries a unique MAC address",
+    answer: "NIC",
     options: [
-      "Volume",
-      "Mass",
-      "Weight",
-      "Density"
+      "NIC",
+      "Router",
+      "Switch",
+      "Hub"
     ]
   },
   {
     numb: 12,
-    question: "Which of the following is an example of an amorphous solid?",
-    answer: "Glass",
+    question: "Doesn't provide better security",
+    answer: "Peer-to-peer",
     options: [
-      "Diamond",
-      "Iron",
-      "Salt",
-      "Glass"
+      "Peer-to-peer",
+      "Client/server",
+      "Router",
+      "Switch"
     ]
   },
   {
     numb: 13,
-    question: "What is the study of the properties and behavior of matter?",
-    answer: "Chemistry",
+    question: "Network services are located on a dedicated computer called a",
+    answer: "Server",
     options: [
-      "Physics",
-      "Biology",
-      "Chemistry",
-      "Geology"
+      "Server",
+      "Client",
+      "Switch",
+      "Hub"
     ]
   },
   {
     numb: 14,
-    question: "Which of the following is not a physical property of matter?",
-    answer: "Reactivity",
+    question: "Expensive to implement",
+    answer: "Client/server",
     options: [
-      "Color",
-      "Melting point",
-      "Density",
-      "Reactivity"
+      "Client/server",
+      "Peer-to-peer",
+      "Bridge",
+      "NIC"
     ]
   },
   {
     numb: 15,
-    question: "Which type of matter cannot be separated into simpler substances by physical or chemical means?",
-    answer: "Element",
+    question: "Handles many client requests at once",
+    answer: "Server",
     options: [
-      "Mixture",
-      "Compound",
-      "Element",
-      "Atom"
+      "Server",
+      "Hub",
+      "Switch",
+      "Router"
+    ]
+  },
+  {
+    numb: 16,
+    question: "Replace analog systems with faster, more reliable digital communication",
+    answer: "ISDN",
+    options: [
+      "ISDN",
+      "DSL",
+      "Cable Modem",
+      "Fiber Internet"
+    ]
+  },
+  {
+    numb: 17,
+    question: "The two types of ISDN are BRI and PRI",
+    answer: "True",
+    options: [
+      "True",
+      "False",
+      "Maybe",
+      "Depends"
+    ]
+  },
+  {
+    numb: 18,
+    question: "PPP stands for",
+    answer: "Point to Point Protocol",
+    options: [
+      "Point to Point Protocol",
+      "Packet Processing Protocol",
+      "Peer Processing Path",
+      "Public Protocol Platform"
+    ]
+  },
+  {
+    numb: 19,
+    question: "In WAN connection methods, Dial-up is an example of",
+    answer: "PPP",
+    options: [
+      "PPP",
+      "DSL",
+      "ISDN",
+      "Cable Modem"
+    ]
+  },
+  {
+    numb: 20,
+    question: "DSL stands for",
+    answer: "Digital Subscriber Line",
+    options: [
+      "Digital Subscriber Line",
+      "Data Service Line",
+      "Direct Signal Line",
+      "Dynamic Subscriber Link"
+    ]
+  },
+  {
+    numb: 21,
+    question: "Uses existing telephone lines",
+    answer: "DSL",
+    options: [
+      "DSL",
+      "ISDN",
+      "Fiber Internet",
+      "Cable Modem"
+    ]
+  },
+  {
+    numb: 22,
+    question: "Continuous signal where the time-varying feature represents some other quantity",
+    answer: "Analog signal",
+    options: [
+      "Analog signal",
+      "Digital signal",
+      "Fiber signal",
+      "Packet signal"
+    ]
+  },
+  {
+    numb: 23,
+    question: "Uses discrete or discontinuous values to represent information",
+    answer: "Digital signal",
+    options: [
+      "Digital signal",
+      "Analog signal",
+      "Frame relay",
+      "ISDN"
+    ]
+  },
+  {
+    numb: 24,
+    question: "Low cost and portable",
+    answer: "Analog signal",
+    options: [
+      "Analog signal",
+      "Digital signal",
+      "Fiber Internet",
+      "DSL"
+    ]
+  },
+  {
+    numb: 25,
+    question: "Higher quality of signal",
+    answer: "Digital signal",
+    options: [
+      "Digital signal",
+      "Analog signal",
+      "DSL",
+      "Cable Modem"
+    ]
+  },
+  {
+    numb: 26,
+    question: "Traditional circuit-switched telephone network that uses underground copper wire",
+    answer: "PSTN",
+    options: [
+      "PSTN",
+      "DSL",
+      "Ethernet line",
+      "ISDN"
+    ]
+  },
+  {
+    numb: 27,
+    question: "An analog to digital converter which can packetize digital data",
+    answer: "ATA",
+    options: [
+      "ATA",
+      "NIC",
+      "Switch",
+      "Router"
+    ]
+  },
+  {
+    numb: 28,
+    question: "Allows user to connect a standard phone to his/her internet connection",
+    answer: "ATA",
+    options: [
+      "ATA",
+      "DSL",
+      "Cable Modem",
+      "Fiber Internet"
+    ]
+  },
+  {
+    numb: 29,
+    question: "Devices that have an RJ-45 Ethernet connector",
+    answer: "IP phones",
+    options: [
+      "IP phones",
+      "Mobile phones",
+      "Analog phones",
+      "ATA"
+    ]
+  },
+  {
+    numb: 30,
+    question: "Family of wired networking technologies used in LANs and MANs",
+    answer: "Ethernet line",
+    options: [
+      "Ethernet line",
+      "Token ring",
+      "FDDI",
+      "DSL"
+    ]
+  },
+  {
+    numb: 31,
+    question: "LAN where a node can transmit only when it has the token",
+    answer: "Token ring",
+    options: [
+      "Token ring",
+      "Ethernet line",
+      "Fiber Internet",
+      "PPP"
+    ]
+  },
+  {
+    numb: 32,
+    question: "FDDI stands for",
+    answer: "Fiber-distributed data interface",
+    options: [
+      "Fiber-distributed data interface",
+      "Fast Data Device Integration",
+      "Fiber Device Digital Interface",
+      "Frame Data Distribution Interface"
+    ]
+  },
+  {
+    numb: 33,
+    question: "This term comes from the early days of long-distance communication",
+    answer: "Repeater",
+    options: [
+      "Repeater",
+      "Switch",
+      "Router",
+      "Bridge"
+    ]
+  },
+  {
+    numb: 34,
+    question: "States that no more than four repeaters can be used between hosts on a LAN",
+    answer: "Four Repeater Rule",
+    options: [
+      "Four Repeater Rule",
+      "Switching Rule",
+      "Bridge Rule",
+      "Router Rule"
+    ]
+  },
+  {
+    numb: 35,
+    question: "Multipurpose repeaters that serve as central connection points for LAN",
+    answer: "Hubs",
+    options: [
+      "Hubs",
+      "Switches",
+      "Routers",
+      "Bridges"
+    ]
+  },
+  {
+    numb: 36,
+    question: "Serve as physical connection point only",
+    answer: "Passive hubs",
+    options: [
+      "Passive hubs",
+      "Active hubs",
+      "Intelligent hubs",
+      "Bridges"
+    ]
+  },
+  {
+    numb: 37,
+    question: "Must be plugged into an electrical outlet because it amplifies the signal",
+    answer: "Active hubs",
+    options: [
+      "Active hubs",
+      "Passive hubs",
+      "Intelligent hubs",
+      "Switch"
+    ]
+  },
+  {
+    numb: 38,
+    question: "Function as active hubs but also include a microprocessor chip and diagnostics",
+    answer: "Intelligent hubs",
+    options: [
+      "Intelligent hubs",
+      "Passive hubs",
+      "Active hubs",
+      "Router"
+    ]
+  },
+  {
+    numb: 39,
+    question: "More expensive than active hubs",
+    answer: "Intelligent hubs",
+    options: [
+      "Intelligent hubs",
+      "Passive hubs",
+      "Switches",
+      "Bridge"
+    ]
+  },
+  {
+    numb: 40,
+    question: "Provides high-speed internet via the cable TV network using coaxial cables",
+    answer: "Cable Modem",
+    options: [
+      "Cable Modem",
+      "DSL",
+      "Fiber Internet",
+      "ISDN"
+    ]
+  },
+  {
+    numb: 41,
+    question: "Uses fiber-optic cables, fastest and most reliable, supports high speeds and long distances",
+    answer: "Fiber Internet",
+    options: [
+      "Fiber Internet",
+      "Cable Modem",
+      "DSL",
+      "ISDN"
     ]
   }
-]
+];
