@@ -92,7 +92,7 @@ let questions = [
     question: "AUI stands for",
     answer: "Attachment Unit Interface",
     options: [
-      "AUI (Attachment Unit Interface)",
+      "Attachment Unit Interface",
       "Analog Unit Input",
       "Auxiliary User Interface",
       "Adapter Utility Integration"
@@ -101,7 +101,7 @@ let questions = [
   {
     numb: 10,
     question: "RJ in RJ45 means",
-    answer: "Registered Jack",
+    answer: "RJ (Registered Jack)",
     options: [
       "RJ (Registered Jack)",
       "Remote Junction",
