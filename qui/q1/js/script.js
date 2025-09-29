@@ -10,12 +10,10 @@ const timeCount = document.querySelector(".timer .timer_sec");
 
 starts.onclick = ()=>{
     quiz_box.classList.add("activeQuiz"); //show quiz box
-    questions = shuffleArray(questions);  
-    
     showQuetions(0); //calling showQestions function
     queCounter(1); //passing 1 parameter to queCounter
-   // startTimer(20); //calling startTimer function
-    //startTimerLine(0); //calling startTimerLine function
+    startTimer(20); //calling startTimer function
+    startTimerLine(0); //calling startTimerLine function
 }
 
 
@@ -27,8 +25,6 @@ let counter;
 let counterLine;
 let widthValue = 0;
 
-
-
 const restart = result_box.querySelector(".buttons .restart");
 const quit = result_box.querySelector(".buttons .quit");
 // if restartQuiz button clicked
@@ -38,40 +34,8 @@ restart.onclick = ()=>{
 
 const next_btn = document.querySelector("footer .next_btn");
 const bottom_ques_counter = document.querySelector("footer .total_que");
-function shuffleArray(array) {
-    for (let i = array.length - 1; i > 0; i--) {
-        let j = Math.floor(Math.random() * (i + 1));
-        [array[i], array[j]] = [array[j], array[i]]; // swap
-    }
-    return array;
-}
-// if Next Que button 
-// clicked
-function showQuetions(index){
-    const que_text = document.querySelector(".que_text");
 
-    // question text
-    let que_tag = '<span>'+ questions[index].numb + ". " + questions[index].question +'</span>';
-    que_text.innerHTML = que_tag;
-
-    // shuffle the options
-    let options = [...questions[index].options]; // copy options
-    options = shuffleArray(options);             // shuffle options
-
-    // generate option HTML
-    let option_tag = options.map(opt =>
-        `<div class="option"><span>${opt}</span></div>`
-    ).join("");
-
-    option_list.innerHTML = option_tag;
-
-    // set onclick for all options
-    const option = option_list.querySelectorAll(".option");
-    for(let i=0; i < option.length; i++){
-        option[i].setAttribute("onclick", "optionSelected(this)");
-    }
-}
-
+// if Next Que button clicked
 next_btn.onclick = ()=>{
     if(que_count < questions.length - 1){ //if question count is less than total question length
         que_count++; //increment the que_count value
@@ -154,25 +118,25 @@ function showResult(){
     const scoreText = result_box.querySelector(".score_text");
     if (userScore > 14){ // if user scored more than 3
         //creating a new span tag and passing the user score number and total question number
-        let scoreTag = '<span>sheesh, You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
+        let scoreTag = '<span>Pagaya Boss!, You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
         scoreText.innerHTML = scoreTag;  //adding new span tag inside score_Text
     }
     else if (userScore > 10 ){ // if user scored more than 3
         //creating a new span tag and passing the user score number and total question number
-        let scoreTag = '<span>Good job, <p>You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
+        let scoreTag = '<span>nice ^^, <p>You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
         scoreText.innerHTML = scoreTag;  //adding new span tag inside score_Text
     }
     else if(userScore > 3){ // if user scored more than 1
-        let scoreTag = '<span>Ok lang yan, <p>You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
+        let scoreTag = '<span>Bawi ^^, <p>You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
         scoreText.innerHTML = scoreTag;
     }
     else{ // if user scored less than 1
-        let scoreTag = '<span>Aral ka muna ulit,<p> You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
+        let scoreTag = '<span>aral-aral muna,<p> You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
         scoreText.innerHTML = scoreTag;
     }
 }
-
-/**function startTimer(time){
+/** 
+function startTimer(time){
     counter = setInterval(timer, 1000);
     function timer(){
         timeCount.textContent = time; //changing the value of timeCount with time value
@@ -210,8 +174,8 @@ function startTimerLine(time){
             clearInterval(counterLine); //clear counterLine
         }
     }
-}**/
-
+}
+**/
 function queCounter(index){
     //creating a new span tag and passing the question number and total question
     let totalQueCounTag = '<span><p>'+ index +'</p> of <p>'+ questions.length +'</p> Questions</span>';
