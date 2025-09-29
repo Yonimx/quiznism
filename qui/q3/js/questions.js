@@ -1,167 +1,145 @@
 let questions = [
   {
-    numb: 1,
-    question: "Which type of property can be measured or observed without affecting the chemical composition of a material?",
-    answer: "Physical properties",
+    numb: 29,
+    question: "Devices that have an RJ-45 Ethernet connector",
+    answer: "IP phones",
     options: [
-      "Chemical properties",
-      "Physical properties",
-      "Extensive properties",
-      "Intensive properties"
+      "IP phones",
+      "Mobile phones",
+      "Analog phones",
+      "ATA"
     ]
   },
   {
-    numb: 2,
-    question: "What are the properties that can be measured or observed without affecting the chemical composition of a material called?",
-    answer: "Physical properties",
+    numb: 30,
+    question: "Family of wired networking technologies used in LANs and MANs",
+    answer: "Ethernet line",
     options: [
-      "Chemical properties",
-      "Physical properties",
-      "Extensive properties",
-      "Intensive properties"
+      "Ethernet line",
+      "Token ring",
+      "FDDI",
+      "DSL"
     ]
   },
   {
-    numb: 3,
-    question: "Which type of property describes the ability of a substance to change from one type of matter into another?",
-    answer: "Chemical properties",
+    numb: 31,
+    question: "LAN where a node can transmit only when it has the token",
+    answer: "Token ring",
     options: [
-      "Physical properties",
-      "Chemical properties",
-      "Extensive properties",
-      "Intensive properties"
+      "Token ring",
+      "Ethernet line",
+      "Fiber Internet",
+      "PPP"
     ]
   },
   {
-    numb: 4,
-    question: "Which property relates to the reactivity of a substance?",
-    answer: "Chemical properties",
+    numb: 32,
+    question: "FDDI stands for",
+    answer: "Fiber-distributed data interface",
     options: [
-      "Physical properties",
-      "Chemical properties",
-      "Extensive properties",
-      "Intensive properties"
+      "Fiber-distributed data interface",
+      "Fast Data Device Integration",
+      "Fiber Device Digital Interface",
+      "Frame Data Distribution Interface"
     ]
   },
   {
-    numb: 5,
-    question: "Which type of change in matter does not involve a change in the chemical identities of the components?",
-    answer: "Physical changes",
+    numb: 33,
+    question: "This term comes from the early days of long-distance communication",
+    answer: "Repeater",
     options: [
-      "Chemical changes",
-      "Physical changes",
-      "Extensive changes",
-      "Intensive changes"
+      "Repeater",
+      "Switch",
+      "Router",
+      "Bridge"
     ]
   },
   {
-    numb: 6,
-    question: "What is a change in matter's properties or qualities without a change in the chemical identities of the components called?",
-    answer: "Physical changes",
+    numb: 34,
+    question: "States that no more than four repeaters can be used between hosts on a LAN",
+    answer: "Four Repeater Rule",
     options: [
-      "Chemical changes",
-      "Physical changes",
-      "Extensive changes",
-      "Intensive changes"
+      "Four Repeater Rule",
+      "Switching Rule",
+      "Bridge Rule",
+      "Router Rule"
     ]
   },
   {
-    numb: 7,
-    question: "Which type of change in matter creates one or more types of matter that are different from the forms present before the transformation?",
-    answer: "Chemical changes",
+    numb: 35,
+    question: "Multipurpose repeaters that serve as central connection points for LAN",
+    answer: "Hubs",
     options: [
-      "Physical changes",
-      "Chemical changes",
-      "Extensive changes",
-      "Intensive changes"
+      "Hubs",
+      "Switches",
+      "Routers",
+      "Bridges"
     ]
   },
   {
-    numb: 8,
-    question: "What is a change in matter that involves the transformation of substances into different forms called?",
-    answer: "Chemical changes",
+    numb: 36,
+    question: "Serve as physical connection point only",
+    answer: "Passive hubs",
     options: [
-      "Physical changes",
-      "Chemical changes",
-      "Extensive changes",
-      "Intensive changes"
+      "Passive hubs",
+      "Active hubs",
+      "Intelligent hubs",
+      "Bridges"
     ]
   },
   {
-    numb: 9,
-    question: "Which type of property depends on the amount of matter present?",
-    answer: "Extensive properties",
+    numb: 37,
+    question: "Must be plugged into an electrical outlet because it amplifies the signal",
+    answer: "Active hubs",
     options: [
-      "Intensive properties",
-      "Extensive properties",
-      "Physical properties",
-      "Chemical properties"
+      "Active hubs",
+      "Passive hubs",
+      "Intelligent hubs",
+      "Switch"
     ]
   },
   {
-    numb: 10,
-    question: "Which type of property does not depend on the amount of matter present?",
-    answer: "Intensive properties",
+    numb: 38,
+    question: "Function as active hubs but also include a microprocessor chip and diagnostics",
+    answer: "Intelligent hubs",
     options: [
-      "Intensive properties",
-      "Extensive properties",
-      "Physical properties",
-      "Chemical properties"
+      "Intelligent hubs",
+      "Passive hubs",
+      "Active hubs",
+      "Router"
     ]
   },
   {
-    numb: 11,
-    question: "Which property describes the ratio of mass to volume?",
-    answer: "Density",
+    numb: 39,
+    question: "More expensive than active hubs",
+    answer: "Intelligent hubs",
     options: [
-      "Hardness",
-      "Colour",
-      "Melting point",
-      "Density"
+      "Intelligent hubs",
+      "Passive hubs",
+      "Switches",
+      "Bridge"
     ]
   },
   {
-    numb: 12,
-    question: "Which property refers to the ability of a substance to catch fire and burn?",
-    answer: "Flammability",
+    numb: 40,
+    question: "Provides high-speed internet via the cable TV network using coaxial cables",
+    answer: "Cable Modem",
     options: [
-      "Acidity",
-      "Toxicity",
-      "Flammability",
-      "Hardness"
+      "Cable Modem",
+      "DSL",
+      "Fiber Internet",
+      "ISDN"
     ]
   },
   {
-    numb: 13,
-    question: "Which type of change can be observed through changes in size or shape?",
-    answer: "Physical changes",
+    numb: 41,
+    question: "Uses fiber-optic cables, fastest and most reliable, supports high speeds and long distances",
+    answer: "Fiber Internet",
     options: [
-      "Chemical changes",
-      "Physical changes",
-      "Extensive changes",
-      "Intensive changes"
-    ]
-  },
-  {
-    numb: 14,
-    question: "Which type of change involves the formation of new substances with different properties?",
-    answer: "Chemical changes",
-    options: [
-      "Physical changes",
-      "Chemical changes",
-      "Extensive changes",
-      "Intensive changes"
-    ]
-  },
-  {
-    numb: 15,
-    question: "What are the inputs in a chemical reaction called?",
-    answer: "Reactants",
-    options: [
-      "Products",
-      "Reactants",
-      "Ingredients",
-      "Transformations"
+      "Fiber Internet",
+      "Cable Modem",
+      "DSL",
+      "ISDN"
     ]
   }
 ];

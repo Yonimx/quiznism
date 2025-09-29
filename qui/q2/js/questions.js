@@ -1,167 +1,156 @@
 let questions = [
   {
-    numb: 1,
-    question: "Which state of matter has no fixed shape and no fixed volume?",
-    answer: "Gas",
-    options: [
-      "Gas",
-      "Liquid",
-      "Solid",
-      "Plasma"
-    ]
-  },
-  {
-    numb: 2,
-    question: "In which state of matter do particles remain well apart and are not arranged uniformly?",
-    answer: "Gas",
-    options: [
-      "Gas",
-      "Liquid",
-      "Solid",
-      "Plasma"
-    ]
-  },
-  {
-    numb: 3,
-    question: "Which state of matter can flow and have a definite volume but does not have a specific shape like a solid?",
-    answer: "Liquid",
-    options: [
-      "Gas",
-      "Liquid",
-      "Solid",
-      "Plasma"
-    ]
-  },
-  {
-    numb: 4,
-    question: "In a solid state of matter, how are the particles arranged?",
-    answer: "Tightly or closely packed",
-    options: [
-      "Well apart and not arranged uniformly",
-      "Close together but not in an ordered manner",
-      "Tightly or closely packed",
-      "Freely moving and far apart"
-    ]
-  },
-  {
-    numb: 5,
-    question: "Which state of matter has a definite shape and definite volume?",
-    answer: "Solid",
-    options: [
-      "Gas",
-      "Liquid",
-      "Solid",
-      "Plasma"
-    ]
-  },
-  {
-    numb: 6,
-    question: "Which state of matter has particles that can only vibrate about their mean position and cannot move freely?",
-    answer: "Solid",
-    options: [
-      "Gas",
-      "Liquid",
-      "Solid",
-      "Plasma"
-    ]
-  },
-  {
-    numb: 7,
-    question: "Which state of matter has particles that are less tightly packed compared to solids?",
-    answer: "Liquid",
-    options: [
-      "Gas",
-      "Liquid",
-      "Solid",
-      "Plasma"
-    ]
-  },
-  {
-    numb: 8,
-    question: "In a liquid state of matter, do particles have a fixed shape?",
-    answer: "No",
-    options: [
-      "Yes",
-      "No",
-      "Maybe",
-      "Not sure"
-    ]
-  },
-  {
-    numb: 9,
-    question: "Which state of matter has neither a fixed volume nor a fixed shape?",
-    answer: "Gas",
-    options: [
-      "Gas",
-      "Liquid",
-      "Solid",
-      "Plasma"
-    ]
-  },
-  {
-    numb: 10,
-    question: "Which state of matter has particles that are far apart from each other?",
-    answer: "Gas",
-    options: [
-      "Gas",
-      "Liquid",
-      "Solid",
-      "Plasma"
-    ]
-  },
-  {
-    numb: 11,
-    question: "Which state of matter has the highest compressibility?",
-    answer: "Gas",
-    options: [
-      "Gas",
-      "Liquid",
-      "Solid",
-      "Plasma"
-    ]
-  },
-  {
-    numb: 12,
-    question: "Which state of matter has a rate of diffusion higher than solids and liquids?",
-    answer: "Gas",
-    options: [
-      "Gas",
-      "Liquid",
-      "Solid",
-      "Plasma"
-    ]
-  },
-  {
-    numb: 13,
-    question: "Which state of matter has the weakest force of attraction between particles?",
-    answer: "Gas",
-    options: [
-      "Gas",
-      "Liquid",
-      "Solid",
-      "Plasma"
-    ]
-  },
-  {
-    numb: 14,
-    question: "Which state of matter has the particles moving freely and having negligible force of attraction?",
-    answer: "Gas",
-    options: [
-      "Gas",
-      "Liquid",
-      "Solid",
-      "Plasma"
-    ]
-  },
-  {
     numb: 15,
-    question: "Which state of matter is not classified as matter due to its lack of mass and volume?",
-    answer: "Plasma",
+    question: "Handles many client requests at once",
+    answer: "Server",
     options: [
-      "Gas",
-      "Liquid",
-      "Solid",
-      "Plasma"
+      "Server",
+      "Hub",
+      "Switch",
+      "Router"
+    ]
+  },
+  {
+    numb: 16,
+    question: "Replace analog systems with faster, more reliable digital communication",
+    answer: "ISDN",
+    options: [
+      "ISDN",
+      "DSL",
+      "Cable Modem",
+      "Fiber Internet"
+    ]
+  },
+  {
+    numb: 17,
+    question: "The two types of ISDN are BRI and PRI",
+    answer: "True",
+    options: [
+      "True",
+      "False",
+      "Maybe",
+      "Depends"
+    ]
+  },
+  {
+    numb: 18,
+    question: "PPP stands for",
+    answer: "Point to Point Protocol",
+    options: [
+      "Point to Point Protocol",
+      "Packet Processing Protocol",
+      "Peer Processing Path",
+      "Public Protocol Platform"
+    ]
+  },
+  {
+    numb: 19,
+    question: "In WAN connection methods, Dial-up is an example of",
+    answer: "PPP",
+    options: [
+      "PPP",
+      "DSL",
+      "ISDN",
+      "Cable Modem"
+    ]
+  },
+  {
+    numb: 20,
+    question: "DSL stands for",
+    answer: "Digital Subscriber Line",
+    options: [
+      "Digital Subscriber Line",
+      "Data Service Line",
+      "Direct Signal Line",
+      "Dynamic Subscriber Link"
+    ]
+  },
+  {
+    numb: 21,
+    question: "Uses existing telephone lines",
+    answer: "DSL",
+    options: [
+      "DSL",
+      "ISDN",
+      "Fiber Internet",
+      "Cable Modem"
+    ]
+  },
+  {
+    numb: 22,
+    question: "Continuous signal where the time-varying feature represents some other quantity",
+    answer: "Analog signal",
+    options: [
+      "Analog signal",
+      "Digital signal",
+      "Fiber signal",
+      "Packet signal"
+    ]
+  },
+  {
+    numb: 23,
+    question: "Uses discrete or discontinuous values to represent information",
+    answer: "Digital signal",
+    options: [
+      "Digital signal",
+      "Analog signal",
+      "Frame relay",
+      "ISDN"
+    ]
+  },
+  {
+    numb: 24,
+    question: "Low cost and portable",
+    answer: "Analog signal",
+    options: [
+      "Analog signal",
+      "Digital signal",
+      "Fiber Internet",
+      "DSL"
+    ]
+  },
+  {
+    numb: 25,
+    question: "Higher quality of signal",
+    answer: "Digital signal",
+    options: [
+      "Digital signal",
+      "Analog signal",
+      "DSL",
+      "Cable Modem"
+    ]
+  },
+  {
+    numb: 26,
+    question: "Traditional circuit-switched telephone network that uses underground copper wire",
+    answer: "PSTN",
+    options: [
+      "PSTN",
+      "DSL",
+      "Ethernet line",
+      "ISDN"
+    ]
+  },
+  {
+    numb: 27,
+    question: "An analog to digital converter which can packetize digital data",
+    answer: "ATA",
+    options: [
+      "ATA",
+      "NIC",
+      "Switch",
+      "Router"
+    ]
+  },
+  {
+    numb: 28,
+    question: "Allows user to connect a standard phone to his/her internet connection",
+    answer: "ATA",
+    options: [
+      "ATA",
+      "DSL",
+      "Cable Modem",
+      "Fiber Internet"
     ]
   }
 ];

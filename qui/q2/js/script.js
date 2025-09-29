@@ -135,7 +135,7 @@ function showResult(){
         scoreText.innerHTML = scoreTag;
     }
 }
-
+/** 
 function startTimer(time){
     counter = setInterval(timer, 1000);
     function timer(){
@@ -175,7 +175,7 @@ function startTimerLine(time){
         }
     }
 }
-
+**/
 function queCounter(index){
     //creating a new span tag and passing the question number and total question
     let totalQueCounTag = '<span><p>'+ index +'</p> of <p>'+ questions.length +'</p> Questions</span>';
