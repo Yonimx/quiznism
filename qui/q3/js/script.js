@@ -56,26 +56,31 @@ next_btn.onclick = ()=>{
     }
 }
 
-// getting questions and options from array
-function showQuetions(index){
+// getting questions and options from arrayfunction showQuetions(index){
     const que_text = document.querySelector(".que_text");
 
-    //creating a new span and div tag for question and option and passing the value using array index
-    let que_tag = '<span>'+ ". " + questions[index].question +'</span>';
-    let option_tag = '<div class="option"><span>'+ questions[index].options[0] +'</span></div>'
-    + '<div class="option"><span>'+ questions[index].options[1] +'</span></div>'
-    + '<div class="option"><span>'+ questions[index].options[2] +'</span></div>'
-    + '<div class="option"><span>'+ questions[index].options[3] +'</span></div>';
-    que_text.innerHTML = que_tag; //adding new span tag inside que_tag
-    option_list.innerHTML = option_tag; //adding new div tag inside option_tag
-    
-    const option = option_list.querySelectorAll(".option");
+    // Show question text
+    let que_tag = '<span>'+ questions[index].question +'</span>';
+    que_text.innerHTML = que_tag;
 
-    // set onclick attribute to all available options
-    for(i=0; i < option.length; i++){
+    // Copy and shuffle the options
+    let shuffledOptions = [...questions[index].options]; 
+    shuffledOptions.sort(() => Math.random() - 0.5);
+
+    // Build option tags with shuffled order
+    let option_tag = shuffledOptions.map(opt => 
+        `<div class="option"><span>${opt}</span></div>`
+    ).join('');
+
+    option_list.innerHTML = option_tag;
+
+    // Set onclick for each option
+    const option = option_list.querySelectorAll(".option");
+    for(let i = 0; i < option.length; i++){
         option[i].setAttribute("onclick", "optionSelected(this)");
     }
 }
+
 // creating the new div tags which for icons
 let tickIconTag = '<div class="icon tick"><i class="fas fa-check"></i></div>';
 let crossIconTag = '<div class="icon cross"><i class="fas fa-times"></i></div>';
