@@ -9,8 +9,9 @@ const timeCount = document.querySelector(".timer .timer_sec");
 
 
 starts.onclick = ()=>{
+    questions = questions.sort(() => Math.random() - 0.5);
     quiz_box.classList.add("activeQuiz"); //show quiz box
-        questions = questions.sort(() => Math.random() - 0.5);
+        
     showQuetions(0); //calling showQestions function
     queCounter(1); //passing 1 parameter to queCounter
    // startTimer(20); //calling startTimer function
