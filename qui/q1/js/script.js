@@ -6,14 +6,12 @@ const option_list = document.querySelector(".option_list");
 const time_line = document.querySelector("header .time_line");
 const timeText = document.querySelector(".timer .time_left_txt");
 const timeCount = document.querySelector(".timer .timer_sec");
-// shuffle questions
 
 
 starts.onclick = ()=>{
     questions = questions.sort(() => Math.random() - 0.5);
     quiz_box.classList.add("activeQuiz"); //show quiz box
     
-
     showQuetions(0); //calling showQestions function
     queCounter(1); //passing 1 parameter to queCounter
     //startTimer(20); //calling startTimer function
@@ -60,6 +58,7 @@ next_btn.onclick = ()=>{
 }
 
 // getting questions and options from arrayfunction showQuetions(index){
+function showQuetions(index){    
     const que_text = document.querySelector(".que_text");
 
     // Show question text
@@ -120,7 +119,6 @@ function optionSelected(answer){
     }
     next_btn.classList.add("show"); //show the next button if user selected any option
 }
-
 function showResult(){ 
     quiz_box.classList.remove("activeQuiz"); //hide quiz box
     result_box.classList.add("activeResult"); //show result box
@@ -144,7 +142,7 @@ function showResult(){
         scoreText.innerHTML = scoreTag;
     }
 }
-/** 
+/**
 function startTimer(time){
     counter = setInterval(timer, 1000);
     function timer(){
@@ -183,8 +181,8 @@ function startTimerLine(time){
             clearInterval(counterLine); //clear counterLine
         }
     }
-}
-**/
+}**/
+
 function queCounter(index){
     //creating a new span tag and passing the question number and total question
     let totalQueCounTag = '<span><p>'+ index +'</p> of <p>'+ questions.length +'</p> Questions</span>';
