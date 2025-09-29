@@ -58,6 +58,7 @@ next_btn.onclick = ()=>{
 }
 
 // getting questions and options from arrayfunction showQuetions(index){
+function showQuetions(index){    
     const que_text = document.querySelector(".que_text");
 
     // Show question text
