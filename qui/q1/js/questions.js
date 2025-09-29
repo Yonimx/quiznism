@@ -7,7 +7,7 @@ let questions = [
       "Circuit switching",
       "Packet switching",
       "Fiber Internet",
-      "DSL"
+      "DSL (Digital Subscriber Line)"
     ]
   },
   {
@@ -17,7 +17,7 @@ let questions = [
     options: [
       "Circuit switching",
       "Packet switching",
-      "PSTN",
+      "PSTN (Public Switched Telephone Network)",
       "Ethernet line"
     ]
   },
@@ -40,7 +40,7 @@ let questions = [
       "PC-Switch",
       "Router-PC",
       "Switch",
-      "NIC"
+      "NIC (Network Interface Card)"
     ]
   },
   {
@@ -51,7 +51,7 @@ let questions = [
       "Mobile",
       "Server",
       "Switch",
-      "Token ring"
+      "Token Ring"
     ]
   },
   {
@@ -71,19 +71,19 @@ let questions = [
     answer: "Serial line",
     options: [
       "Serial line",
-      "DSL",
+      "DSL (Digital Subscriber Line)",
       "Ethernet line",
-      "Token ring"
+      "Token Ring"
     ]
   },
   {
     numb: 8,
-    question: "What cable can be used for Point to Point Protocol (PPP)?",
+    question: "What cable can be used for Point-to-Point Protocol (PPP)?",
     answer: "Serial line",
     options: [
       "Serial line",
       "Fiber",
-      "RJ45",
+      "RJ45 (Registered Jack 45)",
       "Coaxial"
     ]
   },
@@ -92,7 +92,7 @@ let questions = [
     question: "AUI stands for",
     answer: "Attachment Unit Interface",
     options: [
-      "Attachment Unit Interface",
+      "AUI (Attachment Unit Interface)",
       "Analog Unit Input",
       "Auxiliary User Interface",
       "Adapter Utility Integration"
@@ -103,7 +103,7 @@ let questions = [
     question: "RJ in RJ45 means",
     answer: "Registered Jack",
     options: [
-      "Registered Jack",
+      "RJ (Registered Jack)",
       "Remote Junction",
       "Rapid Joint",
       "Routing Jack"
@@ -112,9 +112,9 @@ let questions = [
   {
     numb: 11,
     question: "Classified as Data Link Layer (Layer 2) because each one carries a unique MAC address",
-    answer: "NIC",
+    answer: "NIC (Network Interface Card)",
     options: [
-      "NIC",
+      "NIC (Network Interface Card)",
       "Router",
       "Switch",
       "Hub"
@@ -150,7 +150,17 @@ let questions = [
       "Client/server",
       "Peer-to-peer",
       "Bridge",
-      "NIC"
+      "NIC (Network Interface Card)"
+    ]
+  },{
+    numb: 15,
+    question: "Handles many client requests at once",
+    answer: "Server",
+    options: [
+      "Server",
+      "Hub",
+      "Switch",
+      "Router"
     ]
   }
 ];

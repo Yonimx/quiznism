@@ -1,22 +1,12 @@
 let questions = [
-  {
-    numb: 15,
-    question: "Handles many client requests at once",
-    answer: "Server",
-    options: [
-      "Server",
-      "Hub",
-      "Switch",
-      "Router"
-    ]
-  },
+
   {
     numb: 16,
     question: "Replace analog systems with faster, more reliable digital communication",
-    answer: "ISDN",
+    answer: "ISDN (Integrated Services Digital Network)",
     options: [
-      "ISDN",
-      "DSL",
+      "ISDN (Integrated Services Digital Network)",
+      "DSL (Digital Subscriber Line)",
       "Cable Modem",
       "Fiber Internet"
     ]
@@ -46,11 +36,11 @@ let questions = [
   {
     numb: 19,
     question: "In WAN connection methods, Dial-up is an example of",
-    answer: "PPP",
+    answer: "PPP (Point to Point Protocol)",
     options: [
-      "PPP",
-      "DSL",
-      "ISDN",
+      "PPP (Point to Point Protocol)",
+      "DSL (Digital Subscriber Line)",
+      "ISDN (Integrated Services Digital Network)",
       "Cable Modem"
     ]
   },
@@ -68,10 +58,10 @@ let questions = [
   {
     numb: 21,
     question: "Uses existing telephone lines",
-    answer: "DSL",
+    answer: "DSL (Digital Subscriber Line)",
     options: [
-      "DSL",
-      "ISDN",
+      "DSL (Digital Subscriber Line)",
+      "ISDN (Integrated Services Digital Network)",
       "Fiber Internet",
       "Cable Modem"
     ]
@@ -95,7 +85,7 @@ let questions = [
       "Digital signal",
       "Analog signal",
       "Frame relay",
-      "ISDN"
+      "ISDN (Integrated Services Digital Network)"
     ]
   },
   {
@@ -106,7 +96,7 @@ let questions = [
       "Analog signal",
       "Digital signal",
       "Fiber Internet",
-      "DSL"
+      "DSL (Digital Subscriber Line)"
     ]
   },
   {
@@ -116,28 +106,28 @@ let questions = [
     options: [
       "Digital signal",
       "Analog signal",
-      "DSL",
+      "DSL (Digital Subscriber Line)",
       "Cable Modem"
     ]
   },
   {
     numb: 26,
     question: "Traditional circuit-switched telephone network that uses underground copper wire",
-    answer: "PSTN",
+    answer: "PSTN (Public Switched Telephone Network)",
     options: [
-      "PSTN",
-      "DSL",
+      "PSTN (Public Switched Telephone Network)",
+      "DSL (Digital Subscriber Line)",
       "Ethernet line",
-      "ISDN"
+      "ISDN (Integrated Services Digital Network)"
     ]
   },
   {
     numb: 27,
     question: "An analog to digital converter which can packetize digital data",
-    answer: "ATA",
+    answer: "ATA (Analog Telephone Adapter)",
     options: [
-      "ATA",
-      "NIC",
+      "ATA (Analog Telephone Adapter)",
+      "NIC (Network Interface Card)",
       "Switch",
       "Router"
     ]
@@ -145,12 +135,33 @@ let questions = [
   {
     numb: 28,
     question: "Allows user to connect a standard phone to his/her internet connection",
-    answer: "ATA",
+    answer: "ATA (Analog Telephone Adapter)",
     options: [
-      "ATA",
-      "DSL",
+      "ATA (Analog Telephone Adapter)",
+      "DSL (Digital Subscriber Line)",
       "Cable Modem",
       "Fiber Internet"
+    ]
+  }, {
+    numb: 29,
+    question: "Devices that have an RJ-45 Ethernet connector",
+    answer: "IP phones",
+    options: [
+      "IP phones",
+      "Mobile phones",
+      "Analog phones",
+      "ATA (Analog Telephone Adapter)"
+    ]
+  },
+  {
+    numb: 30,
+    question: "Family of wired networking technologies used in LANs and MANs",
+    answer: "Ethernet line",
+    options: [
+      "Ethernet line",
+      "Token ring",
+      "FDDI (Fiber Distributed Data Interface)",
+      "DSL (Digital Subscriber Line)"
     ]
   }
 ];
