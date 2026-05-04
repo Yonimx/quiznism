@@ -1,166 +1,167 @@
 let questions = [
   {
     numb: 1,
-    question: "ISDN is an example of",
-    answer: "Circuit switching",
+    question: "What is matter?",
+    answer: "Something that can be weighed and takes up space",
     options: [
-      "Circuit switching",
-      "Packet switching",
-      "Fiber Internet",
-      "DSL (Digital Subscriber Line)"
+      "Something that cannot be measured",
+      "Something that can be seen but not touched",
+      "Something that can be weighed and takes up space",
+      "Something that exists only in the mind"
     ]
   },
   {
     numb: 2,
-    question: "Frame relay is an example of",
-    answer: "Packet switching",
+    question: "Which of the following is an example of matter?",
+    answer: "Water",
     options: [
-      "Circuit switching",
-      "Packet switching",
-      "PSTN (Public Switched Telephone Network)",
-      "Ethernet line"
+      "Sunlight",
+      "Thoughts",
+      "Sound",
+      "Water"
     ]
   },
   {
     numb: 3,
-    question: "Devices you connect using a straight-through cable",
-    answer: "PC-Switch",
+    question: "What are the two essential properties of matter?",
+    answer: "Mass and volume",
     options: [
-      "PC-Switch",
-      "Router-PC",
-      "Mobile",
-      "Bridge"
+      "Color and texture",
+      "Temperature and pressure",
+      "Speed and velocity",
+      "Mass and volume"
     ]
   },
   {
     numb: 4,
-    question: "Devices you connect using a crossover cable",
-    answer: "Router-PC",
+    question: "Which state of matter has a definite shape and volume?",
+    answer: "Solid",
     options: [
-      "PC-Switch",
-      "Router-PC",
-      "Switch",
-      "NIC (Network Interface Card)"
+      "Liquid",
+      "Gas",
+      "Plasma",
+      "Solid"
     ]
   },
   {
     numb: 5,
-    question: "Common application of wireless data communication is for",
-    answer: "Mobile",
+    question: "What is the smallest unit of matter?",
+    answer: "Atom",
     options: [
-      "Mobile",
-      "Server",
-      "Switch",
-      "Token Ring"
+      "Molecule",
+      "Cell",
+      "Particle",
+      "Atom"
     ]
   },
   {
     numb: 6,
-    question: "If the destination address is unknown to the bridge, the bridge forwards the frame to all segments except the one on which it was received",
-    answer: "Flooding",
+    question: "Which of the following is a mixture?",
+    answer: "Air",
     options: [
-      "Flooding",
-      "Switching",
-      "Routing",
-      "Repeating"
+      "Gold",
+      "Sugar",
+      "Water",
+      "Air"
     ]
   },
   {
     numb: 7,
-    question: "Type of communication channel that allows data to be transmitted sequentially, one bit at a time",
-    answer: "Serial line",
+    question: "Which of the following is a pure substance?",
+    answer: "Oxygen",
     options: [
-      "Serial line",
-      "DSL (Digital Subscriber Line)",
-      "Ethernet line",
-      "Token Ring"
+      "Sand",
+      "Milk",
+      "Air",
+      "Oxygen"
     ]
   },
   {
     numb: 8,
-    question: "What cable can be used for Point-to-Point Protocol (PPP)?",
-    answer: "Serial line",
+    question: "What is the interparticle force that holds matter together?",
+    answer: "Intermolecular force",
     options: [
-      "Serial line",
-      "Fiber",
-      "RJ45 (Registered Jack 45)",
-      "Coaxial"
+      "Gravitational force",
+      "Electromagnetic force",
+      "Nuclear force",
+      "Intermolecular force"
     ]
   },
   {
     numb: 9,
-    question: "AUI stands for",
-    answer: "Attachment Unit Interface",
+    question: "Which type of matter can be broken down into simpler substances by chemical means?",
+    answer: "Compound",
     options: [
-      "Attachment Unit Interface",
-      "Analog Unit Input",
-      "Auxiliary User Interface",
-      "Adapter Utility Integration"
+      "Element",
+      "Mixture",
+      "Compound",
+      "Atom"
     ]
   },
   {
     numb: 10,
-    question: "RJ in RJ45 means",
-    answer: "RJ (Registered Jack)",
+    question: "Which type of matter has a fixed composition and distinct properties?",
+    answer: "Pure substance",
     options: [
-      "RJ (Registered Jack)",
-      "Remote Junction",
-      "Rapid Joint",
-      "Routing Jack"
+      "Mixture",
+      "Compound",
+      "Pure substance",
+      "Element"
     ]
   },
   {
     numb: 11,
-    question: "Classified as Data Link Layer (Layer 2) because each one carries a unique MAC address",
-    answer: "NIC (Network Interface Card)",
+    question: "What is the measure of how much matter is packed into a given space?",
+    answer: "Density",
     options: [
-      "NIC (Network Interface Card)",
-      "Router",
-      "Switch",
-      "Hub"
+      "Volume",
+      "Mass",
+      "Weight",
+      "Density"
     ]
   },
   {
     numb: 12,
-    question: "Doesn't provide better security",
-    answer: "Peer-to-peer",
+    question: "Which of the following is an example of an amorphous solid?",
+    answer: "Glass",
     options: [
-      "Peer-to-peer",
-      "Client/server",
-      "Router",
-      "Switch"
+      "Diamond",
+      "Iron",
+      "Salt",
+      "Glass"
     ]
   },
   {
     numb: 13,
-    question: "Network services are located on a dedicated computer called a",
-    answer: "Server",
+    question: "What is the study of the properties and behavior of matter?",
+    answer: "Chemistry",
     options: [
-      "Server",
-      "Client",
-      "Switch",
-      "Hub"
+      "Physics",
+      "Biology",
+      "Chemistry",
+      "Geology"
     ]
   },
   {
     numb: 14,
-    question: "Expensive to implement",
-    answer: "Client/server",
+    question: "Which of the following is not a physical property of matter?",
+    answer: "Reactivity",
     options: [
-      "Client/server",
-      "Peer-to-peer",
-      "Bridge",
-      "NIC (Network Interface Card)"
+      "Color",
+      "Melting point",
+      "Density",
+      "Reactivity"
     ]
-  },{
+  },
+  {
     numb: 15,
-    question: "Handles many client requests at once",
-    answer: "Server",
+    question: "Which type of matter cannot be separated into simpler substances by physical or chemical means?",
+    answer: "Element",
     options: [
-      "Server",
-      "Hub",
-      "Switch",
-      "Router"
+      "Mixture",
+      "Compound",
+      "Element",
+      "Atom"
     ]
   }
-];
+]

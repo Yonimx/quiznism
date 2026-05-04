@@ -1,212 +1,167 @@
 let questions = [
- 
   {
-    numb: 31,
-    question: "LAN where a node can transmit only when it has the token",
-    answer: "Token ring",
+    numb: 1,
+    question: "Which type of property can be measured or observed without affecting the chemical composition of a material?",
+    answer: "Physical properties",
     options: [
-      "Token ring",
-      "Ethernet line",
-      "Fiber Internet",
-      "PPP (Point to Point Protocol)"
+      "Chemical properties",
+      "Physical properties",
+      "Extensive properties",
+      "Intensive properties"
     ]
   },
   {
-    numb: 32,
-    question: "FDDI stands for",
-    answer: "Fiber Distributed Data Interface",
+    numb: 2,
+    question: "What are the properties that can be measured or observed without affecting the chemical composition of a material called?",
+    answer: "Physical properties",
     options: [
-      "Fiber Distributed Data Interface",
-      "Fast Data Device Integration",
-      "Fiber Device Digital Interface",
-      "Frame Data Distribution Interface"
+      "Chemical properties",
+      "Physical properties",
+      "Extensive properties",
+      "Intensive properties"
     ]
   },
   {
-    numb: 33,
-    question: "This term comes from the early days of long-distance communication",
-    answer: "Repeater",
+    numb: 3,
+    question: "Which type of property describes the ability of a substance to change from one type of matter into another?",
+    answer: "Chemical properties",
     options: [
-      "Repeater",
-      "Switch",
-      "Router",
-      "Bridge"
+      "Physical properties",
+      "Chemical properties",
+      "Extensive properties",
+      "Intensive properties"
     ]
   },
   {
-    numb: 34,
-    question: "States that no more than four repeaters can be used between hosts on a LAN",
-    answer: "Four Repeater Rule",
+    numb: 4,
+    question: "Which property relates to the reactivity of a substance?",
+    answer: "Chemical properties",
     options: [
-      "Four Repeater Rule",
-      "Switching Rule",
-      "Bridge Rule",
-      "Router Rule"
+      "Physical properties",
+      "Chemical properties",
+      "Extensive properties",
+      "Intensive properties"
     ]
   },
   {
-    numb: 35,
-    question: "Multipurpose repeaters that serve as central connection points for LAN",
-    answer: "Hubs",
+    numb: 5,
+    question: "Which type of change in matter does not involve a change in the chemical identities of the components?",
+    answer: "Physical changes",
     options: [
-      "Hubs",
-      "Switches",
-      "Routers",
-      "Bridges"
+      "Chemical changes",
+      "Physical changes",
+      "Extensive changes",
+      "Intensive changes"
     ]
   },
   {
-    numb: 36,
-    question: "Serve as physical connection point only",
-    answer: "Passive hubs",
+    numb: 6,
+    question: "What is a change in matter's properties or qualities without a change in the chemical identities of the components called?",
+    answer: "Physical changes",
     options: [
-      "Passive hubs",
-      "Active hubs",
-      "Intelligent hubs",
-      "Bridges"
+      "Chemical changes",
+      "Physical changes",
+      "Extensive changes",
+      "Intensive changes"
     ]
   },
   {
-    numb: 37,
-    question: "Must be plugged into an electrical outlet because it amplifies the signal",
-    answer: "Active hubs",
+    numb: 7,
+    question: "Which type of change in matter creates one or more types of matter that are different from the forms present before the transformation?",
+    answer: "Chemical changes",
     options: [
-      "Active hubs",
-      "Passive hubs",
-      "Intelligent hubs",
-      "Switch"
+      "Physical changes",
+      "Chemical changes",
+      "Extensive changes",
+      "Intensive changes"
     ]
   },
   {
-    numb: 38,
-    question: "Function as active hubs but also include a microprocessor chip and diagnostics",
-    answer: "Intelligent hubs",
+    numb: 8,
+    question: "What is a change in matter that involves the transformation of substances into different forms called?",
+    answer: "Chemical changes",
     options: [
-      "Intelligent hubs",
-      "Passive hubs",
-      "Active hubs",
-      "Router"
+      "Physical changes",
+      "Chemical changes",
+      "Extensive changes",
+      "Intensive changes"
     ]
   },
   {
-    numb: 39,
-    question: "More expensive than active hubs",
-    answer: "Intelligent hubs",
+    numb: 9,
+    question: "Which type of property depends on the amount of matter present?",
+    answer: "Extensive properties",
     options: [
-      "Intelligent hubs",
-      "Passive hubs",
-      "Switches",
-      "Bridge"
+      "Intensive properties",
+      "Extensive properties",
+      "Physical properties",
+      "Chemical properties"
     ]
   },
   {
-    numb: 40,
-    question: "Provides high-speed internet via the cable TV network using coaxial cables",
-    answer: "Cable Modem",
+    numb: 10,
+    question: "Which type of property does not depend on the amount of matter present?",
+    answer: "Intensive properties",
     options: [
-      "Cable Modem",
-      "DSL (Digital Subscriber Line)",
-      "Fiber Internet",
-      "ISDN (Integrated Services Digital Network)"
+      "Intensive properties",
+      "Extensive properties",
+      "Physical properties",
+      "Chemical properties"
     ]
   },
   {
-    numb: 41,
-    question: "Uses fiber-optic cables, fastest and most reliable, supports high speeds and long distances",
-    answer: "Fiber Internet",
+    numb: 11,
+    question: "Which property describes the ratio of mass to volume?",
+    answer: "Density",
     options: [
-      "Fiber Internet",
-      "Cable Modem",
-      "DSL (Digital Subscriber Line)",
-      "ISDN (Integrated Services Digital Network)"
+      "Hardness",
+      "Colour",
+      "Melting point",
+      "Density"
     ]
   },
   {
-    numb: 42,
-    question: "UTP stands for",
-    answer: "Unshielded Twisted Pair",
+    numb: 12,
+    question: "Which property refers to the ability of a substance to catch fire and burn?",
+    answer: "Flammability",
     options: [
-      "Universal Twisted Pair",
-      "Unshielded Twisted Pair",
-      "Unit Transmission Port",
-      "User Twisted Protocol"
+      "Acidity",
+      "Toxicity",
+      "Flammability",
+      "Hardness"
     ]
   },
   {
-    numb: 43,
-    question: "STP stands for",
-    answer: "Shielded Twisted Pair",
+    numb: 13,
+    question: "Which type of change can be observed through changes in size or shape?",
+    answer: "Physical changes",
     options: [
-      "Shielded Twisted Pair",
-      "Systematic Transmission Port",
-      "Standard Twisted Protocol",
-      "Structured Twisted Pair"
+      "Chemical changes",
+      "Physical changes",
+      "Extensive changes",
+      "Intensive changes"
     ]
   },
   {
-    numb: 44,
-    question: "The Four Repeater Rule states that no more than how many repeaters can be used between hosts on a LAN?",
-    answer: "Four",
+    numb: 14,
+    question: "Which type of change involves the formation of new substances with different properties?",
+    answer: "Chemical changes",
     options: [
-      "Two",
-      "Three",
-      "Four",
-      "Five"
+      "Physical changes",
+      "Chemical changes",
+      "Extensive changes",
+      "Intensive changes"
     ]
   },
   {
-    numb: 45,
-    question: "A LAN where a node can transmit only when in possession of a token is called",
-    answer: "Token ring",
+    numb: 15,
+    question: "What are the inputs in a chemical reaction called?",
+    answer: "Reactants",
     options: [
-      "Ethernet line",
-      "Token ring",
-      "Fiber Internet",
-      "PPP (Point to Point Protocol)"
-    ]
-  },
-  {
-    numb: 46,
-    question: "Bridge is classified as",
-    answer: "Data Link Layer device",
-    options: [
-      "Physical Layer device",
-      "Data Link Layer device",
-      "Network Layer device",
-      "Transport Layer device"
-    ]
-  },
-  {
-    numb: 47,
-    question: "A switch differs from a bridge because",
-    answer: "A switch is faster and has more ports",
-    options: [
-      "A bridge is faster and has more ports",
-      "A switch is faster and has more ports",
-      "They are identical devices",
-      "A switch is slower but cheaper"
-    ]
-  },
-  {
-    numb: 48,
-    question: "Fiber Internet is more reliable than copper-based technologies because",
-    answer: "It is immune to electromagnetic interference",
-    options: [
-      "It is cheaper to install",
-      "It is immune to electromagnetic interference",
-      "It uses lower bandwidth",
-      "It requires repeaters for short distances"
-    ]
-  },
-  {
-    numb: 49,
-    question: "A collision domain is",
-    answer: "An area of the network where packets collide if sent at the same time",
-    options: [
-      "An area of the network where packets collide if sent at the same time",
-      "A secured area of a network",
-      "A type of twisted pair cable",
-      "A part of a fiber-optic connection"
+      "Products",
+      "Reactants",
+      "Ingredients",
+      "Transformations"
     ]
   }
 ];

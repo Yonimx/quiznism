@@ -8,6 +8,26 @@ const timeText = document.querySelector(".timer .time_left_txt");
 const timeCount = document.querySelector(".timer .timer_sec");
 
 
+
+// ── Randomization ──────────────────────────────────────────────
+function shuffleArray(arr) {
+    for (let i = arr.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
+}
+
+// Shuffle questions order
+shuffleArray(questions);
+
+// Shuffle options within each question, keeping answer correct
+questions.forEach((q, idx) => {
+    q.numb = idx + 1; // renumber after shuffle
+    shuffleArray(q.options);
+});
+// ───────────────────────────────────────────────────────────────
+
 starts.onclick = ()=>{
     quiz_box.classList.add("activeQuiz"); //show quiz box
     showQuetions(0); //calling showQestions function
